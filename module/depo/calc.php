@@ -1,0 +1,1 @@
+<?phprequire_once('module/auth.php');useLib('depo');depoPrepareCalc();showPage();?>

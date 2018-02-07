@@ -1,0 +1,230 @@
+body button,body input,body select,body textarea
+{
+    color: #333333;
+}
+.formatTable {
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.oper .formatTable {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #333,2px 2px 2px #333;
+    box-shadow: inset 0px 0 350px 90px #008dff;
+}
+.oper .formatTable tr {
+    padding: 20px 15px;
+    font-size:16px;
+    position: relative;
+    display: block;
+    width: 100%;
+    /* text-align: center; */
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.oper .formatTable tr:nth-child(odd) {
+    /* background: #ccc; */
+}
+.oper .formatTable tr:nth-child(even) {
+    /* background: #bbb; */
+}
+.oper .formatTable tr td {
+    
+/* text-align: center; */
+    
+display: inline-block;
+    
+width: 49%;
+}
+.button-blue {
+    padding: 10px 15px;
+    background: #008dff;
+    color: #fff;
+    border: none;
+}
+.button-red {
+    padding: 10px 15px;
+    background: #FF5722;
+    color: #fff;
+    border: none;
+}
+span.err {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+    width: 273px;
+    color: #a94442;
+    text-transform: uppercase;
+    bottom: 0;
+    z-index:-1;
+}
+.vert-top {
+    vertical-align: top !important;
+}
+.depo_btn {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.depo .depo_btn {
+    top: -100px;
+}
+.depo_btn li {
+    display: inline-block;
+    font-family: RobotoLight;
+    font-size: 25px;
+  letter-spacing: 10px;
+  
+}
+#oper .depo_btn li {
+    position: absolute;
+    right: 50px;
+    top:50px;
+}
+.depo_btn li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    padding: 20px 30px;
+    background: #111;
+    z-index: 99999;
+    border-radius: 4px;
+    border-bottom: 5px solid transparent;
+}
+.depo_btn li *:hover,
+.depo_btn li *:focus,
+.depo_btn li *.active {
+    background: #888888;
+   /* border-bottom: 5px solid #eeaf2c;  */
+    text-decoration: none;
+    color: #fff;
+}
+.form-to .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
+    padding-bottom:40px;
+}
+.modal-login-content .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit{
+    top:-20px;
+    padding-bottom: 10px;
+    left: 14em;
+    padding-left: 20px;
+}
+
+.text-center.logins.table-section.overflow-hidden {
+    padding-top: 120px;
+}
+.logins .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
+    top: -10.5em;
+    padding-bottom: 70px;
+    z-index: 9999;
+}
+.regist {
+    padding-top:100px;
+}
+.regist .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
+    top:-10em;
+}
+.oper form > .form-group:nth-child(4),
+.oper form > .form-group:nth-child(5)
+{
+    text-align: left;
+}
+.oper .footer-section {
+    display: block;
+}
+
+#wallent .item-button-submit {
+    position: absolute;
+    right: 0;
+}
+/*.col-md-10.col-md-offset-1.text-center.item-button-submit button {*/
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*width: 30%;*/
+/*}.col-md-10.col-md-offset-1.text-center.item-button-submit button {*/
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*width: 30%;*/
+/*}*/
+div#oper {
+    overflow: hidden;}
+
+
+
+button[name='balance/wallets_frm_btn'] {
+position: absolute;
+right: 160px;
+padding: 20px 30px 15px;
+ font-family: RobotoLight;
+    font-size: 25px;
+  letter-spacing: 10px;
+  top:250px;
+transition: .4s all;
+//background: green;
+color: #fff;}
+#wallent .btn-si {
+    position: relative;
+    top: 220px; 
+    right: 30em;
+    
+    display: inline-block;
+}
+#wallent .btn-si a {
+    text-decoration: none;
+    text-transform: uppercase;
+     font-family: RobotoLight;
+    font-size: 25px;
+  letter-spacing: 10px;
+    color: #fff;
+    position: relative;
+    margin: 0 5px;
+    z-index: 9999;
+   
+    padding: 17px 25px;
+    background: #111;
+    border-radius: 4px;
+    border-bottom: 5px solid transparent;
+}
+#wallent .btn-si a:hover {
+    background: #888888;
+   /* border-bottom: 5px solid #eeaf2c;   */
+    text-decoration: none;
+    color: #fff;
+}
+form[name='balance/wallets_frm'] .footer-section {
+    
+display: block;
+    
+position: fixed;
+    
+width: 100%;
+    
+top: 110px;
+}
+div#operations .footer-section {
+    padding-bottom: 50px;
+    bottom: 50px;
+}
+div#operations .footer-section .depo_btn li a {
+    bottom: 50px;
+}
+div#attantion-pay {
+    position: relative;
+    display: table-footer-group;
+}
+div#attantion-pay .box-pay {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size:1em;
+    background: #ddd;
+    padding: 7px 10px;
+}

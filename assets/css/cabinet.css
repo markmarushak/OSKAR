@@ -1,0 +1,116 @@
+.cabinet {
+    background-image: url(../img/personalCabinet.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.cabinet::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.l-20 {
+    text-transform: uppercase;
+	left: 12%;
+	font-size: 2rem;
+	color: #fff;
+	border-left: 10px double;
+	padding-left: 20px;
+}
+.cabinet .logo {
+    padding-bottom: 1em;
+}
+.cabinet .logo span {
+    background-image: url(../img/logo1.png);
+    height: 67px;
+    width: 89px;
+    filter: Glow(10%);
+    display: block;
+    margin: 0 auto;
+}
+.cabinet .horizontal-menu {
+    text-align: center;
+}
+.table-cabinet-header-text {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+table.table.table-hover>thead>tr>th{
+    text-align: center;
+    padding: 1.3em 0;
+    font-size: 1.6rem;
+}
+table.table.table-hover>tbody>tr>td{
+    font-size: 1.6rem;
+    padding: 1.5em 0;
+}
+table.table.table-hover>tbody>tr:hover {
+    background: rgba(0,0,0,.5);
+    transition: all 0.45s;
+}
+.item-button-top {
+    display: inline-block;
+}
+
+.oper-btn .m-gren,
+.item-button-top .m-gren {
+    background: #29d230;
+    color: #fff;
+}
+body .oper-btn .m-gren:hover,
+body .oper-btn .m-gren:focus,
+body .oper-btn .m-gren.active,
+body .item-button-top .m-gren:hover,
+body .item-button-top .m-gren:focus,
+body .item-button-top .m-gren.active {
+    background: #4CAF50;
+    color: #fff;
+    border-bottom: 5px solid #29d230;
+}
+
+table.table.cabinet-table tbody tr:first-child {
+    border-top: 1px solid ;
+}
+table.table.cabinet-table tbody tr {
+    border-bottom:1px solid;
+
+}
+table.table.cabinet-table thead th {
+    border-top: none;
+    box-shadow: 0 0 0 0;
+}
+
+table.table.cabinet-table th,
+table.table.cabinet-table td
+{
+    border-left:none;
+    border-right:none;
+    font-size:2.5rem;
+    padding: 2rem 0;
+
+}
+
+.baunti .depo_btn {
+    margin-top:5rem;
+}
+.col-sm-12.form-group.text-center.namepays {
+    display: block;
+    margin: 0;
+    color: #444;
+    left: 50%;
+    font-size: 1.8rem;
+    margin-left: -170px;
+    padding: 20px 0;
+    width: 480px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}

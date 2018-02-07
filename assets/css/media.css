@@ -1,0 +1,323 @@
+/* MIN */
+@media screen and (min-width: 769px){
+    .button_nav_open {
+        display: none;}
+    .horizontal-menu {
+        list-style-type: none;
+        position: relative;
+        z-index:2;
+        padding: 0;
+        text-align: center;
+        letter-spacing: 3px;
+        margin: 0 auto;
+        }
+    .horizontal-menu li {
+        display: inline-block;}
+    .top-wrap ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        padding:10px 20px;
+        font-size: 1.3rem;
+        border-bottom:1px solid transparent;
+    }
+    .top-wrap ul li a:hover,
+    .top-wrap ul li a.active {
+        border-bottom:1px solid;
+        color: rgba(255,255,255,.8);
+    }
+
+
+}
+
+
+/* MAX */
+@media screen and (max-width: 1024px){
+    .oper .depo_btn {
+        top: -5em;
+    }
+
+    /* adptive menu*/
+    .memu-close-768 {
+        display: none;
+    }
+    .menu-close {
+        top: 10px !important;
+        /* left: 10px !important; */
+        height:100%;
+    }
+    .button_nav_open {
+        display: block;
+        position: absolute;
+        right: 4%;
+        z-index: 9999;
+        top: 32%;
+        transition: ease-in-out .6s;
+    }
+    .button_nav_open a {
+        display: block;
+        padding: 5px 15px;
+        position: relative;
+        background: rgba(0,0,0,0.7);
+        border-radius: 7px;
+        color: #fff;
+        font-size:3rem;
+    }
+    .horizontal-menu {
+        list-style-type: none;
+        z-index:2;
+        padding: 50% 0px  0 0;
+        margin: 0;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        text-align: center;
+        position: fixed;
+        height: 100%;
+        width:100%;
+        background: rgba(0,0,0,.8);
+    }
+    .horizontal-menu li {
+        display: block;
+        }
+
+    .top-wrap ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        padding:10px 20px;
+        font-size: 1.2em;
+        border-bottom:1px solid transparent;
+    }
+    .top-wrap ul li a:hover,
+    .top-wrap ul li a.active {
+        color: rgba(255,255,255,.8);
+        background: rgba(255,255,255,0.2);
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        left:2.5em;
+    }
+
+    .horizontal-menu {
+    padding-top: 37%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .horizontal-menu {
+        padding-top: 45%;
+        }
+}
+
+@media screen and (max-width: 425px) {
+    /* home header */
+    .item-text h1 {
+        font-size:3rem;
+    }
+    .item-text h2 {
+        font-size:1.4rem;
+    }
+    #header.header .top-wrap::after {
+        content: "Защита от DDoS";
+        position: absolute;
+        top: 30px;
+        left: -140px;
+        font-size: 11px;
+        background: rgb(254, 209, 54);
+        border-bottom: 1px solid #fed136;
+        display: block;
+        z-index: 100;
+        width: 370px;
+        color: #333;
+        transform: rotate(-45deg);
+        text-align: center;
+    }
+    .header .top-wrap::before {
+        content: "SSl Защита";
+        position: absolute;
+        top: 30px;
+        right: -140px;
+        font-size: 11px;
+        background: rgb(254, 209, 54);
+        border-bottom: 1px solid #fed136;
+        display: block;
+        z-index: 100;
+        width: 370px;
+        color: #333;
+        transform: rotate(45deg);
+        text-align: center;
+    }
+    .top-menu {
+        top: 10rem;
+    }
+    
+    .horizontal-menu {
+        padding: 50% 0 0;
+    }
+
+    .header .item-button-top a::after {
+        content: none;
+        background-image: url(../img/mouse.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 40vh;
+        right: -220px;
+        position: absolute;
+    }
+
+    .section header * {
+        font-size:3rem;
+    }
+    .section header {
+        padding-top:4rem;
+        padding-bottom:4rem;
+    }
+    .section .middle * {
+        font-size: 1.88rem;
+        line-height: 1.5em;
+    }
+    .section .dots-footer footer ul li {
+        display: inline-block;
+        margin-left:4rem;
+    }
+    .section .dots-footer footer ul li:nth-child(1){margin: 0;}
+    .section .dots-footer footer ul li span {
+        background-image: url(../img/circle.png);
+        width: 46px;
+        height: 46px;
+        display: block;
+        background-repeat: no-repeat;
+        z-index: 34;
+        position: relative;
+        background-size: contain;
+    }
+
+    /* cabinet */
+
+    header#cabinet{
+        height:580px;
+    }
+
+    .cabinet .item-button-top * {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #222;
+        position: relative;
+        font-size: 1.4rem;
+        padding: 15px 20px;
+        background: #fed136;
+        border-radius: 4px;
+        border-bottom: 5px solid transparent;
+    }
+
+    /* => operations 1*/
+    .operations .header-box span {
+        font-size:2rem;
+    }
+    .oper-btn .m-gren {
+        display: block;
+    }
+    .oper-fot-btn {
+        top:0;}
+        .oper-fot-btn li {
+            display: block;}
+                .oper-fot-btn li a {
+                    display: block;}
+
+    /* => operations => pay */
+
+    .oper form > .form-group:nth-child(4),
+    .oper form > .form-group:nth-child(5)
+    {
+        left: 1em;
+    }
+    .oper .depo_btn {
+        top: -3em;
+        padding: 10vh 12px 0;
+    }
+    .col-md-10.col-md-offset-1.text-center.item-button-submit button {
+        width:100%;
+    }
+
+    /* => operations => cash-out */
+    .oper .formatTable {
+        width:100%;
+    }
+    .oper .formatTable tbody tr td {
+        width: 37%;
+        }
+    .oper .formatTable tbody tr td:first-child {
+        width: 51%;
+        margin-right:1em;
+    }
+
+    /* baunti */
+    .baunti .header-box a {
+        font-size:1.5rem;
+    }
+    .baunti .depo_btn {
+        margin-top: 5rem;
+    }
+
+    /* form */
+    .regist .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
+        top: -3em;
+    }
+    .oper .footer-section {
+        padding-bottom: 2vh;
+    }
+    ul.depo_btn.gold {
+     padding-bottom: 10%;
+    }
+
+    /* depo-end */
+    .depo-end + h2,h1,h3,p,span{
+        white-space: normal;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .depo-end .header-section h2{
+        font-size:1.9rem;}
+    .depo-end .header-box h1 {
+        font-size:3.3rem;}
+    .depo-end .header-box span {
+        font-size: 2.5rem;
+        }
+    .boxxx{
+        padding:2rem;
+        font-size:2.5rem;
+    }
+    .depo-end .header-box p {
+        font-size:2rem;}
+
+    /* faq */
+    .faq-btn.to a {
+        padding: 15px 20px;
+        top: 2em;
+        font-size:2em;
+        position: relative;
+    }
+
+    /* history */
+    .out-chat.history-btn {
+        left:15px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .horizontal-menu {
+        padding-top: 42%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    header#cabinet{
+        height:580px;
+    }
+
+}

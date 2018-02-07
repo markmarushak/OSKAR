@@ -1,0 +1,39 @@
+	@font-face {
+			font-family: "RobotoBold";
+			src: url('../font/RobotoBold/RobotoBold.eot');
+			src: url("../font/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+			url("../font/RobotoBold/RobotoBold.woff") format("woff"),
+			url("../font/RobotoBold/RobotoBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+		font-family: "RobotoRegular";
+		src: url("../font/RobotoRegular/RobotoRegular.eot");
+		src: url("../font/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+		url("../font/RobotoRegular/RobotoRegular.woff") format("woff"),
+		url("../font/RobotoRegular/RobotoRegular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "RobotoLight";
+		src: url("../font/RobotoLight/RobotoLight.eot");
+		src: url("../font/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+		url("../font/RobotoLight/RobotoLight.woff") format("woff"),
+		url("../font/RobotoLight/RobotoLight.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+    @font-face {
+        font-family: "Font-awesome";
+        src: url("../lib/font-awesome/fonts/fontawesome-webfont.eot");
+        src: url("../lib/font-awesome/fonts/fontawesome-webfont.eot?#iefix")format("embedded-opentype"),
+        url("../lib/font-awesome/fonts/fontawesome-webfont.woff") format("woff"),
+        url("../lib/font-awesome/fonts/fontawesome-webfont.woff2") format("woff"),
+        url("../lib/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype");
+        font-style: normal;
+        font-weight: normal;
+    }
+

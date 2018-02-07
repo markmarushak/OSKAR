@@ -1,0 +1,25 @@
+- - - - - [03.02.18 22:52:08] - - - - -
+<_config> MySQL error: Connection not opened
+<_config> DBInit: Can't open MySQL database
+- - - - - [05.02.18 14:59:36] - - - - -
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+- - - - - [05.02.18 15:03:17] - - - - -
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+- - - - - [05.02.18 15:03:54 +36] - - - - -
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+- - - - - [05.02.18 15:04:10 +16] - - - - -
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
+<index> MySQL error: Connection not opened
+<index> DBInit: Can't open MySQL database
