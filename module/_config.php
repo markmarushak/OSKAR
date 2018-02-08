@@ -35,7 +35,9 @@ $_rwlinks = array(
 
     'account' => array('account', 'https' => 0),
     'account/register' => array('registration', 'https' => 0),
+    'account/register/register' => array('register', 'https' => 0),
     'account/login' => array('login', 'https' => 0),
+    'account/login/login' => array('login/login', 'https' => 0),
     'account/reset_pass' => array('resetpass', 'https' => 0),
     'account/change_pass' => array('changepass', 'https' => 0),
     'account/change_mail' => array('changemail', 'https' => 0),

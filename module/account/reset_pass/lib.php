@@ -13,7 +13,7 @@ function opResetPass($uid)
 	opAddHist('RST_PASS', $uid);
 	SendMailToUser($usr['uMail'], 
 		'PassChanged', 
-		opUserConsts($usr, array('pass' => $pass)),
+		opUserConsts($usr, array('pass.php' => $pass)),
 		$usr['uLang']
 	);
 	return true;

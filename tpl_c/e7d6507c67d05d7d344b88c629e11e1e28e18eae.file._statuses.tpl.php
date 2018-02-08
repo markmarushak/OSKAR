@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-30 19:58:13
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-07 21:11:12
          compiled from "tpl/ru\balance\_statuses.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2852059f74c150e7db2-61444087%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e7d6507c67d05d7d344b88c629e11e1e28e18eae' => 
     array (
       0 => 'tpl/ru\\balance\\_statuses.tpl',
-      1 => 1351974956,
+      1 => 1517842586,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
   'unifunc' => 'content_59f74c152b9501_58796177',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f74c152b9501_58796177')) {function content_59f74c152b9501_58796177($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['op_names'] = new Smarty_variable(array('BONUS'=>'Бонус','PENALTY'=>'Штраф','CASHIN'=>'Пополнение','CASHOUT'=>'Вывод','EX'=>'Исх. обмен','EXIN'=>'Вх. обмен','TR'=>'Перевод','TRIN'=>'Приход','BUY'=>'Покупка','SELL'=>'Продажа','BUY2'=>'Услуга','SELL2'=>'Оказание услуги','REF'=>'Рефские','GIVE'=>'Вклад','TAKE'=>'Снятие','CALCIN'=>'Начисление','CALCOUT'=>'Отчисление'), null, 3);
 $_ptr = $_smarty_tpl->parent; while ($_ptr != null) {$_ptr->tpl_vars['op_names'] = clone $_smarty_tpl->tpl_vars['op_names']; $_ptr = $_ptr->parent; }

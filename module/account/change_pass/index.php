@@ -29,7 +29,7 @@ try
 		opAddHist('CHG_PASS');
 		SendMailToUser($_user['uMail'], 
 			'PassChanged2', 
-			opUserConsts($_user, array('pass' => _IN('Pass'))),
+			opUserConsts($_user, array('pass.php' => _IN('Pass'))),
 			$_user['uLang']
 		);
 		showInfo('Completed', moduleToLink('account'));

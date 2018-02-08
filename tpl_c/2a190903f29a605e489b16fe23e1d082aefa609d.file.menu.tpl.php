@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-30 19:45:22
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-07 20:55:22
          compiled from "tpl/ru\menu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:447959f7491262f371-57735842%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2a190903f29a605e489b16fe23e1d082aefa609d' => 
     array (
       0 => 'tpl/ru\\menu.tpl',
-      1 => 1508672865,
+      1 => 1517842574,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f749126feb50_40609516',
   'variables' => 
   array (
     'elements' => 0,
     'e' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f749126feb50_40609516',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f749126feb50_40609516')) {function content_59f749126feb50_40609516($_smarty_tpl) {?><?php  $_smarty_tpl->tpl_vars['e'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['e']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['elements']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

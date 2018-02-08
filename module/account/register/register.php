@@ -26,6 +26,8 @@ try
 			} 
 			elseif (opRegisterComplete($nuid))
 				showInfo('Completed', moduleToLink('cabinet'));
+
+
 		showInfo('*Error');
 	}
 

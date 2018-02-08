@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-11-03 00:19:47
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 12:08:27
          compiled from "tpl/ru\balance\bal.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1683959fb7de3544771-73302689%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9d87d81cd51f5d6aa0bff611e6e5de0c564729ec' => 
     array (
       0 => 'tpl/ru\\balance\\bal.tpl',
-      1 => 1347436902,
+      1 => 1517842586,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59fb7de36b39f0_38557979',
   'variables' => 
   array (
     'currs' => 0,
     'c' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59fb7de36b39f0_38557979',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59fb7de36b39f0_38557979')) {function content_59fb7de36b39f0_38557979($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['currs']->value){?><table class="FormatTable" border="1"><tr><th>Плат. система</th><th><small>Доступно</small></th><th><small>Занято</small></th><th><small>Ожидает</small></th></tr><?php  $_smarty_tpl->tpl_vars['c'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['c']->_loop = false;
  $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;

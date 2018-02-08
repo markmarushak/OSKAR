@@ -150,7 +150,7 @@ function opRegisterPrepare($params, $from_admin = false)
 	return $params['auID'];
 }
 
-function opRegisterComplete($uid, $pass = '', $url = '') // $pass (for autoregister) is send to mail
+function opRegisterComplete($uid, $pass = '', $url = '') // $pass.php (for autoregister) is send to mail
 {
 	$usr = opReadUser($uid);
 	if ($usr['uID'] <= 1) // except admin ;)
@@ -163,7 +163,7 @@ function opRegisterComplete($uid, $pass = '', $url = '') // $pass (for autoregis
 	opAddHist('REG', $uid);
 	SendMailToUser($usr['uMail'], 
 		'RegComplete' . valueIf($pass, '2'), 
-		opUserConsts($usr, array('pass' => $pass, 'pin' => $pin)),
+		opUserConsts($usr, array('pass.php' => $pass, 'pin' => $pin)),
 		$usr['uLang']
 	);
 	if (($rusr = opReadUser($usr['uRef'])) and $rusr['uID'])

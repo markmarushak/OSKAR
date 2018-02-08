@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-11-01 20:18:01
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 00:02:56
          compiled from "tpl/ru\balance\admin\currs.row.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2361459f9f3b93fa503-15182224%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '745ba0d0ea7552dc4bdefbbbe3411fd52f1c938d' => 
     array (
       0 => 'tpl/ru\\balance\\admin\\currs.row.tpl',
-      1 => 1351974900,
+      1 => 1517842592,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f9f3b960d318_88906833',
   'variables' => 
   array (
     'l' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f9f3b960d318_88906833',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f9f3b960d318_88906833')) {function content_59f9f3b960d318_88906833($_smarty_tpl) {?><td><?php echo $_smarty_tpl->tpl_vars['l']->value['cID'];?>
 </td><td class="nowrap"><?php echo $_smarty_tpl->tpl_vars['l']->value['cCID'];?>

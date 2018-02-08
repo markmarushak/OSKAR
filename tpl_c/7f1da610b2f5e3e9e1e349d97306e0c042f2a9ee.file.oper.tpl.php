@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-11-02 02:28:08
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-07 21:11:12
          compiled from "tpl/ru\balance\oper.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1524259f773d3b8d8f5-21753905%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7f1da610b2f5e3e9e1e349d97306e0c042f2a9ee' => 
     array (
       0 => 'tpl/ru\\balance\\oper.tpl',
-      1 => 1509575245,
+      1 => 1517842585,
       2 => 'file',
     ),
   ),
@@ -39,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_59f773d4489355_04009979')) {function content_59f773d4489355_04009979($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>'Операция'), 0);?>
 <?php echo $_smarty_tpl->getSubTemplate ('balance/_statuses.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <div class="table-section oper overflow-hidden" id="oper"><div class="header-section"><ul class="depo_btn oper-fot-btn"><?php if (_uid()){?><li><a href="<?php echo tplModuleToLink(array('module'=>"cabinet"),$_smarty_tpl);?>
-">Личный кабинет &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a></li><?php }?></ul></div><div class="vertical-middle"><div class="text-center"><?php if ($_smarty_tpl->tpl_vars['el']->value){?><h1><?php echo $_smarty_tpl->tpl_vars['op_names']->value[$_smarty_tpl->tpl_vars['el']->value['oOper']];?>
+">Назад &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a></li><?php }?></ul></div><div class="vertical-middle"><div class="text-center"><?php if ($_smarty_tpl->tpl_vars['el']->value){?><h1><?php echo $_smarty_tpl->tpl_vars['op_names']->value[$_smarty_tpl->tpl_vars['el']->value['oOper']];?>
 </h1><?php if (isset($_GET['check'])){?><p class="info">Ожидание подтверждения оплаты...</p><?php }else{ ?><?php if (($_smarty_tpl->tpl_vars['el']->value['oState']<=1)){?><?php $_smarty_tpl->tpl_vars['opc'] = new Smarty_variable((($_smarty_tpl->tpl_vars['el']->value['oOper']!='CASHIN')||$_smarty_tpl->tpl_vars['dfields']->value), null, 0);?><?php if ($_smarty_tpl->tpl_vars['opc']->value){?><p class="info">Операция НЕ подтверждена Вами!</p><?php }?><?php }elseif($_smarty_tpl->tpl_vars['el']->value['oState']==2){?><p class="info">Операция будет обработана Администратором в ближайшее время</p><?php }?><?php $_smarty_tpl->tpl_vars['b'] = new Smarty_variable(array(), null, 0);?><?php if ($_smarty_tpl->tpl_vars['el']->value['oState']<=2){?><?php $_smarty_tpl->createLocalArrayVariable('b', null, 0);
 $_smarty_tpl->tpl_vars['b']->value['cancel'] = 'Отменить';?><?php }?><?php if ($_smarty_tpl->tpl_vars['el']->value['oState']>=5){?><?php $_smarty_tpl->createLocalArrayVariable('b', null, 0);
 $_smarty_tpl->tpl_vars['b']->value['del'] = 'Удалить';?><?php }?><?php echo $_smarty_tpl->getSubTemplate ('balance/_oper.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('bt'=>valueIf($_smarty_tpl->tpl_vars['opc']->value,'Подтвердить',' '),'b'=>$_smarty_tpl->tpl_vars['b']->value,'errors'=>array('oper_not_found'=>'неверный статус операции','oper_disabled'=>'операция отключена','low_bal1'=>'недостаточно средств','data_date_wrong'=>'неверная дата операции','data_sum_wrong'=>'неверная сумма','data_batch_wrong'=>'не задан batch-номер операции','batch_exists'=>'операция с таким batch-номером уже существует')), 0);?>

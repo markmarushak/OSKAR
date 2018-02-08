@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-30 23:53:54
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 00:02:55
          compiled from "tpl/ru\list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3223159f78352b43039-00371528%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b07a6b918585c48ebbdb102aee24fa4d85dea2f7' => 
     array (
       0 => 'tpl/ru\\list.tpl',
-      1 => 1509266644,
+      1 => 1517842574,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f78353109003_25015392',
   'variables' => 
   array (
     'title' => 0,
@@ -39,8 +41,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'include_code' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f78353109003_25015392',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f78353109003_25015392')) {function content_59f78353109003_25015392($_smarty_tpl) {?><script type="text/javascript" src="js/lists.js"></script><?php if ($_smarty_tpl->tpl_vars['title']->value){?><h2><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </h2><?php }?><?php if (count($_smarty_tpl->tpl_vars['values']->value)){?><?php if (is_array($_smarty_tpl->tpl_vars['btns']->value)){?><?php $_smarty_tpl->tpl_vars['list_form_name'] = new Smarty_variable(getFormName($_smarty_tpl->tpl_vars['form']->value), null, 0);?><?php echo $_smarty_tpl->getSubTemplate ('info.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('_info'=>getInfoData($_smarty_tpl->tpl_vars['list_form_name']->value)), 0);?>

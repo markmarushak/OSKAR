@@ -29,7 +29,7 @@
 
 			<ul class="depo_btn gold">
                 {if _uid()}
-                    {include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}
+                    {include file='links.el.topmenu.tpl' module='/cabinet' text='Личный кабинет'}
 
                 {/if}
 			</ul>

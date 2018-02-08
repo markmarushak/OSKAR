@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-11-01 20:18:04
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 12:44:02
          compiled from "tpl/ru\balance\admin\curr.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2632859f9f3bcad1d75-35740026%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8a9fa8b4ff065682597488f30a6d71e12cfa2d10' => 
     array (
       0 => 'tpl/ru\\balance\\admin\\curr.tpl',
-      1 => 1402754500,
+      1 => 1517842595,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f9f3bd1dc654_46907751',
   'variables' => 
   array (
     'el' => 0,
@@ -27,8 +29,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cids' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f9f3bd1dc654_46907751',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f9f3bd1dc654_46907751')) {function content_59f9f3bd1dc654_46907751($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('admin/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>'Платежная система'), 0);?>
 <?php if ($_smarty_tpl->tpl_vars['el']->value){?><h2><?php if ($_smarty_tpl->tpl_vars['el']->value['cCID']=='*'){?>Внутренняя платежная система<?php }else{ ?>Платежная система [<?php echo $_smarty_tpl->tpl_vars['el']->value['cCID'];?>

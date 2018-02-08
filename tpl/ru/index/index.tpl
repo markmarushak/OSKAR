@@ -69,7 +69,11 @@ h3 {
     }
 }
 
+
+
 </style>
+
+
     <!-- header -->
     <seection class="header table-section white" id="header">
         <div class="top-wrap">
@@ -108,7 +112,17 @@ h3 {
                                 {else}
                                    <li> <a data-toggle="modal" data-target="#login">вход</a></li>
                                 {/if}
-                                 
+                                <div id="google_translate_element"></div>
+                                <script type="text/javascript">
+                                    {literal}
+                                    function googleTranslateElementInit() {
+                                        new google.translate.TranslateElement({pageLanguage: 'my', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                                    }
+                                    {/literal}
+                                </script>
+                                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                </form>
+
                             </ul>   
                               
                         </nav>

@@ -33,13 +33,13 @@
 	
 {/if}
 <div class="table-section baunti">
- <div class="item-button-top to">  
+ <div class="item-button-top">
 <a href="{_link module='depo/depo'}?add" class="green-button">Сделать вклад</a>
                  </div>
                  
-  <div class="item-button-top to">
+  <div class="item-button-top">
      <!-- <ul class="depo_btn">  -->
-      <a href="2017grand-lottery2018.org/cabinet" class="green-button">Личный кабинет</a>
+      <a href="{_link module='cabinet'}" class="green-button">Личный кабинет</a>
       
                 
 			</div>

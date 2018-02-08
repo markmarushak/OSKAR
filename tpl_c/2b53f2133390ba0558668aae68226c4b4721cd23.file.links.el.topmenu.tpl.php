@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2018-01-28 18:47:46
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-07 20:55:16
          compiled from "tpl/ru\links.el.topmenu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2428459f748ce883809-63247567%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2b53f2133390ba0558668aae68226c4b4721cd23' => 
     array (
       0 => 'tpl/ru\\links.el.topmenu.tpl',
-      1 => 1514062904,
+      1 => 1517842575,
       2 => 'file',
     ),
   ),

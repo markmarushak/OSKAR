@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-30 19:58:45
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 00:03:01
          compiled from "tpl/ru\edit.begin.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2991359f74c35b3ec41-21689132%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd4da7bce8dbb7617f307ba8b79abac995ad6f0aa' => 
     array (
       0 => 'tpl/ru\\edit.begin.tpl',
-      1 => 1508937996,
+      1 => 1517842578,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f74c35e07a23_41160758',
   'variables' => 
   array (
     'values' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'on_submit' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f74c35e07a23_41160758',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f74c35e07a23_41160758')) {function content_59f74c35e07a23_41160758($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['edit_descr_rem'] = new Smarty_variable('<span class="descr_rem">(', null, 3);
 $_ptr = $_smarty_tpl->parent; while ($_ptr != null) {$_ptr->tpl_vars['edit_descr_rem'] = clone $_smarty_tpl->tpl_vars['edit_descr_rem']; $_ptr = $_ptr->parent; }

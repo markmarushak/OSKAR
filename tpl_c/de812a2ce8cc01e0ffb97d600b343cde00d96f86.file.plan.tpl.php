@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-11-03 00:19:58
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 12:42:27
          compiled from "tpl/ru\depo\admin\plan.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2611159fb7dee72f091-42687528%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'de812a2ce8cc01e0ffb97d600b343cde00d96f86' => 
     array (
       0 => 'tpl/ru\\depo\\admin\\plan.tpl',
-      1 => 1396424472,
+      1 => 1517842623,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59fb7deea461d6_59601531',
   'variables' => 
   array (
     'el' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59fb7deea461d6_59601531',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59fb7deea461d6_59601531')) {function content_59fb7deea461d6_59601531($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('admin/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>'План'), 0);?>
 <?php ob_start();?><?php echo tplModuleToLink(array('module'=>'calendar/admin/days'),$_smarty_tpl);?>

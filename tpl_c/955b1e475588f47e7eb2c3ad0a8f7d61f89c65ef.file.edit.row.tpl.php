@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2017-10-30 19:58:46
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 00:03:01
          compiled from "tpl/ru\edit.row.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:345559f74c3618d891-02156854%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '955b1e475588f47e7eb2c3ad0a8f7d61f89c65ef' => 
     array (
       0 => 'tpl/ru\\edit.row.tpl',
-      1 => 1375133656,
+      1 => 1517842576,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_59f74c3717abb6_96822180',
   'variables' => 
   array (
     'v' => 0,
@@ -39,8 +41,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'InputDateFormat' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_59f74c3717abb6_96822180',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59f74c3717abb6_96822180')) {function content_59f74c3717abb6_96822180($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['v']->value[0]=='U'){?>				<td colspan="2" align="center"><?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['v']->value[1], $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 </td><?php }else{ ?>							<?php if (isset_IN($_smarty_tpl->tpl_vars['f']->value)){?><?php $_smarty_tpl->tpl_vars['cv'] = new Smarty_variable(_IN($_smarty_tpl->tpl_vars['f']->value), null, 0);?><?php }else{ ?><?php $_smarty_tpl->tpl_vars['cv'] = new Smarty_variable(firstNotEmpty(array($_smarty_tpl->tpl_vars['vv']->value,$_smarty_tpl->tpl_vars['v']->value['default'])), null, 0);?><?php }?><?php echo $_smarty_tpl->getSubTemplate ('err.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('form'=>$_smarty_tpl->tpl_vars['edit_form_name']->value,'errs'=>$_smarty_tpl->tpl_vars['v']->value[2]), 0);?>

@@ -1,7 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73f09e0c-ce0c-4115-b584-c56b64750828" name="Default" comment="" />
+    <list default="true" id="73f09e0c-ce0c-4115-b584-c56b64750828" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_config.php" afterPath="$PROJECT_DIR$/_config.php" />
+      <change beforePath="$PROJECT_DIR$/assets/js/common.js" afterPath="$PROJECT_DIR$/assets/js/common.js" />
+      <change beforePath="$PROJECT_DIR$/cron.php" afterPath="$PROJECT_DIR$/cron.php" />
+      <change beforePath="$PROJECT_DIR$/logs/log_system.txt" afterPath="$PROJECT_DIR$/logs/log_system.txt" />
+      <change beforePath="$PROJECT_DIR$/logs/log_ul.txt" afterPath="$PROJECT_DIR$/logs/log_ul.txt" />
+      <change beforePath="$PROJECT_DIR$/module/_config.php" afterPath="$PROJECT_DIR$/module/_config.php" />
+      <change beforePath="$PROJECT_DIR$/module/_config/index.php" afterPath="$PROJECT_DIR$/module/_config/index.php" />
+      <change beforePath="$PROJECT_DIR$/module/account/change_pass/index.php" afterPath="$PROJECT_DIR$/module/account/change_pass/index.php" />
+      <change beforePath="$PROJECT_DIR$/module/account/register/index.php" afterPath="$PROJECT_DIR$/module/account/register/index.php" />
+      <change beforePath="$PROJECT_DIR$/module/account/register/lib.php" afterPath="$PROJECT_DIR$/module/account/register/lib.php" />
+      <change beforePath="$PROJECT_DIR$/module/account/register/register.php" afterPath="$PROJECT_DIR$/module/account/register/register.php" />
+      <change beforePath="$PROJECT_DIR$/module/account/reset_pass/lib.php" afterPath="$PROJECT_DIR$/module/account/reset_pass/lib.php" />
+      <change beforePath="$PROJECT_DIR$/module/admin/index.php" afterPath="$PROJECT_DIR$/module/admin/index.php" />
+      <change beforePath="$PROJECT_DIR$/module/admin/onstart.php" afterPath="$PROJECT_DIR$/module/admin/onstart.php" />
+      <change beforePath="$PROJECT_DIR$/module/balance/lib.php" afterPath="$PROJECT_DIR$/module/balance/lib.php" />
+      <change beforePath="$PROJECT_DIR$/module/balance/oper.php" afterPath="$PROJECT_DIR$/module/balance/oper.php" />
+      <change beforePath="$PROJECT_DIR$/module/cabinet/index.php" afterPath="$PROJECT_DIR$/module/cabinet/index.php" />
+      <change beforePath="$PROJECT_DIR$/module/depo/calc.php" afterPath="$PROJECT_DIR$/module/depo/calc.php" />
+      <change beforePath="$PROJECT_DIR$/module/depo/lastin.php" afterPath="$PROJECT_DIR$/module/depo/lastin.php" />
+      <change beforePath="$PROJECT_DIR$/module/depo/lastout.php" afterPath="$PROJECT_DIR$/module/depo/lastout.php" />
+      <change beforePath="$PROJECT_DIR$/module/depo/top.php" afterPath="$PROJECT_DIR$/module/depo/top.php" />
+      <change beforePath="$PROJECT_DIR$/module/depo/topin.php" afterPath="$PROJECT_DIR$/module/depo/topin.php" />
+      <change beforePath="$PROJECT_DIR$/module/udp/about.php" afterPath="$PROJECT_DIR$/module/udp/about.php" />
+      <change beforePath="$PROJECT_DIR$/module/udp/rules.php" afterPath="$PROJECT_DIR$/module/udp/rules.php" />
+      <change beforePath="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" />
+      <change beforePath="$PROJECT_DIR$/tpl/ru/depo/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/tpl/ru/header.tpl" afterPath="$PROJECT_DIR$/tpl/ru/header.tpl" />
+      <change beforePath="$PROJECT_DIR$/tpl/ru/index/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/007352a93eb2a0a648f9f97b667b8c926d7bf5c3.file.links.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/007352a93eb2a0a648f9f97b667b8c926d7bf5c3.file.links.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/07a8b44d817390d3684996a92bc17ae3ac966d4b.file.users.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/07a8b44d817390d3684996a92bc17ae3ac966d4b.file.users.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/0d2022b30b0edc24ef8924803adfc219d34e3ab1.file.about.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/0d2022b30b0edc24ef8924803adfc219d34e3ab1.file.about.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/118a625107c47ed4d1be8c2f6b6d4e40d94d7896.file._statuses.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/118a625107c47ed4d1be8c2f6b6d4e40d94d7896.file._statuses.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/15daf67b6c8279942e0b43fc799f95f5a42af490.file.plans.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/15daf67b6c8279942e0b43fc799f95f5a42af490.file.plans.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/1ce37283300398428823e531d62e32f2a8efe30e.file.err.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/1ce37283300398428823e531d62e32f2a8efe30e.file.err.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/1f1f1f49f1432d8d376d64f2dc512207e146f438.file.pl.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/1f1f1f49f1432d8d376d64f2dc512207e146f438.file.pl.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/1fe811fa40937dfa5784a1a790dd0f3dbb388484.file.line.module.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/1fe811fa40937dfa5784a1a790dd0f3dbb388484.file.line.module.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/24094aa7782547b1470fa685915074692d3b55f6.file.edit.block.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/24094aa7782547b1470fa685915074692d3b55f6.file.edit.block.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/24680be60944935e93ec6f74c8cd066920abc368.file.setup.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/24680be60944935e93ec6f74c8cd066920abc368.file.setup.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/25df04f70daeb92ddf672a6eca1fb3e4f5a85ca1.file.user.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/25df04f70daeb92ddf672a6eca1fb3e4f5a85ca1.file.user.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/263d7c28a1a9f41121c2fad8b69337dd545be1d8.file.edit.block.my.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/263d7c28a1a9f41121c2fad8b69337dd545be1d8.file.edit.block.my.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/2a190903f29a605e489b16fe23e1d082aefa609d.file.menu.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/2a190903f29a605e489b16fe23e1d082aefa609d.file.menu.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/2b53f2133390ba0558668aae68226c4b4721cd23.file.links.el.topmenu.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/2b53f2133390ba0558668aae68226c4b4721cd23.file.links.el.topmenu.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/2e63109ab7266344b14fbe1eed1286a98294584d.file.currs.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/2e63109ab7266344b14fbe1eed1286a98294584d.file.currs.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/2fb453147c815df500c474095897c95109e9c3c0.file._depo.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/2fb453147c815df500c474095897c95109e9c3c0.file._depo.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/34979978bd728de52469b5d5799bcd5286573e18.file.footer.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/34979978bd728de52469b5d5799bcd5286573e18.file.footer.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/34cddb1d58537356e44547066e8c11d3b04a379f.file.oper.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/34cddb1d58537356e44547066e8c11d3b04a379f.file.oper.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/3619a0201035d90edea7d3bfab463f5f42583951.file.users.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/3619a0201035d90edea7d3bfab463f5f42583951.file.users.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/3cdb89611f1831ded477a0e87cc5e09d8d91c7eb.file.login.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/3cdb89611f1831ded477a0e87cc5e09d8d91c7eb.file.login.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/3f6cde8c0f82de2cce33d1bbf17c9b4014faaeae.file.wallets.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/3f6cde8c0f82de2cce33d1bbf17c9b4014faaeae.file.wallets.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/400e8759568e0c3840d78828d2fb07cd3a445950.file.rules.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/400e8759568e0c3840d78828d2fb07cd3a445950.file.rules.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/41f1cb567453979802a94c2d41d2833212f0e3b2.file.header.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/41f1cb567453979802a94c2d41d2833212f0e3b2.file.header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/4c3dd96476bbceac7d6c91681ceef70a79b9651c.file._bal.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/4c3dd96476bbceac7d6c91681ceef70a79b9651c.file._bal.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/4dcbb35f03d818dc1fa5a8fd0c89ee2502ea01bf.file.edit.row.my.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/4dcbb35f03d818dc1fa5a8fd0c89ee2502ea01bf.file.edit.row.my.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/51c1ef0c704f791ccd1cb9e4c4651f04b3cd3113.file.line.top.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/51c1ef0c704f791ccd1cb9e4c4651f04b3cd3113.file.line.top.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/57c8ae633f722977f29180c5d38eed8993d21e7d.file._oper.js.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/57c8ae633f722977f29180c5d38eed8993d21e7d.file._oper.js.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/5b50b40c9c932222050ff1916fe9f1ee2868e7a5.file.edit.begin.my.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/5b50b40c9c932222050ff1916fe9f1ee2868e7a5.file.edit.begin.my.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/69874e560940f49ad2c33aaca1ccf4fa6dc5a82a.file.footer.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/69874e560940f49ad2c33aaca1ccf4fa6dc5a82a.file.footer.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/6afc12f4cf48eac5bc77a6a815f9282273331173.file.edit.my.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/6afc12f4cf48eac5bc77a6a815f9282273331173.file.edit.my.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/6f0183e4a5fcb252e8ed14a3e2fcad22d7571587.file.opers.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/6f0183e4a5fcb252e8ed14a3e2fcad22d7571587.file.opers.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/708d316670fdb3d91122281195ed71de084bf4f2.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/708d316670fdb3d91122281195ed71de084bf4f2.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/745ba0d0ea7552dc4bdefbbbe3411fd52f1c938d.file.currs.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/745ba0d0ea7552dc4bdefbbbe3411fd52f1c938d.file.currs.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/765c4ed4d7255b26bbcf3b6609a7be0b169ec6a0.file.info.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/765c4ed4d7255b26bbcf3b6609a7be0b169ec6a0.file.info.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/781e36aac6b517cfcbb0acf8e0f9d4337305f104.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/781e36aac6b517cfcbb0acf8e0f9d4337305f104.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/79580244f3257639f53089e9d49e88b45e1b1af1.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/79580244f3257639f53089e9d49e88b45e1b1af1.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/7f1da610b2f5e3e9e1e349d97306e0c042f2a9ee.file.oper.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/7f1da610b2f5e3e9e1e349d97306e0c042f2a9ee.file.oper.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/81cc9c967e44977b342f13c47d7be8ad2385fc35.file.opers.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/81cc9c967e44977b342f13c47d7be8ad2385fc35.file.opers.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/838db592530ba94ccd846b89063b2e93a5b0a844.file.box.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/838db592530ba94ccd846b89063b2e93a5b0a844.file.box.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/8508397d92786f44795a0af45ddab78622a349f1.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/8508397d92786f44795a0af45ddab78622a349f1.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/8a9fa8b4ff065682597488f30a6d71e12cfa2d10.file.curr.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/8a9fa8b4ff065682597488f30a6d71e12cfa2d10.file.curr.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/8c0442158a27f53d11b8f7134d8295228fe59385.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/8c0442158a27f53d11b8f7134d8295228fe59385.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/955b1e475588f47e7eb2c3ad0a8f7d61f89c65ef.file.edit.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/955b1e475588f47e7eb2c3ad0a8f7d61f89c65ef.file.edit.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/969540bdcf5dc3c8905c9c2d2508b650c56fb248.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/969540bdcf5dc3c8905c9c2d2508b650c56fb248.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/9aa8f063522b074bed1445a97f831ac7554e5e01.file.module.block.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/9aa8f063522b074bed1445a97f831ac7554e5e01.file.module.block.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/9d87d81cd51f5d6aa0bff611e6e5de0c564729ec.file.bal.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/9d87d81cd51f5d6aa0bff611e6e5de0c564729ec.file.bal.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/9e3e89178b865cc6d4f5901ec2d2a58877045b7a.file.edit.info.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/9e3e89178b865cc6d4f5901ec2d2a58877045b7a.file.edit.info.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/a4414fff9ce7156ed08fa5f456b8c5f15c7ef717.file._depo.new.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a4414fff9ce7156ed08fa5f456b8c5f15c7ef717.file._depo.new.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/a5e9b19bc299f2a1e97c4be12b56a4e514d73b81.file._oper.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a5e9b19bc299f2a1e97c4be12b56a4e514d73b81.file._oper.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/a7db75aec0ba830a77a888260611005e48c0ec36.file.plans.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a7db75aec0ba830a77a888260611005e48c0ec36.file.plans.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/a89e2136e94afe353573cb6ecd3b3626853eb611.file.depo.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a89e2136e94afe353573cb6ecd3b3626853eb611.file.depo.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/a908fa08858c2b6e1bc02d8bf62e0c8536b47b94.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a908fa08858c2b6e1bc02d8bf62e0c8536b47b94.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/ac73f3cf8c078ccd6eccfecdd25eca50ccd71aca.file.about.row.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/ac73f3cf8c078ccd6eccfecdd25eca50ccd71aca.file.about.row.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/ae6fa5959e32f9dbd5a4add966b0bba8a534cd38.file.edit.end.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/ae6fa5959e32f9dbd5a4add966b0bba8a534cd38.file.edit.end.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/b07a6b918585c48ebbdb102aee24fa4d85dea2f7.file.list.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/b07a6b918585c48ebbdb102aee24fa4d85dea2f7.file.list.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/b77086534d9c65621bb08e2cd08087bc33dcceb5.file.links.element.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/b77086534d9c65621bb08e2cd08087bc33dcceb5.file.links.element.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/b85da480fcb4961e42c7b2e384e32afb0bd8ce77.file.line.bottom.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/b85da480fcb4961e42c7b2e384e32afb0bd8ce77.file.line.bottom.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/bda708bdda9e016d8abb7707d2591da8798f77ad.file.edit.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/bda708bdda9e016d8abb7707d2591da8798f77ad.file.edit.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/c0721a99bc388a1a7d753bd517a9c76df0a2b0ba.file.header.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/c0721a99bc388a1a7d753bd517a9c76df0a2b0ba.file.header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/c465d12afa0791580ab1ddb38aed889e1978520b.file.info.messages.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/c465d12afa0791580ab1ddb38aed889e1978520b.file.info.messages.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/c500b29bc4410927b0bc624c18c6de8ec1e1e32a.file.edit.end.my.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/c500b29bc4410927b0bc624c18c6de8ec1e1e32a.file.edit.end.my.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/cf9840643f1bc880647d74d0254b89a6994d0adb.file.reg.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/cf9840643f1bc880647d74d0254b89a6994d0adb.file.reg.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/d4da7bce8dbb7617f307ba8b79abac995ad6f0aa.file.edit.begin.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/d4da7bce8dbb7617f307ba8b79abac995ad6f0aa.file.edit.begin.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/de812a2ce8cc01e0ffb97d600b343cde00d96f86.file.plan.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/de812a2ce8cc01e0ffb97d600b343cde00d96f86.file.plan.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/e7d6507c67d05d7d344b88c629e11e1e28e18eae.file._statuses.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/e7d6507c67d05d7d344b88c629e11e1e28e18eae.file._statuses.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/ea41674f610cd697793a873f78b1ffe54a3d9f94.file.menu.element.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/ea41674f610cd697793a873f78b1ffe54a3d9f94.file.menu.element.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/ec6cf7a81386e50afef76a5206a48e0055b428cf.file.register.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/ec6cf7a81386e50afef76a5206a48e0055b428cf.file.register.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/f446a78a4231eac83de74e22b8ae73d5d8392d55.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/f446a78a4231eac83de74e22b8ae73d5d8392d55.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/f8a47dfc7cf9970314bc485a7a5305f1a0463894.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/f8a47dfc7cf9970314bc485a7a5305f1a0463894.file.index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/tpl_c/ff88ad6e7ef9069837877b1a3b6bcfdc911d3099.file._statuses.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/ff88ad6e7ef9069837877b1a3b6bcfdc911d3099.file._statuses.tpl.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,29 +110,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="rw.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rw.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cron.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cron.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.php">
+        <entry file="file://$PROJECT_DIR$/../tihisTest/_config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -41,12 +131,77 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="oper.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/balance/oper.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2268">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="e#7850#7921#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pass</find>
+      <find>prepareStat</find>
+      <find>opDecodeCurrParams</find>
+      <find>showInfo</find>
+      <find>setError</find>
+      <find>set</find>
+      <find>?add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cron.php" />
+        <option value="D:/чистый h-script/module/_config/pass.php" />
+        <option value="$PROJECT_DIR$/module/_config/pass" />
+        <option value="$PROJECT_DIR$/module/_config/login.php" />
+        <option value="$PROJECT_DIR$/module/_config/index.php" />
+        <option value="$PROJECT_DIR$/module/admin/index.php" />
+        <option value="$PROJECT_DIR$/module/admin/onstart.php" />
+        <option value="$PROJECT_DIR$/module/cabinet/index.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/header.tpl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.js" />
+        <option value="$PROJECT_DIR$/module/balance/lib.php" />
+        <option value="$PROJECT_DIR$/module/udp/about.php" />
+        <option value="$PROJECT_DIR$/module/account/register/asdasd.php" />
+        <option value="$PROJECT_DIR$/module/account/register/index.php" />
+        <option value="$PROJECT_DIR$/module/account/register/register.php" />
+        <option value="$PROJECT_DIR$/module/udp/rules.php" />
+        <option value="$PROJECT_DIR$/module/depo/calc.php" />
+        <option value="$PROJECT_DIR$/module/depo/lastin.php" />
+        <option value="$PROJECT_DIR$/module/depo/lastout.php" />
+        <option value="$PROJECT_DIR$/module/depo/top.php" />
+        <option value="$PROJECT_DIR$/module/depo/topin.php" />
+        <option value="$PROJECT_DIR$/module/balance/oper.php" />
+        <option value="$PROJECT_DIR$/assets/js/common.js" />
+        <option value="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/depo/index.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
+        <option value="$PROJECT_DIR$/module/_config.php" />
+        <option value="$PROJECT_DIR$/module/depo/index.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
       </list>
     </option>
   </component>
@@ -56,13 +211,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="2017grand-lottery2018.org" id="9e27710c-9aed-422a-8a34-47054cfdd7d2" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php 5.6" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="238" />
-    <option name="y" value="328" />
+    <option name="x" value="191" />
+    <option name="y" value="-15" />
     <option name="width" value="859" />
     <option name="height" value="494" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -78,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,18 +248,59 @@
               <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
               <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="balance" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP-5.6-x64/php.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,6 +313,9 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -124,32 +331,34 @@
       <option name="presentableId" value="Default" />
       <updated>1517843032272</updated>
       <workItem from="1517843033742" duration="224000" />
+      <workItem from="1518025644851" duration="9525000" />
+      <workItem from="1518080480584" duration="5423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224000" />
+    <option name="totallyTimeSpent" value="15172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -160,11 +369,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/module/account/register/index.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rw.php">
+    <entry file="file://$PROJECT_DIR$/module/udp/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/onload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -172,7 +398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_dbstru.php">
+    <entry file="file://$PROJECT_DIR$/module/balance/oncron.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -180,7 +406,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.php">
+    <entry file="file://$PROJECT_DIR$/module/balance/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="294" column="25" lean-forward="false" selection-start-line="294" selection-start-column="25" selection-end-line="294" selection-end-column="25" />
+          <folding>
+            <marker date="1518037372974" expanded="true" signature="26236:26318" ph="INSERT INTO Wallets... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -188,11 +424,373 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cron.php">
+    <entry file="file://$PROJECT_DIR$/module/balance/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/db/auto_check/_dbcheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/calc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/topin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/чистый h-script/module/balance/oper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="251" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/lastin.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/oper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4267">
+          <caret line="251" column="2" lean-forward="false" selection-start-line="251" selection-start-column="2" selection-end-line="251" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/lastin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/lastout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/oncron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/onload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/чистый h-script/module/balance/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/чистый h-script/module/depo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/onstart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/_depo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/_depo.my.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/depo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="177" column="11" lean-forward="true" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/dbinit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/udf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/чистый h-script/module/_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/depo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/oper.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2268">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_oper.data.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_oper.js.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_oper.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_pform.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_statuses.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/bal.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.row.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/wallets.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tihisTest/_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/wallets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/onload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#7850#7921#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
