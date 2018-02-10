@@ -1,5 +1,7 @@
 {strip}
 {include file='header.tpl' title='Аккаунт'}
+	<link rel="stylesheet" href="/assets/css/account.css">
+	<div class="text-center">
 
 <h1>Личные параметры</h1>
 
@@ -10,10 +12,10 @@
 	</p>
 	
 {/if}
-
-{include file='edit.tpl'
+{include file='edit.my.tpl'
 	url='*'
 	title1='Параметры'
+	class='text-center'
 	fields=
 	[
 		'aName'=>
@@ -118,14 +120,17 @@
 	values=$user
 	hide_cancel=$user.aNeedReConfig
 }
+</div>
 
-{if !($_cfg.Sec_ForceReConfig and $user.aNeedReConfig)}
-	<br>
-	{if $_cfg.Account_Loginza}<a href="{_link module='account/loginza'}" class="button-gray">Профили</a>&nbsp;{/if}
-	{if !$_cfg.Account_LockData}<a href="{_link module='account/change_mail'}" class="button-green">Сменить e-mail</a>&nbsp;{/if}
-	<a href="{_link module='account/change_pass'}" class="button-green">Сменить пароль</a>
-{/if}
-
+<ul class="account_bottom-lists">
+    {if !($_cfg.Sec_ForceReConfig and $user.aNeedReConfig)}
+		<br>
+        {if $_cfg.Account_Loginza} <li><a href="{_link module='account/loginza'}" class="button-gray">Профили</a></li>{/if}
+        {if !$_cfg.Account_LockData} <li><a href="{_link module='account/change_mail'}" class="btn btn-warning">Сменить e-mail</a></li>{/if}
+		<li><a href="{_link module='account/change_pass'}" class="btn btn-warning">Сменить пароль</a></li>
+    {/if}
+	<li><a class="btn btn-danger" href="{_link module='cabinet'}">вернутся</a></li>
+</ul>
 {include file='footer.tpl'}
 
 {/strip}

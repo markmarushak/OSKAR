@@ -32,6 +32,7 @@
                                 ]}
 
                                 <li><a href="{_link module='udp/about'}">История</a></li>
+                                <li><a href="{_link module='account'}">Личные Данные</a></li>
                                 {include file='links.el.topmenu.tpl' module='index/index' params='out' text='вернуться на сайт'}
                             </ul>
                         </nav>

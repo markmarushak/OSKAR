@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2018-02-08 12:36:15
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-10 16:11:11
          compiled from "tpl/ru\cabinet\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:886259f749124f0342-56732726%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '708d316670fdb3d91122281195ed71de084bf4f2' => 
     array (
       0 => 'tpl/ru\\cabinet\\index.tpl',
-      1 => 1518082445,
+      1 => 1518268271,
       2 => 'file',
     ),
   ),
@@ -29,7 +29,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_59f74912619767_23744238')) {function content_59f74912619767_23744238($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>'Кабинет'), 0);?>
 <!-- cabinet --><header class="cabinet table-section white" id="cabinet"><div class="top-wrap"><div class="container "><div class="row"><div class="col-md-12 col-sm-10"><nav class="top-menu" id="top-menu"><!--  <div class="logo"><span></span></div>   --><div class="button_nav_open"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></div><ul class="horizontal-menu text-right memu-close-768"><?php echo $_smarty_tpl->getSubTemplate ('menu.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('class'=>'mainMenu','elements'=>array(array('balance','Баланс / Пополнение / Вывод','count'=>$_smarty_tpl->tpl_vars['count_opers']->value),array('refsys','Моя Баунти(Реферальная ссылка)','skip'=>!$_smarty_tpl->tpl_vars['_cfg']->value['Ref_Word']),array('balance/wallets','Платежные реквизиты'))), 0);?>
 <li><a href="<?php echo tplModuleToLink(array('module'=>'udp/about'),$_smarty_tpl);?>
-">История</a></li><?php echo $_smarty_tpl->getSubTemplate ('links.el.topmenu.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('module'=>'index/index','params'=>'out','text'=>'вернуться на сайт'), 0);?>
+">История</a></li><li><a href="<?php echo tplModuleToLink(array('module'=>'account'),$_smarty_tpl);?>
+">Личные Данные</a></li><?php echo $_smarty_tpl->getSubTemplate ('links.el.topmenu.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('module'=>'index/index','params'=>'out','text'=>'вернуться на сайт'), 0);?>
 </ul></nav></div></div></div></div><div class="vertical-middle main-text"><div class="item-text"><?php if ($_smarty_tpl->tpl_vars['list']->value){?><table class="table cabinet-table table-hover"><thead><tr><th class="text-center">Пользователь</th><th class="text-center">Сумма депозитов</th></tr></thead><?php  $_smarty_tpl->tpl_vars['r'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['r']->_loop = false;
  $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

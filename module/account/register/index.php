@@ -25,7 +25,8 @@ try
 					showInfo('Saved', moduleToLink('account/register') . '?need_confirm');
 			} 
 			elseif (opRegisterComplete($nuid))
-                showInfo('Completed', moduleToLink('cabinet'));
+                showInfo('Completed', moduleToLink('account'));
+//                showInfo('Saved', moduleToLink('account/register') . '?need_confirm');
 
 
         showInfo('*Error');

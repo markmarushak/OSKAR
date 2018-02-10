@@ -1,0 +1,13 @@
+ul.account_bottom-lists {
+    display: flow-root;
+    position: relative;
+    padding-left: 30px;
+}
+ul.account_bottom-lists li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+ul.account_bottom-lists li a{
+    font-size: 16px;
+    padding: 13px 20px;
+}
