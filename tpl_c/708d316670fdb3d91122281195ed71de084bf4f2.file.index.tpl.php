@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2018-02-10 16:11:11
+<?php /* Smarty version Smarty-3.1.8, created on 2018-02-13 15:09:24
          compiled from "tpl/ru\cabinet\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:886259f749124f0342-56732726%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '708d316670fdb3d91122281195ed71de084bf4f2' => 
     array (
       0 => 'tpl/ru\\cabinet\\index.tpl',
-      1 => 1518268271,
+      1 => 1518523763,
       2 => 'file',
     ),
   ),
@@ -21,8 +21,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'count_opers' => 0,
     '_cfg' => 0,
-    'list' => 0,
-    'r' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -31,15 +29,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <li><a href="<?php echo tplModuleToLink(array('module'=>'udp/about'),$_smarty_tpl);?>
 ">История</a></li><li><a href="<?php echo tplModuleToLink(array('module'=>'account'),$_smarty_tpl);?>
 ">Личные Данные</a></li><?php echo $_smarty_tpl->getSubTemplate ('links.el.topmenu.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('module'=>'index/index','params'=>'out','text'=>'вернуться на сайт'), 0);?>
-</ul></nav></div></div></div></div><div class="vertical-middle main-text"><div class="item-text"><?php if ($_smarty_tpl->tpl_vars['list']->value){?><table class="table cabinet-table table-hover"><thead><tr><th class="text-center">Пользователь</th><th class="text-center">Сумма депозитов</th></tr></thead><?php  $_smarty_tpl->tpl_vars['r'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['r']->_loop = false;
- $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['r']->key => $_smarty_tpl->tpl_vars['r']->value){
-$_smarty_tpl->tpl_vars['r']->_loop = true;
- $_smarty_tpl->tpl_vars['i']->value = $_smarty_tpl->tpl_vars['r']->key;
-?><?php if ($_smarty_tpl->tpl_vars['r']->value['RSUM']){?><tr><td><?php echo $_smarty_tpl->tpl_vars['r']->value['uLogin'];?>
-</td><td><?php echo _z($_smarty_tpl->tpl_vars['r']->value['RSUM'],1);?>
-</td></tr><?php }?><?php } ?></table><?php }?></div><div class="item-button-top cabinet-next"><a href="<?php echo tplModuleToLink(array('module'=>'depo/depo'),$_smarty_tpl);?>
+</ul></nav></div></div></div></div><div class="vertical-middle main-text"><div class="item-button-top cabinet-next"><a href="<?php echo tplModuleToLink(array('module'=>'depo/depo'),$_smarty_tpl);?>
 ?add" class="button-green">Играть еще</a><a class="m-gren" href="<?php echo tplModuleToLink(array('module'=>"review"),$_smarty_tpl);?>
 ">онлайн чат</a></div></div></header><?php echo $_smarty_tpl->getSubTemplate ('footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <?php }} ?>

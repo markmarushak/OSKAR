@@ -940,3 +940,56 @@ h3.text-top_contact::after {
 .bissnes_part_8{
     background-position: -1791px 0;
     }
+
+.contacts {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.phone span::after{
+     content: '';
+     display: block;
+     position: absolute;
+     background: url(/assets/img/phone.jpg) no-repeat;
+     background-position: 0px -4px;
+     width: 50px;
+     height: 40px;
+     background-size: cover;
+     top: 0;
+     left: -49px;
+ }
+.email span::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(/assets/img/email.jpg) no-repeat;
+    background-position: 0px -4px;
+    width: 80px;
+    height: 40px;
+    background-size: cover;
+    top: -7px;
+    left: -70px;
+}
+.boots {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.bot_img {
+    height:320px;
+    background: url("/assets/img/bots_img.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.bot_time_img {
+    height:320px;
+    background: url("/assets/img/time_bots.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+#vk_groups {
+    max-width:100%;
+}
+

@@ -3,7 +3,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     content: '';
     display: block;
     position: absolute;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,0.2);
     width: 100%;
     height:100%;
     top:0;
@@ -58,7 +58,11 @@ table.table.table-hover>tbody>tr:hover {
     transition: all 0.45s;
 }
 .item-button-top {
-    display: inline-block;
+     display: inline-block;
+ }
+
+.cabinet .item-button-top {
+    top: 0;
 }
 
 .oper-btn .m-gren,

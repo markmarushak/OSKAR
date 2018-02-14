@@ -42,26 +42,26 @@
         </div>
 
         <div class="vertical-middle main-text">
-            <div class="item-text">
-                {if $list}
-                    <table class="table cabinet-table table-hover">
-                        <thead>
-                            <tr>
-                                <th class="text-center">Пользователь</th>
-                                <th class="text-center">Сумма депозитов</th>
-                            </tr>
-                        </thead>
-                        {foreach from=$list key=i  item=r }
-                            {if $r.RSUM}
-                                    <tr>
-                                        <td>{$r.uLogin}</td>
-                                        <td>{_z($r.RSUM, 1)}</td>
-                                    </tr>
-                            {/if}
-                        {/foreach}
-                    </table>
-                {/if}
-            </div>
+            {*<div class="item-text">*}
+                {*{if $list}*}
+                    {*<table class="table cabinet-table table-hover">*}
+                        {*<thead>*}
+                            {*<tr>*}
+                                {*<th class="text-center">Пользователь</th>*}
+                                {*<th class="text-center">Сумма депозитов</th>*}
+                            {*</tr>*}
+                        {*</thead>*}
+                        {*{foreach from=$list key=i  item=r }*}
+                            {*{if $r.RSUM}*}
+                                    {*<tr>*}
+                                        {*<td>{$r.uLogin}</td>*}
+                                        {*<td>{_z($r.RSUM, 1)}</td>*}
+                                    {*</tr>*}
+                            {*{/if}*}
+                        {*{/foreach}*}
+                    {*</table>*}
+                {*{/if}*}
+            {*</div>*}
             <div class="item-button-top cabinet-next">
                 <a href="{_link module='depo/depo'}?add" class="button-green">Играть еще</a>
                 <a class="m-gren" href="{_link module="review"}">онлайн чат</a>
