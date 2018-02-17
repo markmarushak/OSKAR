@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f09e0c-ce0c-4115-b584-c56b64750828" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/personalCabinet.jpg" afterPath="$PROJECT_DIR$/assets/img/personalCabinet.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/cabinet.css" afterPath="$PROJECT_DIR$/assets/css/cabinet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/form.css" afterPath="$PROJECT_DIR$/assets/css/form.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/assets/css/stylish-portfolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/index/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl_c/708d316670fdb3d91122281195ed71de084bf4f2.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/708d316670fdb3d91122281195ed71de084bf4f2.file.index.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl_c/a908fa08858c2b6e1bc02d8bf62e0c8536b47b94.file.index.tpl.php" afterPath="$PROJECT_DIR$/tpl_c/a908fa08858c2b6e1bc02d8bf62e0c8536b47b94.file.index.tpl.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="408" column="30" lean-forward="false" selection-start-line="408" selection-start-column="30" selection-end-line="408" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="365" column="56" lean-forward="false" selection-start-line="365" selection-start-column="56" selection-end-line="365" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -34,8 +32,38 @@
       <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/stylish-portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16864">
-              <caret line="992" column="8" lean-forward="false" selection-start-line="992" selection-start-column="8" selection-end-line="992" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="1000" column="8" lean-forward="false" selection-start-line="1000" selection-start-column="8" selection-end-line="1000" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oper.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/balance/oper.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1224">
+              <caret line="69" column="4" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,10 +126,13 @@
         <option value="$PROJECT_DIR$/module/account/register/register.php" />
         <option value="$PROJECT_DIR$/assets/css/account.css" />
         <option value="$PROJECT_DIR$/tpl/ru/account/index.tpl" />
-        <option value="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
         <option value="$PROJECT_DIR$/assets/css/cabinet.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
         <option value="$PROJECT_DIR$/assets/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
+        <option value="$PROJECT_DIR$/assets/css/form.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" />
       </list>
     </option>
   </component>
@@ -111,7 +142,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="2017grand-lottery2018.org" id="9e27710c-9aed-422a-8a34-47054cfdd7d2" name="localhost" />
@@ -141,7 +171,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +243,13 @@
               <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="balance" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="cabinet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -227,6 +263,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,12 +304,13 @@
       <workItem from="1518095789813" duration="491000" />
       <workItem from="1518266572452" duration="3841000" />
       <workItem from="1518522684248" duration="9061000" />
-      <workItem from="1518575378670" duration="10000" />
+      <workItem from="1518575378670" duration="1776000" />
+      <workItem from="1518845609109" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28575000" />
+    <option name="totallyTimeSpent" value="32855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -311,20 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/depo/calc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/depo/topin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/чистый h-script/module/balance/oper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -514,20 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_statuses.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/bal.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.row.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -549,23 +559,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/wallets.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/onload.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/oper.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/account/register/lib.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -631,23 +627,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="349">
+          <caret line="68" column="101" lean-forward="false" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_bal.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/bal.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/stylish-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16864">
-          <caret line="992" column="8" lean-forward="false" selection-start-line="992" selection-start-column="8" selection-end-line="992" selection-end-column="8" />
+        <state relative-caret-position="315">
+          <caret line="1000" column="8" lean-forward="false" selection-start-line="1000" selection-start-column="8" selection-end-line="1000" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="408" column="30" lean-forward="false" selection-start-line="408" selection-start-column="30" selection-end-line="408" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="365" column="56" lean-forward="false" selection-start-line="365" selection-start-column="56" selection-end-line="365" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/_statuses.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/balance/oper.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="69" column="4" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
           <folding />
         </state>
       </provider>

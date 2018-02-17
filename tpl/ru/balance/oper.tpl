@@ -1,13 +1,12 @@
 {strip}
 {include file='header.tpl' title='Операция'}
 
-{include file='balance/_statuses.tpl'}
+{*{include file='balance/_statuses.tpl'}*}
 
 <div class="table-section oper overflow-hidden" id="oper">
 	<div class="header-section">
 		<ul class="depo_btn oper-fot-btn">
             {if _uid()}
-                {*{include file='links.el.topmenu.tpl' module='cabinet' text='Назад'}*}
 				<li><a href="{_link module="cabinet"}">Назад &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
             {/if}
 		</ul>
@@ -67,7 +66,7 @@
 	
 {else}
 
-	{include file='balance/_bal.tpl'}
+	{*{include file='balance/_bal.tpl'}*}
 	
 	{$oper = $smarty.get.add}
 	{if $oper == 'CASHIN'}

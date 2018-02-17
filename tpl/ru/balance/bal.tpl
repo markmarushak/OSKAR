@@ -1,6 +1,6 @@
 {strip}
 {if $currs}
-<table class="FormatTable" border="1">
+<table class="table" border="1">
 	<tr>
 		<th>Плат. система</th>
 		<th><small>Доступно</small></th>

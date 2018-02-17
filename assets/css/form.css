@@ -8,6 +8,10 @@ body button,body input,body select,body textarea
     margin: 0 auto;
 }
 
+.footer-section.home-form {
+    display: block;
+}
+
 .oper .formatTable {
     width: 55%;
     text-align: center;
@@ -67,7 +71,7 @@ span.err {
 .vert-top {
     vertical-align: top !important;
 }
-.depo_btn {
+ul.depo_btn {
     list-style-type: none;
     padding: 0;
     margin: 0;

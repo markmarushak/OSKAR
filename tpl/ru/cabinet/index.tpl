@@ -63,7 +63,12 @@
                 {*{/if}*}
             {*</div>*}
             <div class="item-button-top cabinet-next">
-                <a href="{_link module='depo/depo'}?add" class="button-green">Играть еще</a>
+                {if $user.uBal > 0}
+                    <a href="{_link module='depo/depo'}?add" class="button-green">Играть еще</a>
+                {else}
+                    <a href="{_link module='balance/oper'}?add=CASHIN" class="button-green">Пополнить</a>
+                {/if}
+
                 <a class="m-gren" href="{_link module="review"}">онлайн чат</a>
             </div>
 

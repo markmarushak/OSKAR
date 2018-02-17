@@ -361,31 +361,18 @@
                     ]
                     errors=['multi_reg'=>'множественная регистрация запрещена']
                     captcha=$_cfg.Account_RegCaptcha
-                    btn_text='ПРИНЯТЬ УЧАСТИЕ'
+                    btn_text=' '
                     }
-
+                    <div class="footer-section home-form"><div class=" col-md-10 col-md-offset-1 text-center item-button-submit"><button name="register_frm1_btn" value="ПРИНЯТЬ УЧАСТИЕ" type="submit">ПРИНЯТЬ УЧАСТИЕ</button></div></div>
                 {/if}
             </div>
         </div>
-    </section>
-    <section class="table-section section section-color2">
-        <div class="ver-mi">
-            <header>
-                <h3 style="color:#777">ОБРАТНАЯ СВЯЗЬ</h3>
-            </header>
-        </div>
-
     </section>
     <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;max-height:300px"
              id="contact">
 
         <div class="container">
             <div class="col-md-10 col-md-offset-1">
-                <div class="ver-mi">
-                    <header>
-                        <h3 class="white">ПОДДЕРЖКА</h3>
-                    </header>
-                </div>
                 <div class="row boots">
                     <div class="col-md-6">
                         <div class="bot_img"></div>
@@ -401,44 +388,35 @@
                             <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
                             <script type="text/javascript">
                                 {literal}
-                                VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: "100%", height: "200"}, 5263034);
+                                VK.Widgets.Group("vk_groups", {
+                                    mode: 4,
+                                    wide: 1,
+                                    width: "",
+                                    height: "200"
+                                }, 5263034);
                                 {/literal}
                             </script>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <form action="php/newMail.php" method="post" class="mail-form">
-                            <div class="col-md-16">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <input name="firstname" type="text" class="form-control" placeholder="Имя"
-                                               data-validation="required">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input name="email" type="text" class="form-control" placeholder="Почта"
-                                               data-validation="email">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <input name="subject" type="text" class="form-control" placeholder="Тема"
-                                               data-validation="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                            <textarea name="body" class="form-control" rows="10" placeholder="Сообщение. . ."
-                                      data-validation="required"></textarea>
-                                    </div>
-                                </div>
-                                <div class="i-am-center">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <input type="submit" class="btn btn-green contact-button" value="Отправить">
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="form-group double">
+                                    <input name="firstname" type="text" class="form-control" placeholder="Имя"
+                                           data-validation="required" required>
+                                    <input name="email" type="text" class="form-control" placeholder="Почта"
+                                           data-validation="email" required>
                             </div>
+                            <br>
+                            <div class="form-group">
+                                <input name="subject" type="text" class="form-control" placeholder="Тема"
+                                           data-validation="required" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="body" class="form-control" rows="10" placeholder="Сообщение. . ."
+                                              data-validation="required" required></textarea>
+                            </div>
+
+                            <input type="submit" class="btn btn-green contact-button" value="Отправить">
                         </form>
                     </div>
                 </div>
@@ -451,9 +429,9 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                       <div class="email">
-                           <span>administrator@2017grand-lottery2018.org</span><br>
-                       </div>
+                        <div class="email">
+                            <span>administrator@2017grand-lottery2018.org</span><br>
+                        </div>
                     </div>
                 </div>
             </div>

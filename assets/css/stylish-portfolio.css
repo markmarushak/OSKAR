@@ -97,11 +97,11 @@ p,a {
 }
 .footer-section {
     bottom:30px;
-   /* display: -webkit-box;        */
-   display: table-row-group;
-    
+    display: table-footer-group;
     text-align: center;
     position: relative;
+    width:  100%;
+    height: 60px;
 }
 
 .white {
@@ -234,13 +234,13 @@ body h1 {
 
 /*
 #header.header .top-wrap::after {
-    content: "Защита от DDoS";
+    content: "ÃƒÂÃ¢â‚¬â€ÃƒÂÃ‚Â°Ãƒâ€˜Ã¢â‚¬Â°ÃƒÂÃ‚Â¸Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â° ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â‚¬Å¡ DDoS";
     left: -90px;
     top: 47px;
     transform: rotate(-45deg);
 }
 .header .top-wrap::before {
-    content: "SSl Защита";
+    content: "SSl ÃƒÂÃ¢â‚¬â€ÃƒÂÃ‚Â°Ãƒâ€˜Ã¢â‚¬Â°ÃƒÂÃ‚Â¸Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â°";
     right: -90px;
     transform: rotate(45deg);
 }             */
@@ -945,6 +945,10 @@ h3.text-top_contact::after {
     padding-bottom: 4rem;
     padding-top: 4rem;
 }
+.phone {
+    right: -60px;
+    position: relative;
+}
 .phone span::after{
      content: '';
      display: block;
@@ -955,8 +959,12 @@ h3.text-top_contact::after {
      height: 40px;
      background-size: cover;
      top: 0;
-     left: -49px;
+     left: -60px;
  }
+.email {
+    right: -90px;
+    position: relative;
+}
 .email span::after{
     content: '';
     display: block;
@@ -967,14 +975,14 @@ h3.text-top_contact::after {
     height: 40px;
     background-size: cover;
     top: -7px;
-    left: -70px;
+    left: -90px;
 }
 .boots {
     padding-bottom: 4rem;
     padding-top: 4rem;
 }
 .bot_img {
-    height:320px;
+    height: 260px;
     background: url("/assets/img/bots_img.jpg");
     -webkit-background-size: cover;
     background-size: cover;
@@ -982,14 +990,21 @@ h3.text-top_contact::after {
     background-position: center center;
 }
 .bot_time_img {
-    height:320px;
+    height: 260px;
     background: url("/assets/img/time_bots.jpg");
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 60%;
     background-repeat:no-repeat;
-    background-position: center center;
+    background-position: center left;
 }
 #vk_groups {
-    max-width:100%;
+    min-width:100%;
 }
 
+.form-group.double > *{
+    display: inline-block;
+    width: 49.3%;
+    margin-right: 5px;
+}
+.form-group.double > *:nth-child(2) {
+    margin-right:0;}
