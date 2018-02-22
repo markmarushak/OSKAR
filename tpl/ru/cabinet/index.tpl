@@ -1,22 +1,28 @@
 {strip}
-{include file='header.tpl' title='Кабинет'}
+    {include file='header.tpl' title='Кабинет'}
 
-{*<h1>Кабинет</h1>*}
+    {*<h1>Кабинет</h1>*}
 
-{*{include file='balance/_bal.tpl'}*}
-{*<br><br>*}
-{*{include file='balance/_stat.tpl'}*}
+    {*{include file='balance/_bal.tpl'}*}
+    {*<br><br>*}
+    {*{include file='balance/_stat.tpl'}*}
 
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
+
         <div class="top-wrap">
+            <div class="top-name">
+                <span>
+                    Личный кабинет : {$user.aName}
+                </span>
+            </div>
             <div class="container ">
                 <div class="row">
                     <div class="col-md-12 col-sm-10">
                         <nav class="top-menu" id="top-menu">
-                          <!--  <div class="logo">
-                                <span></span>
-                            </div>   -->
+                            <!--  <div class="logo">
+                                  <span></span>
+                              </div>   -->
                             <div class="button_nav_open">
                                 <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
                             </div>
@@ -42,29 +48,22 @@
         </div>
 
         <div class="vertical-middle main-text">
-            {*<div class="item-text">*}
-                {*{if $list}*}
-                    {*<table class="table cabinet-table table-hover">*}
-                        {*<thead>*}
-                            {*<tr>*}
-                                {*<th class="text-center">Пользователь</th>*}
-                                {*<th class="text-center">Сумма депозитов</th>*}
-                            {*</tr>*}
-                        {*</thead>*}
-                        {*{foreach from=$list key=i  item=r }*}
-                            {*{if $r.RSUM}*}
-                                    {*<tr>*}
-                                        {*<td>{$r.uLogin}</td>*}
-                                        {*<td>{_z($r.RSUM, 1)}</td>*}
-                                    {*</tr>*}
-                            {*{/if}*}
-                        {*{/foreach}*}
-                    {*</table>*}
-                {*{/if}*}
-            {*</div>*}
+            <arcticle>
+                <div class="cabinet-ballance">
+                    <b>Минимальная сумма участия: 100 рублей</b>
+                    <br>
+                    Ваш баланс:
+                    <span> {$curr1.wBal}</span>
+                </div>
+            </arcticle>
             <div class="item-button-top cabinet-next">
-                {if $user.uBal > 0}
-                    <a href="{_link module='depo/depo'}?add" class="button-green">Играть еще</a>
+                {if $curr1.wBal > 100}
+                    {*<form action="{_link module='depo/depo'}?add">*}
+                    <form action="{_link module='cabinet/random_func'}" method="post">
+                        {assign var=x value=0}
+                        <input name="rand" type="hidden" value="{math equation='x = rand(0,16)' x=$x}">
+                        <input type="submit" value="Играть еще" class="button-green">
+                    </form>
                 {else}
                     <a href="{_link module='balance/oper'}?add=CASHIN" class="button-green">Пополнить</a>
                 {/if}
@@ -74,9 +73,5 @@
 
         </div>
     </header>
-
-
-
-
     {include file='footer.tpl'}
 {/strip}

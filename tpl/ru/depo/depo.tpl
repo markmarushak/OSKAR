@@ -13,11 +13,15 @@
 				<br>
 				<span>
 						Ваш выигрыш составляет :&nbsp;
-                    {_z($el.dZD, $el.dcID, 1)}
+                    {_z(($el.dZ0 + $el.pPerc), $el.dcID, 1)}
 					</span>
 				<br>
 				{*<p>Вам будет начислено <br> в течение {$el.pNPer} дней по {_z($el.dZD, $el.dcID, 1)*(1/4)} USD</p>*}
-				<div class="boxxx">сроком {$el.pNPer} дня</div>
+				<div class="boxxx">
+					будет выплачиватся каждый {$el.pPer} час(а)
+					<br>
+					{$el.pNPer} раз
+				</div>
 				<p>рискни и будешь вознагражден!</p>
 			</div>
 

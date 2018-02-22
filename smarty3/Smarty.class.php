@@ -372,7 +372,7 @@ class Smarty extends Smarty_Internal_TemplateBase {
      *
      * @var boolean
      */
-    public $debugging = false;
+    public $debugging = 'SMARTY_DEBUG';
     /**
      * This determines if debugging is enable-able from the browser.
      * <ul>
@@ -395,7 +395,7 @@ class Smarty extends Smarty_Internal_TemplateBase {
      * Path of debug template.
      * @var string
      */
-    public $debug_tpl = null;
+    public $debug_tpl =  "SMARTY_DIR";
     /**
      * When set, smarty uses this value as error_reporting-level.
      * @var int

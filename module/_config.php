@@ -2,8 +2,9 @@
 
 $_rwlinks = array(
 	'index' => array('home'), // main home page
-	'cabinet' => array('cabinet'), // user home page
-	
+	'cabinet' => array('cabinet'), // user home paged
+	'cabinet/random_func' => array('random'), // user home paged
+
 	'system' => array('interface'), // select interface
 	'ajax' => array('ajax'),
 	
