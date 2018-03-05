@@ -248,7 +248,7 @@ class HS2_DB
 		);
 	}
 
-	function replace($table, $fields_and_values, $fields = '') 
+	function replace($table, $fields_and_values, $fields = '')
 	{
 		return $this->insert($table, $fields_and_values, $fields, true);
 	}

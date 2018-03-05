@@ -28,7 +28,7 @@ if (!$_SESSION['cfg_logged'])
 
 $pass = trim(@file_get_contents('module/_config/pass'));
 if (!$pass)
-	$_GET['pass.php'] = 1;
+	$_GET['pass'] = 1;
 elseif (!$_cfg['cfg_link'])
 	$_GET['setup'] = 1;
 foreach (array('login', 'pass', 'setup', 'install', 'modules', 'update') as $m)

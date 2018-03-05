@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
     $(".owl-carousel").owlCarousel({
@@ -63,7 +62,7 @@ $(document).ready(function() {
         var id  = $(this).attr('href'), top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 2300);
     });
-    $("#top-menu .ancor").on("click","a", function (event) {
+    $("#top-menu .ancor, .to").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'), top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 2300);

@@ -981,21 +981,33 @@ h3.text-top_contact::after {
     padding-bottom: 4rem;
     padding-top: 4rem;
 }
+
+.gradu {
+
+    height: 175px;
+    background: url("/assets/img/gradu.png");
+    -webkit-background-size: cover;
+    background-size: 60%;
+    background-repeat:no-repeat;
+    background-position: center center;
+
+}
+
 .bot_img {
     height: 260px;
-    background: url("/assets/img/bots_img.jpg");
+    background: url("/assets/img/girll.png");
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 50%;
     background-repeat:no-repeat;
     background-position: center center;
 }
 .bot_time_img {
     height: 260px;
-    background: url("/assets/img/time_bots.jpg");
+    background: url("/assets/img/24h.png");
     -webkit-background-size: cover;
-    background-size: 60%;
+    background-size: 50%;
     background-repeat:no-repeat;
-    background-position: center left;
+    background-position: center center;
 }
 #vk_groups {
     min-width:100%;
@@ -1053,4 +1065,36 @@ h3.text-top_contact::after {
     -moz-border-radius: 4px;
     border-radius: 4px;
     border-bottom: 5px solid #eee;
+}
+
+
+
+/////////////////////////////////
+
+$fuschia: #365e8f;
+$button-bg: $fuschia;
+$button-text-color: #fff;
+
+
+.bubbly-button{
+ 
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bubbly-button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
 }

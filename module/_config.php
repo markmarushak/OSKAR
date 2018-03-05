@@ -7,7 +7,10 @@ $_rwlinks = array(
 
 	'system' => array('interface'), // select interface
 	'ajax' => array('ajax'),
-	
+    
+    'depo/admin/rands' => array('admin/rands', 'admin' => '{!ru!}Рандом/{!ru!}Настройки Рандома'), //Рандом
+    'depo/admin/rand_onload' => array('rand_onload'), //Рандом отправка
+
 	// Admin panel
 	
 	'admin' => array('admin'),

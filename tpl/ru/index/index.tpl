@@ -148,8 +148,27 @@
             <b> CASH BACK - 100%</b> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ 100% ПО ОКОНЧАНИЮ СРОКА ПЛАНА 1-4 ДНЯ. <br>
             РЕИНВЕСТИРОВАНИЕ/ВЫВОД МОМЕНТАЛЬНО.</br>
             ВСЕМ УДАЧИ В <b style="font-size: 23pt">4</b>U ГДЕ МОЖНО ТОЛЬКО ВЫИГРАТЬ!</p>
+                    <div class="col-md-12">                  
+                        <div class="vkontakte">
+                            <div id="vk_groups"></div>
+                            <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
+                            <script type="text/javascript">
+                                {literal}
+                                VK.Widgets.Group("vk_groups", {
+                                    mode: 4,
+                                    wide: 1,
+                                    width: "",
+                                    height: "200"
+                                }, 5263034);
+                                {/literal}
+                            </script>
+                        </div> 
+                    </div>
+                      <p style="height:200px;"><br></p>              
     </div>
+    <p></p>
     </div>
+    
     <section class="bgcity">
         <div class="bgimg-2" id="baunti">
             <div class="caption">
@@ -231,7 +250,7 @@
                 {if _uid()}
 
                     <!--    -->
-                    <span class="room"><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                    <span class="room fa-sign-out"><i class="fa fa-sign-in" aria-hidden="true"></i></span>
                     <ul class="caption depo_btn gold">
 
                         {include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}
@@ -382,24 +401,9 @@
                     </div>
                 </div>
                 <div class="row contacts-wrap" style="margin-top: 35px;">
-                    <div class="col-md-6">
-                        <div class="vkontakte">
-                            <div id="vk_groups"></div>
-                            <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
-                            <script type="text/javascript">
-                                {literal}
-                                VK.Widgets.Group("vk_groups", {
-                                    mode: 4,
-                                    wide: 1,
-                                    width: "",
-                                    height: "200"
-                                }, 5263034);
-                                {/literal}
-                            </script>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <form action="php/newMail.php" method="post" class="mail-form">
+             
+                    <div class="col-md-12">
+                        <form action="../assets/newMail.php" method="post" class="mail-form">
                             <div class="form-group double">
                                     <input name="firstname" type="text" class="form-control" placeholder="Имя"
                                            data-validation="required" required>
@@ -425,7 +429,7 @@
                         <div class="phone">
                             <span>+7 (495) 177-26-54</span>
                             <br>
-                            <b>Мы презвоним в ближайшее время</b>
+                            <b>Мы перезвоним вам в ближайшее время</b>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -434,6 +438,14 @@
                         </div>
                     </div>
                 </div>
+                           
+                                           
+                <div class="gradu">
+                </div>
+                
+                </div>
+                  
+                
             </div>
 
     </section>

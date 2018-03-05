@@ -1,8 +1,5 @@
 {strip}
 
-
-
-
     <!-- jQuery -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
 
@@ -17,7 +14,6 @@
 
     <script src="assets/js/common.js"></script>
     <!-- Custom Theme JavaScript -->
-
 
 
     </body>
