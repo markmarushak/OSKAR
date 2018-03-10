@@ -8,11 +8,12 @@
     <script src="assets/lib/OwlCarousel/owl.carousel.min.js"></script>
 
 
-    <script src="assets/js/yandex_metrica.js"></script>
+   <!-- <script src="assets/js/yandex_metrica.js"></script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/46804743" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	-->
 	
 
-    <script src="assets/js/common.js"></script>
+    <script src="assets/js/common.js?=12"></script>
     <!-- Custom Theme JavaScript -->
 
 

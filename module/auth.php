@@ -182,6 +182,7 @@ if ($_smode < 2) // user mode
 	
 	setPage('_auth', $_auth);
 	setPage('_cfg', $_cfg);
+	setPage('rand_css',rand(1,9999));
 	setPage('root_url', $_GS['root_url']);
 	setPage('current_lang', $_GS['lang']);
 	setPage('img_path', 'images/' . $_GS['lang'] . '/');

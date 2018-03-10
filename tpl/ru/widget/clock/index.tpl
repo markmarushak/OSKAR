@@ -4,7 +4,10 @@
 		<span id="clock"></span>
 	</a>
 {else}
-	<span id="clock"></span> <small>GMT</small>
+	<div class="clock-wrap">
+		<span class="clock-name">Московское время &nbsp;</span>
+		<span id="clock"> </span>
+	</div>
 {/if}
 <script type="text/javascript">
 	function upd_tz()

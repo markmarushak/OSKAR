@@ -17,14 +17,14 @@
 		<title>kraft</title>
 
 		<link rel="shortcut icon" href="img/ico.png">
-		<link rel="stylesheet" href="assets/css/font.css">
-		<link rel="stylesheet" href="assets/css/cabinet.css">
-		<link rel="stylesheet" href="assets/css/stylish-portfolio.css">
+		<link rel="stylesheet" href="assets/css/font.css?={$rand_css}">
+		<link rel="stylesheet" href="assets/css/cabinet.css?={$rand_css}">
+		<link rel="stylesheet" href="assets/css/stylish-portfolio.css?={$rand_css}">
 		<link rel="stylesheet" href="assets/css/form.css">
 		<!-- Bootstrap Core CSS -->
 		<link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
 
-		<link rel="stylesheet" href="assets/css/media.css">
+		<link rel="stylesheet" href="assets/css/media.css?={$rand_css}">
 
 
 		<!-- Custom Fonts -->

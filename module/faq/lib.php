@@ -9,4 +9,30 @@ function faqGetBlock($n = 0)
 	return $list;
 }
 
+function getGroup($table)
+{
+    global $db;
+    $groups = $db->fetchRows($db->select($table,'fCat', '',''));
+    foreach ($groups as $group)
+    {
+        $gloal_array[] = $group['fCat'];
+    }
+    $gloal_array = array_unique($gloal_array);
+
+    return $gloal_array;
+}
+
+function filterList($table)
+{
+    global $db;
+    $global_array = getGroup($table);
+    foreach ($global_array as $lists)
+    {
+        $list[$lists] = ($db->fetchRows($db->select($table,'fID, fQuestion, fAnswer','fCat=?',$lists)));
+
+    }
+
+    return $list;
+}
+
 ?>

@@ -194,6 +194,8 @@ body h1 {
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
+	display: table;
+	width: 100%;
 }
 
 #header.header {
@@ -446,18 +448,26 @@ body h1 {
 .footer {
     width: 100%;
     position: relative;
-    //padding: 2rem 0;
+    //
+    padding: 2rem 0;
     text-align: center;
     background: #fff;
+    border: 1px solid #eed057;
 }
 .footer p{
     margin: 0;
-    padding: 0;
+    padding: 20px;
     text-align: center;
     font-size: 1.6rem;
+    background: linear-gradient(120deg,#e4ab23 1%,#faf78f 30%,#e4ab23 50%,#faf78f 70%,#e4ab23 100%);
+    color: #000;
+    font-weight:  bold;
+    line-height: 1.9;
+    border: 1px solid #333;
 }
 .footer p .span1 {
-    text-decoration: underline;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .footer p .span2 {
     text-decoration: none;
@@ -974,7 +984,7 @@ h3.text-top_contact::after {
     width: 80px;
     height: 40px;
     background-size: cover;
-    top: -7px;
+    top: 0px;
     left: -90px;
 }
 .boots {
@@ -1014,12 +1024,10 @@ h3.text-top_contact::after {
 }
 
 .form-group.double > *{
-    display: inline-block;
-    width: 49.3%;
-    margin-right: 5px;
+    padding:0 !important;
+    margin-bottom: 10px;
 }
-.form-group.double > *:nth-child(2) {
-    margin-right:0;}
+
 
 .cabinet-ballance {
     display: block;
@@ -1067,15 +1075,6 @@ h3.text-top_contact::after {
     border-bottom: 5px solid #eee;
 }
 
-
-
-/////////////////////////////////
-
-$fuschia: #365e8f;
-$button-bg: $fuschia;
-$button-text-color: #fff;
-
-
 .bubbly-button{
  
   background: #3498db;
@@ -1084,8 +1083,8 @@ $button-text-color: #fff;
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
   border-radius: 11px;
   font-family: Courier New;
   color: #ffffff;
@@ -1097,4 +1096,40 @@ $button-text-color: #fff;
 .bubbly-button:hover {
   background: #3cb0fd;
   text-decoration: none;
+}
+
+.vkontakte a{
+    width: 100%;
+    background: #03A9F4;
+    display: block;
+    border-bottom: 4px solid transparent;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: all .3s;
+}
+.vkontakte a:hover {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 4px solid #0f86bb;
+}
+
+.bgcity form[name=register_frm1] {
+    color: #fff;
+}
+.bgcity form[name=register_frm1] input {
+	z-index: 123;
+	position: relative;
+}
+
+.boots h3 {
+    color: #fff;
+    text-align: center;
+}
+.boots p {
+    text-align: center;
+    font-size: 2rem;
 }

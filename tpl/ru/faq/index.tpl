@@ -1,5 +1,47 @@
 {strip}
 {include file='header.tpl' title='FAQ'}
+	<style>
+		.wrap_parent {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			display: none;
+			background: rgba(0,0,0,.8);
+			top: 0;
+			left: 0;
+			z-index: 9999999;
+		}
+		.wrap_table {
+			width: 100%;
+			height: 100%;
+			display: table;
+			position: absolute;
+		}
+		.wrap_cell {
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+		}
+		.wrap_block {
+			display: inline-block;
+			width: 50%;
+			height: auto;
+			background: #eee;
+			padding: 20px;
+			overflow-y: scroll;
+		}
+		.wrap_parent.wrap_open {
+			display: block;
+		}
+
+		@media screen and (max-width: 1024px) {
+			.wrap_block {
+				width:;
+			}
+		}
+
+
+	</style>
 	<!-- header -->
 	<header class="faq table-section white" id="faq">
 		<div class="top-wrap">
@@ -15,20 +57,6 @@
 							</div>
 							<ul class="horizontal-menu text-right memu-close-768">
                                 {include file='links.el.topmenu.tpl' module='index' text='на главную'}
-
-
-								<li ><a href="{_link module='udp/rules'}">ПУБЛИЧНАЯ ОФЕРТА</a></li>
-                                {*{if _uid()}*}
-                                    {*{include file='links.el.topmenu.tpl' module='cabinet' text=$user.aName}*}
-                                    {*{include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}*}
-                                    {*{if $curr1}*}
-                                        {*{include file='links.element.tpl' module='balance' text='Баланс'}*}
-                                        {*{_z($curr1.wBal, $curr1.cID, 2)}*}
-                                    {*{/if}*}
-                                    {*{include file='links.el.topmenu.tpl' module='account/login' params='out' text='Выход'}*}
-                                {*{else}*}
-									{*<li> <a data-toggle="modal" data-target="#login">вход</a></li>*}
-                                {*{/if}*}
 							</ul>
 						</nav>
 					</div>
@@ -46,55 +74,46 @@
 		</div>
 	</header>
 
-
-    {if $list}
-<div class="table-section" id="qwest">
-	<div class="vertical-middle">
-
-
-		<div class="faq-box text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row">
-	{foreach name=list from=$list key=id item=l}
-
-						<div class="col-md-4">
-							<div class="question" style="cursor: pointer;">
-								<h3>{$l.fQuestion}</h3>
-								<div class=" answer">
-									<small>{$l.fCat}</small><br>
-                                    {$l.fAnswer}
-								</div>
-							</div>
-
-						</div>
-
-
-
-
-	{/foreach}
-						</div>
-					</div>
-				</div>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<ul id="list">
+                    {foreach from=$grup key=k item=i}
+						<li>
+                            {assign var="groups" value=$k}
+							<h3>{$groups}</h3>
+							<ul>
+                                {foreach from=$i item=ie}
+									<li>
+										<a href="#" data-toggle="modal" data-target="#answer">{$ie.fQuestion}</a>
+										<div class="wrap_parent">
+											<div class="wrap_table">
+												<div class="wrap_cell">
+													<div class="wrap_block">
+														<header>
+															<h4>{$groups}</h4>
+															<hr>
+														</header>
+														<div class="content">
+															<h4 class="text-left">{$ie.fQuestion}</h4>
+															<p>{$ie.fAnswer}</p>
+														</div>
+														<footer>
+															<a href="#" class="btn btn-warning" >close</a>
+														</footer>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+                                {/foreach}
+							</ul>
+						</li>
+                    {/foreach}
+				</ul>
 			</div>
 		</div>
 	</div>
-</div>
-	{include file='pl.tpl'}
-	<br>
-{/if}
-
-<script type="text/javascript">
-	$('.answer').hide();
-	$('.question').click(
-		function()
-		{
-			$('.answer').slideToggle();
-	    }
-	);
-</script>
 
 {include file='footer.tpl'}
 {/strip}

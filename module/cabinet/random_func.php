@@ -2,9 +2,10 @@
 $_auth = 1;require_once('module/auth.php');
 $rand = $_POST['rand'];
 
-if ($db->update('Plans',array('pPerc' => $rand), 'pPerc', 'pID=?','1')) {
+if ($db->update('Plans',['pPerc' => $rand], 'pPerc', 'pID=?','1')) {
     header('Refresh: 0; url=http://2017grand-lottery2018.org/deposit?add');
     echo "ok";
+
 } else {
     echo "Error updating record: ";
 }

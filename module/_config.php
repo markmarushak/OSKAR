@@ -5,6 +5,8 @@ $_rwlinks = array(
 	'cabinet' => array('cabinet'), // user home paged
 	'cabinet/random_func' => array('random'), // user home paged
 
+    'message/newMail' => array('mailer'), // тех поддержка
+
 	'system' => array('interface'), // select interface
 	'ajax' => array('ajax'),
     

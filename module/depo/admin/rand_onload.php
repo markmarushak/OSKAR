@@ -1,1 +1,8 @@
-<?php$min = $_POST['min'];$max = $_POST['max'];if ($query_1 = $db->update('Random',$min,'number','',0)){    die(1);}$query_2 = "UPDATE Random SET number=$max WHERE id=2";if ($db->query($query_1) === TRUE && $db->query($query_2) === TRUE) {    echo "ok";}else{    echo "no";}
+<?php
+$auth=90;
+require_once ('module/auth.php');
+$min = $_POST['min'];
+$max = $_POST['max'];
+
+$db->update('Random', ['number'=>$min],'','name=?','min');
+$db->update('Random', ['number'=>$max],'','name=?','max');

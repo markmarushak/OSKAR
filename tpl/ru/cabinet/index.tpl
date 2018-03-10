@@ -8,14 +8,27 @@
 {*{include file='balance/_stat.tpl'}*}
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
-        <div class="top-wrap">
+        <div class="top-wrap" id="top-wrap">
             <div class="container ">
                 <div class="row">
                     <div class="col-md-12 col-sm-10">
                         <nav class="top-menu" id="top-menu">
-                          <!--  <div class="logo">
-                                <span></span>
-                            </div>   -->
+                            <div class="name-is-cabinet">
+                                <ul>
+                                    <li>
+                                        <span>
+                                            <i>Личный кабинет : </i>
+                                            {$user.aName}
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i>Ваши средства : </i>
+                                            <b>{$curr1.wBal}</b>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="button_nav_open">
                                 <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
                             </div>
@@ -26,12 +39,12 @@
                                 elements=[
                                 ['balance', 'Финансы / Вывод / Пополнение', 'count'=>$count_opers],
 
-                                ['refsys', 'Моя Баунти Ссылка / Рефбэк - 10%', 'skip'=>!$_cfg.Ref_Word],
+                                ['refsys', 'Баунти', 'skip'=>!$_cfg.Ref_Word],
                                 ['balance/wallets', 'Платежные реквизиты']
                                 ]}
 
                                <!-- <li><a href="{_link module='udp/about'}">История</a></li> -->
-                                <li><a href="{_link module='account'}">Мои настройки</a></li>
+                                <li><a href="{_link module='account'}">настройки</a></li>
                                 {include file='links.el.topmenu.tpl' module='index/index' params='out' text='на главную'}
                             </ul>
                         </nav>
@@ -41,27 +54,8 @@
         </div>
 
         <div class="vertical-middle main-text">
-            {*<div class="item-text">*}
-                {*{if $list}*}
-                    {*<table class="table cabinet-table table-hover">*}
-                        {*<thead>*}
-                            {*<tr>*}
-                                {*<th class="text-center">Пользователь</th>*}
-                                {*<th class="text-center">Сумма депозитов</th>*}
-                            {*</tr>*}
-                        {*</thead>*}
-                        {*{foreach from=$list key=i  item=r }*}
-                            {*{if $r.RSUM}*}
-                                    {*<tr>*}
-                                        {*<td>{$r.uLogin}</td>*}
-                                        {*<td>{_z($r.RSUM, 1)}</td>*}
-                                    {*</tr>*}
-                            {*{/if}*}
-                        {*{/foreach}*}
-                    {*</table>*}
-                {*{/if}*}
-            {*</div>*}
             <div class="item-button-top cabinet-next">
+
                 {if $curr1.wBal > 100}
                     <form action="{_link module='cabinet/random_func'}" method="post">
                         {assign var=x value=0}
