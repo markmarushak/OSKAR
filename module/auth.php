@@ -187,6 +187,7 @@ if ($_smode < 2) // user mode
 	setPage('current_lang', $_GS['lang']);
 	setPage('img_path', 'images/' . $_GS['lang'] . '/');
 	setPage('css_path', 'css/' . $_GS['lang'] . '/');
+	setPage('video_path', 'video/'. $_GS['lang'] . '/');
 	
 	@include_once($_GS['module_dir'] . 'udf.php');
 	function _updateUserCounters()

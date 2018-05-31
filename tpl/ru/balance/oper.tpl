@@ -7,7 +7,7 @@
 	<div class="header-section">
 		<ul class="depo_btn oper-fot-btn">
             {if _uid()}
-				<li><a href="{_link module="cabinet"}">Назад &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+				<li><a href="{_link module="balance"}">Назад &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
             {/if}
 		</ul>
 	</div>

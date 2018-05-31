@@ -26,9 +26,11 @@
 
 		<link rel="stylesheet" href="assets/css/media.css?={$rand_css}">
 
+		<link rel="stylesheet" href="assets/lib/animate/animate.css">
+
 
 		<!-- Custom Fonts -->
-		<link href="assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+		<link href="assets/lib/fontawesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 
 
 		<link rel="stylesheet" href="assets/lib/OwlCarousel/owl.carousel.min.css">

@@ -14,12 +14,13 @@
     .horizontal-menu li {
         display: inline-block;}
     .top-wrap ul li a {
-        color: #fff;
+        color: #eee;
         text-decoration: none;
         display: block;
         text-transform: uppercase;
         padding:10px 15px;
         font-size: 1.1rem;
+        transition:  all .5s;
         border-bottom:1px solid transparent;
     }
     .top-wrap ul li a:hover,
@@ -231,6 +232,17 @@
         padding:0;
         margin-top:-30px;
     }
+    /* cabinet */
+    .name-is-cabinet .logo-cabinet,
+    .name-is-cabinet ul
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding:0;
+        position: relative;
+    }
+
     body .section-1 {
         padding: 40px 30px;
     }
@@ -252,36 +264,7 @@
     .item-text h2 {
         font-size:1.4rem;
     }
-    /*#header.header .top-wrap::after {*/
-        /*content: "Защита от DDoS";*/
-        /*position: absolute;*/
-        /*top: 30px;*/
-        /*left: -140px;*/
-        /*font-size: 11px;*/
-        /*background: rgb(254, 209, 54);*/
-        /*border-bottom: 1px solid #fed136;*/
-        /*display: block;*/
-        /*z-index: 100;*/
-        /*width: 370px;*/
-        /*color: #333;*/
-        /*transform: rotate(-45deg);*/
-        /*text-align: center;*/
-    /*}*/
-    /*.header .top-wrap::before {*/
-        /*content: "SSl Защита";*/
-        /*position: absolute;*/
-        /*top: 30px;*/
-        /*right: -140px;*/
-        /*font-size: 11px;*/
-        /*background: rgb(254, 209, 54);*/
-        /*border-bottom: 1px solid #fed136;*/
-        /*display: block;*/
-        /*z-index: 100;*/
-        /*width: 370px;*/
-        /*color: #333;*/
-        /*transform: rotate(45deg);*/
-        /*text-align: center;*/
-    /*}*/
+
     .top-menu {
         top: 10rem;
     }

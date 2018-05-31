@@ -8,6 +8,9 @@ $id_field = 'dID';
 $uid_field = 'duID';
 $out_link = moduleToLink('depo');
 
+setPage('coin',$_SESSION['coin_as_money']);
+setPage('get_bg',$db->fetch1Row($db->select('game_bg','bg','groups=?', $_SESSION['groups_main'])));
+
 try 
 {
 
@@ -52,9 +55,12 @@ catch (Exception $e)
 {
 }
 
+
+
 if (!isset($_GET['add']))
 {
-	if (_GETN('id'))
+
+    if (_GETN('id'))
 		$el = $db->fetch1Row($db->select("$table LEFT JOIN Currs ON cID=dcID LEFT JOIN Plans ON pID=dpID", 
 			'*', "$id_field=?d and $uid_field=?d", array(_GETN('id'), _uid())));
 	if (!$el)
@@ -74,7 +80,8 @@ if (!isset($_GET['add']))
 }
 else
 {
-	if (!$_cfg['Const_IntCurr'])
+
+    if (!$_cfg['Const_IntCurr'])
 	{
 		setPage('currs', $_currs);
 		$list = array();

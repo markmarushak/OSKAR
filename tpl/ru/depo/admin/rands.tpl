@@ -1,5 +1,5 @@
 {strip}
-{include file='admin/header.tpl' title='Статистика'}
+{include file='admin/header.tpl' title='Рандомы'}
 <div class="info-rand"></div>
 <ul type="none" id="blok-info-rand">
 {foreach from=$list key=$value item=i}

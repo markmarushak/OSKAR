@@ -6,6 +6,9 @@
 {*{include file='balance/_bal.tpl'}*}
 {*<br><br>*}
 {*{include file='balance/_stat.tpl'}*}
+{assign var=min value=$min.number}
+{assign var=max value=$max.number}
+{assign var=result value=$min+mt_rand()/mt_getrandmax()*($max-$min)}
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
         <div class="top-wrap" id="top-wrap">
@@ -14,6 +17,7 @@
                     <div class="col-md-12 col-sm-10">
                         <nav class="top-menu" id="top-menu">
                             <div class="name-is-cabinet">
+                                <span class="logo-cabinet"><h1>4U - </h1><h2> four you <i class="fab fa-gratipay"></i></h2></span>
                                 <ul>
                                     <li>
                                         <span>
@@ -23,7 +27,7 @@
                                     </li>
                                     <li>
                                         <span>
-                                            <i>Ваши средства : </i>
+                                            <i>Игровой баланс : </i>
                                             <b>{$curr1.wBal}</b>
                                         </span>
                                     </li>
@@ -34,18 +38,20 @@
                             </div>
                             <ul class="horizontal-menu text-right memu-close-768">
 
-                                {include file='menu.tpl'
-                                class='mainMenu'
-                                elements=[
-                                ['balance', 'Финансы / Вывод / Пополнение', 'count'=>$count_opers],
+                                {*{include file='menu.tpl'*}
+                                {*class='mainMenu'*}
+                                {*elements=[*}
+                                {*['balance', 'Финансы / Вывод / Пополнение', 'count'=>$count_opers],*}
 
-                                ['refsys', 'Баунти', 'skip'=>!$_cfg.Ref_Word],
-                                ['balance/wallets', 'Платежные реквизиты']
-                                ]}
-
+                                {*['refsys', 'Баунти', 'skip'=>!$_cfg.Ref_Word],*}
+                                {*['balance/wallets', 'Платежные реквизиты']*}
+                                {*]}*}
+                                <li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы / Вывод / Пополнение</a></li>
+                                <li><a href="{_link module='refsys'}"><i class="fas fa-gift"></i>&nbsp; Баунти</a></li>
+                                <li><a href="{_link module='balance/wallets'}"><i class="fas fa-credit-card"></i>&nbsp;Платежные реквизиты</a></li>
                                <!-- <li><a href="{_link module='udp/about'}">История</a></li> -->
-                                <li><a href="{_link module='account'}">настройки</a></li>
-                                {include file='links.el.topmenu.tpl' module='index/index' params='out' text='на главную'}
+                                <li><a href="{_link module='account'}"><i class="fas fa-cog"></i>&nbsp; настройки</a></li>
+                                <li><a href="{_link module='index/home'}"><i class="fas fa-home"></i>&nbsp; на главную</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -56,20 +62,26 @@
         <div class="vertical-middle main-text">
             <div class="item-button-top cabinet-next">
 
-                {if $curr1.wBal > 100}
-                    <form action="{_link module='cabinet/random_func'}" method="post">
-                        {assign var=x value=0}
-                        {assign var=a value=$r_min.number}
-                        {assign var=b value=$r_max.number}
-                        <input name="rand" type="hidden" value="{math equation= 'x = rand(a,b)'  x=$x a=$a b=$b}">
-                        <input type="submit" value="Играть еще" class="button-green">
+                {if $curr1.wBal > 1}
+                    <form action="{_link module='cabinet/group_menu'}" method="post">
+                        <input name="rand" type="hidden" value="{$result}">
+                        <div>
+                            <input id="game_onstar" type="submit" value=" " class="button-green">
+                            <label for="game_onstar">Ирать еще</label>
+                        </div>
                     </form>
                 {else}
-                    <a href="{_link module='balance/oper'}?add=CASHIN" class="button-green">Пополнить</a>
+                    <div class="cashin">
+                        <label for="cash_id"></label>
+                        <a id="cash_id" href="{_link module='balance/oper'}?add=CASHIN" class="button-green">Пополнить</a>
+                    </div>
                 {/if}
 
 
-                <a class="m-gren" href="{_link module="review"}">онлайн чат</a>
+               <div class="to_chat">
+                   <label for="online_chat"></label>
+                   <a id="online_chat" class="m-gren" href="{_link module="review"}">онлайн чат</a>
+               </div>
             </div>
 
         </div>

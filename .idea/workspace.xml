@@ -2,24 +2,534 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f09e0c-ce0c-4115-b584-c56b64750828" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/game-player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/cabinet/admin/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/index/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/ru/cabinet/admin/index.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/ru/cabinet/admin/setting.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/ru/index/home.tpl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.well-known/pki-validation/280146570DDB63714F9C6BA039FE84BC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017grand-lottery2018.org.lic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs3.com.lic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/index/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/personalCabinet.jpg" afterPath="$PROJECT_DIR$/assets/img/personalCabinet.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.php" afterPath="$PROJECT_DIR$/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/account.css" afterPath="$PROJECT_DIR$/assets/css/account.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/cabinet.css" afterPath="$PROJECT_DIR$/assets/css/cabinet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/font.css" afterPath="$PROJECT_DIR$/assets/css/font.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/form.css" afterPath="$PROJECT_DIR$/assets/css/form.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/media.css" afterPath="$PROJECT_DIR$/assets/css/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/assets/css/stylish-portfolio.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/common.js" afterPath="$PROJECT_DIR$/assets/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/yandex_metrica.js" afterPath="$PROJECT_DIR$/assets/js/yandex_metrica.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.carousel.min.css" afterPath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.carousel.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.theme.default.css" afterPath="$PROJECT_DIR$/assets/lib/OwlCarousel/owl.theme.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/bootstrap/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/lib/bootstrap/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/bootstrap/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/lib/bootstrap/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/lib/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/lib/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/lib/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cron.php" afterPath="$PROJECT_DIR$/cron.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config.php" afterPath="$PROJECT_DIR$/module/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/_footer.php" afterPath="$PROJECT_DIR$/module/_config/_footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/_header.php" afterPath="$PROJECT_DIR$/module/_config/_header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/index.php" afterPath="$PROJECT_DIR$/module/_config/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/install.php" afterPath="$PROJECT_DIR$/module/_config/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/login.php" afterPath="$PROJECT_DIR$/module/_config/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/modules.php" afterPath="$PROJECT_DIR$/module/_config/modules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/pass" afterPath="$PROJECT_DIR$/module/_config/pass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/pass.php" afterPath="$PROJECT_DIR$/module/_config/pass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/setup.php" afterPath="$PROJECT_DIR$/module/_config/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/_config/update.php" afterPath="$PROJECT_DIR$/module/_config/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/admin/setup.php" afterPath="$PROJECT_DIR$/module/account/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/admin/user.php" afterPath="$PROJECT_DIR$/module/account/admin/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/admin/user2.php" afterPath="$PROJECT_DIR$/module/account/admin/user2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/admin/users.php" afterPath="$PROJECT_DIR$/module/account/admin/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/change_mail/index.php" afterPath="$PROJECT_DIR$/module/account/change_mail/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/change_mail/lib.php" afterPath="$PROJECT_DIR$/module/account/change_mail/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/change_pass/index.php" afterPath="$PROJECT_DIR$/module/account/change_pass/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/index.php" afterPath="$PROJECT_DIR$/module/account/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/login/index.php" afterPath="$PROJECT_DIR$/module/account/login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/login/lib.php" afterPath="$PROJECT_DIR$/module/account/login/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/login/login.php" afterPath="$PROJECT_DIR$/module/account/login/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/loginza/index.php" afterPath="$PROJECT_DIR$/module/account/loginza/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/register/ajax.php" afterPath="$PROJECT_DIR$/module/account/register/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/register/index.php" afterPath="$PROJECT_DIR$/module/account/register/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/register/lib.php" afterPath="$PROJECT_DIR$/module/account/register/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/register/register.php" afterPath="$PROJECT_DIR$/module/account/register/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/reset_pass/index.php" afterPath="$PROJECT_DIR$/module/account/reset_pass/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/account/reset_pass/lib.php" afterPath="$PROJECT_DIR$/module/account/reset_pass/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/index.php" afterPath="$PROJECT_DIR$/module/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/onstart.php" afterPath="$PROJECT_DIR$/module/admin/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/setup.php" afterPath="$PROJECT_DIR$/module/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ajax/index.php" afterPath="$PROJECT_DIR$/module/ajax/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ajax/onload.php" afterPath="$PROJECT_DIR$/module/ajax/onload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/auth.php" afterPath="$PROJECT_DIR$/module/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/curr.php" afterPath="$PROJECT_DIR$/module/balance/admin/curr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/currs.php" afterPath="$PROJECT_DIR$/module/balance/admin/currs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/keeper.php" afterPath="$PROJECT_DIR$/module/balance/admin/keeper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/oper.php" afterPath="$PROJECT_DIR$/module/balance/admin/oper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/opers.php" afterPath="$PROJECT_DIR$/module/balance/admin/opers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/setup.php" afterPath="$PROJECT_DIR$/module/balance/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/admin/ym_api_token.php" afterPath="$PROJECT_DIR$/module/balance/admin/ym_api_token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/ajax.php" afterPath="$PROJECT_DIR$/module/balance/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/index.php" afterPath="$PROJECT_DIR$/module/balance/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/lib.php" afterPath="$PROJECT_DIR$/module/balance/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/oncron.php" afterPath="$PROJECT_DIR$/module/balance/oncron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/onload.php" afterPath="$PROJECT_DIR$/module/balance/onload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/oper.php" afterPath="$PROJECT_DIR$/module/balance/oper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/status.php" afterPath="$PROJECT_DIR$/module/balance/status.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/balance/wallets.php" afterPath="$PROJECT_DIR$/module/balance/wallets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cabinet/group_menu.php" afterPath="$PROJECT_DIR$/module/cabinet/group_menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cabinet/index.php" afterPath="$PROJECT_DIR$/module/cabinet/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cabinet/random_func.php" afterPath="$PROJECT_DIR$/module/cabinet/random_func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/calendar/admin/day.php" afterPath="$PROJECT_DIR$/module/calendar/admin/day.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/calendar/admin/days.php" afterPath="$PROJECT_DIR$/module/calendar/admin/days.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/calendar/lib.php" afterPath="$PROJECT_DIR$/module/calendar/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/default/index.php" afterPath="$PROJECT_DIR$/module/captcha/default/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/default/onstart.php" afterPath="$PROJECT_DIR$/module/captcha/default/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/default/type1.php" afterPath="$PROJECT_DIR$/module/captcha/default/type1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/default/type2.php" afterPath="$PROJECT_DIR$/module/captcha/default/type2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/default/type3.php" afterPath="$PROJECT_DIR$/module/captcha/default/type3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/index.php" afterPath="$PROJECT_DIR$/module/captcha/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/onstart.php" afterPath="$PROJECT_DIR$/module/captcha/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/recaptcha/onstart.php" afterPath="$PROJECT_DIR$/module/captcha/recaptcha/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/recaptcha/recaptchalib.php" afterPath="$PROJECT_DIR$/module/captcha/recaptcha/recaptchalib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/captcha/setup.php" afterPath="$PROJECT_DIR$/module/captcha/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/confirm/admin/setup.php" afterPath="$PROJECT_DIR$/module/confirm/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/confirm/index.php" afterPath="$PROJECT_DIR$/module/confirm/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/confirm/lib.php" afterPath="$PROJECT_DIR$/module/confirm/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cron/admin/setup.php" afterPath="$PROJECT_DIR$/module/cron/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/cron/index.php" afterPath="$PROJECT_DIR$/module/cron/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/custom/admin/page.php" afterPath="$PROJECT_DIR$/module/custom/admin/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/custom/admin/pages.php" afterPath="$PROJECT_DIR$/module/custom/admin/pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/custom/index.php" afterPath="$PROJECT_DIR$/module/custom/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/db/auto_check/_dbcheck.php" afterPath="$PROJECT_DIR$/module/db/auto_check/_dbcheck.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/dbinit.php" afterPath="$PROJECT_DIR$/module/dbinit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/charge.php" afterPath="$PROJECT_DIR$/module/depo/admin/charge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/depo.php" afterPath="$PROJECT_DIR$/module/depo/admin/depo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/depos.php" afterPath="$PROJECT_DIR$/module/depo/admin/depos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/plan.php" afterPath="$PROJECT_DIR$/module/depo/admin/plan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/plans.php" afterPath="$PROJECT_DIR$/module/depo/admin/plans.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/rand_onload.php" afterPath="$PROJECT_DIR$/module/depo/admin/rand_onload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/rands.php" afterPath="$PROJECT_DIR$/module/depo/admin/rands.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/setup.php" afterPath="$PROJECT_DIR$/module/depo/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/admin/stat.php" afterPath="$PROJECT_DIR$/module/depo/admin/stat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/calc.php" afterPath="$PROJECT_DIR$/module/depo/calc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/depo.php" afterPath="$PROJECT_DIR$/module/depo/depo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/index.php" afterPath="$PROJECT_DIR$/module/depo/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/lastin.php" afterPath="$PROJECT_DIR$/module/depo/lastin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/lastout.php" afterPath="$PROJECT_DIR$/module/depo/lastout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/lib.php" afterPath="$PROJECT_DIR$/module/depo/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/oncron.php" afterPath="$PROJECT_DIR$/module/depo/oncron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/onload.php" afterPath="$PROJECT_DIR$/module/depo/onload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/onstart.php" afterPath="$PROJECT_DIR$/module/depo/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/top.php" afterPath="$PROJECT_DIR$/module/depo/top.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/depo/topin.php" afterPath="$PROJECT_DIR$/module/depo/topin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/admin/faq.php" afterPath="$PROJECT_DIR$/module/faq/admin/faq.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/admin/faqs.php" afterPath="$PROJECT_DIR$/module/faq/admin/faqs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/admin/setup.php" afterPath="$PROJECT_DIR$/module/faq/admin/setup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/index.php" afterPath="$PROJECT_DIR$/module/faq/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/lib.php" afterPath="$PROJECT_DIR$/module/faq/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/faq/onstart.php" afterPath="$PROJECT_DIR$/module/faq/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/files/lib.php" afterPath="$PROJECT_DIR$/module/files/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/lib.php" afterPath="$PROJECT_DIR$/module/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/admin/message.php" afterPath="$PROJECT_DIR$/module/message/admin/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/admin/messages.php" afterPath="$PROJECT_DIR$/module/message/admin/messages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/admin/setup.php" afterPath="$PROJECT_DIR$/module/message/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/index.php" afterPath="$PROJECT_DIR$/module/message/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/lib.php" afterPath="$PROJECT_DIR$/module/message/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/outbox.php" afterPath="$PROJECT_DIR$/module/message/outbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/show.php" afterPath="$PROJECT_DIR$/module/message/show.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/message/support.php" afterPath="$PROJECT_DIR$/module/message/support.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/admin/news.php" afterPath="$PROJECT_DIR$/module/news/admin/news.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/admin/newses.php" afterPath="$PROJECT_DIR$/module/news/admin/newses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/admin/setup.php" afterPath="$PROJECT_DIR$/module/news/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/index.php" afterPath="$PROJECT_DIR$/module/news/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/lib.php" afterPath="$PROJECT_DIR$/module/news/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/onstart.php" afterPath="$PROJECT_DIR$/module/news/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/news/show.php" afterPath="$PROJECT_DIR$/module/news/show.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/refsys/admin/___user.php" afterPath="$PROJECT_DIR$/module/refsys/admin/___user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/refsys/admin/setup.php" afterPath="$PROJECT_DIR$/module/refsys/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/refsys/index.php" afterPath="$PROJECT_DIR$/module/refsys/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/refsys/onload.php" afterPath="$PROJECT_DIR$/module/refsys/onload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/review/admin/index.php" afterPath="$PROJECT_DIR$/module/review/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/review/admin/setup.php" afterPath="$PROJECT_DIR$/module/review/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/review/index.php" afterPath="$PROJECT_DIR$/module/review/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/review/lib.php" afterPath="$PROJECT_DIR$/module/review/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/review/onstart.php" afterPath="$PROJECT_DIR$/module/review/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/admin/index.php" afterPath="$PROJECT_DIR$/module/sms/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/admin/send.php" afterPath="$PROJECT_DIR$/module/sms/admin/send.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/admin/setup.php" afterPath="$PROJECT_DIR$/module/sms/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/ePochta/lib.php" afterPath="$PROJECT_DIR$/module/sms/ePochta/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/lib.php" afterPath="$PROJECT_DIR$/module/sms/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/no/lib.php" afterPath="$PROJECT_DIR$/module/sms/no/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/oncron.php" afterPath="$PROJECT_DIR$/module/sms/oncron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/smspilot/lib.php" afterPath="$PROJECT_DIR$/module/sms/smspilot/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/sms/smspilot/smspilot.class.php" afterPath="$PROJECT_DIR$/module/sms/smspilot/smspilot.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/admin/setup_mail.php" afterPath="$PROJECT_DIR$/module/system/admin/setup_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/admin/setup_main.php" afterPath="$PROJECT_DIR$/module/system/admin/setup_main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/admin/setup_sec.php" afterPath="$PROJECT_DIR$/module/system/admin/setup_sec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/admin/setup_ui.php" afterPath="$PROJECT_DIR$/module/system/admin/setup_ui.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/index.php" afterPath="$PROJECT_DIR$/module/system/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/system/onstart.php" afterPath="$PROJECT_DIR$/module/system/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/admin/index.php" afterPath="$PROJECT_DIR$/module/tickets/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/admin/setup.php" afterPath="$PROJECT_DIR$/module/tickets/admin/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/admin/ticket.php" afterPath="$PROJECT_DIR$/module/tickets/admin/ticket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/index.php" afterPath="$PROJECT_DIR$/module/tickets/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/lib.php" afterPath="$PROJECT_DIR$/module/tickets/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/newticket.php" afterPath="$PROJECT_DIR$/module/tickets/newticket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/tickets/ticket.php" afterPath="$PROJECT_DIR$/module/tickets/ticket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/udf.php" afterPath="$PROJECT_DIR$/module/udf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/udp/about.php" afterPath="$PROJECT_DIR$/module/udp/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/udp/intro.php" afterPath="$PROJECT_DIR$/module/udp/intro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/udp/rules.php" afterPath="$PROJECT_DIR$/module/udp/rules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/widget/clock/onstart.php" afterPath="$PROJECT_DIR$/module/widget/clock/onstart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/user.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/user.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/user2.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/user2.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/users.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/users.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/admin/users.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/admin/users.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/change_mail/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/change_mail/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/change_pass/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/change_pass/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/login/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/login/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/loginza/box.small.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/loginza/box.small.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/loginza/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/loginza/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/loginza/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/loginza/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/register/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/register/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/account/reset_pass/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/account/reset_pass/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/admin/footer.tpl" afterPath="$PROJECT_DIR$/tpl/en/admin/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/admin/header.tpl" afterPath="$PROJECT_DIR$/tpl/en/admin/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/admin/line.module.tpl" afterPath="$PROJECT_DIR$/tpl/en/admin/line.module.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/admin/module.block.tpl" afterPath="$PROJECT_DIR$/tpl/en/admin/module.block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_bal.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_bal.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_oper.data.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_oper.data.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_oper.js.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_oper.js.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_oper.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_pform.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_pform.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_stat.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/curr.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/curr.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/currs.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/currs.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/currs.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/currs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/keeper.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/keeper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/oper.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/opers.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/opers.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/opers.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/opers.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/bal.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/bal.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/oper.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/balance/wallets.tpl" afterPath="$PROJECT_DIR$/tpl/en/balance/wallets.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/cabinet/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/cabinet/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/calendar/admin/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/en/calendar/admin/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/calendar/admin/day.tpl" afterPath="$PROJECT_DIR$/tpl/en/calendar/admin/day.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/calendar/admin/days.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/calendar/admin/days.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/calendar/admin/days.tpl" afterPath="$PROJECT_DIR$/tpl/en/calendar/admin/days.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/captcha.tpl" afterPath="$PROJECT_DIR$/tpl/en/captcha.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/captcha/default/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/captcha/default/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/captcha/recaptcha/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/captcha/recaptcha/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/captcha/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/captcha/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/confirm/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/confirm/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/confirm/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/confirm/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/counters.tpl" afterPath="$PROJECT_DIR$/tpl/en/counters.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/cron/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/cron/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/custom/admin/page.tpl" afterPath="$PROJECT_DIR$/tpl/en/custom/admin/page.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/custom/admin/pages.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/custom/admin/pages.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/custom/admin/pages.tpl" afterPath="$PROJECT_DIR$/tpl/en/custom/admin/pages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/custom/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/custom/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/_depo.admin.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/_depo.admin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/_depo.interval.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/_depo.interval.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/_depo.new.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/_depo.new.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/_depo.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/_depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/charge.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/charge.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/charge.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/charge.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/depo.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/depos.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/depos.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/depos.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/depos.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/plan.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/plan.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/plans.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/plans.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/plans.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/plans.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/admin/stat.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/admin/stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/block.stat.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/block.stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/calc.box.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/calc.box.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/calc.result.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/calc.result.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/calc.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/calc.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/depo.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/lastin.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/lastin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/lastout.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/lastout.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/top.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/depo/topin.tpl" afterPath="$PROJECT_DIR$/tpl/en/depo/topin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.begin.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.begin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.block.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.end.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.end.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.info.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/edit.tpl" afterPath="$PROJECT_DIR$/tpl/en/edit.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/err.tpl" afterPath="$PROJECT_DIR$/tpl/en/err.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/admin/faq.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/admin/faq.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/admin/faqs.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/admin/faqs.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/admin/faqs.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/admin/faqs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/block.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/faq/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/faq/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/footer.tpl" afterPath="$PROJECT_DIR$/tpl/en/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/header.tpl" afterPath="$PROJECT_DIR$/tpl/en/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/index/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/index/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/info.messages.tpl" afterPath="$PROJECT_DIR$/tpl/en/info.messages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/info.tpl" afterPath="$PROJECT_DIR$/tpl/en/info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/line.bottom.tpl" afterPath="$PROJECT_DIR$/tpl/en/line.bottom.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/line.main.tpl" afterPath="$PROJECT_DIR$/tpl/en/line.main.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/line.top.tpl" afterPath="$PROJECT_DIR$/tpl/en/line.top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/links.element.tpl" afterPath="$PROJECT_DIR$/tpl/en/links.element.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/links.tpl" afterPath="$PROJECT_DIR$/tpl/en/links.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/list.tpl" afterPath="$PROJECT_DIR$/tpl/en/list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/menu.element.tpl" afterPath="$PROJECT_DIR$/tpl/en/menu.element.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/menu.tpl" afterPath="$PROJECT_DIR$/tpl/en/menu.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/admin/message.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/admin/message.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/admin/messages.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/admin/messages.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/admin/messages.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/admin/messages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/outbox.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/outbox.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/outbox.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/outbox.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/show.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/show.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/message/support.tpl" afterPath="$PROJECT_DIR$/tpl/en/message/support.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/admin/news.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/admin/news.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/admin/newses.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/admin/newses.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/admin/newses.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/admin/newses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/block.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/news/show.tpl" afterPath="$PROJECT_DIR$/tpl/en/news/show.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/panel.bottom.tpl" afterPath="$PROJECT_DIR$/tpl/en/panel.bottom.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/panel.left.tpl" afterPath="$PROJECT_DIR$/tpl/en/panel.left.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/panel.right.tpl" afterPath="$PROJECT_DIR$/tpl/en/panel.right.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/panel.top.tpl" afterPath="$PROJECT_DIR$/tpl/en/panel.top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/pl.tpl" afterPath="$PROJECT_DIR$/tpl/en/pl.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/refsys/_refs.tpl" afterPath="$PROJECT_DIR$/tpl/en/refsys/_refs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/refsys/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/refsys/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/refsys/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/refsys/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/review/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/review/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/review/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/review/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/review/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/review/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/review/block.tpl" afterPath="$PROJECT_DIR$/tpl/en/review/block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/review/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/review/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sms/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/en/sms/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sms/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/sms/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sms/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/sms/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sms/admin/send.tpl" afterPath="$PROJECT_DIR$/tpl/en/sms/admin/send.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sms/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/sms/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/sqa.tpl" afterPath="$PROJECT_DIR$/tpl/en/sqa.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/system/admin/setup_mail.tpl" afterPath="$PROJECT_DIR$/tpl/en/system/admin/setup_mail.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/system/admin/setup_main.tpl" afterPath="$PROJECT_DIR$/tpl/en/system/admin/setup_main.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/system/admin/setup_sec.tpl" afterPath="$PROJECT_DIR$/tpl/en/system/admin/setup_sec.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/system/admin/setup_ui.tpl" afterPath="$PROJECT_DIR$/tpl/en/system/admin/setup_ui.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/_states.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/_states.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/admin/ticket.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/admin/ticket.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/tickets/ticket.tpl" afterPath="$PROJECT_DIR$/tpl/en/tickets/ticket.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/udp/about.tpl" afterPath="$PROJECT_DIR$/tpl/en/udp/about.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/udp/intro.tpl" afterPath="$PROJECT_DIR$/tpl/en/udp/intro.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/udp/rules.tpl" afterPath="$PROJECT_DIR$/tpl/en/udp/rules.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/en/widget/clock/index.tpl" afterPath="$PROJECT_DIR$/tpl/en/widget/clock/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/user.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/user.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/user2.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/user2.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/users.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/users.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/admin/users.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/admin/users.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/change_mail/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/change_mail/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/change_pass/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/change_pass/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/login/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/login/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/login/login.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/login/login.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/loginza/box.small.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/loginza/box.small.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/loginza/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/loginza/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/loginza/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/loginza/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/register/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/register/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/register/register.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/register/register.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/account/reset_pass/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/account/reset_pass/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/admin/footer.tpl" afterPath="$PROJECT_DIR$/tpl/ru/admin/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/admin/header.tpl" afterPath="$PROJECT_DIR$/tpl/ru/admin/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/admin/line.module.tpl" afterPath="$PROJECT_DIR$/tpl/ru/admin/line.module.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/admin/module.block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/admin/module.block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_bal.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_bal.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_oper.data.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_oper.data.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_oper.js.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_oper.js.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_oper.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_pform.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_pform.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_stat.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/curr.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/curr.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/currs.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/currs.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/currs.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/currs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/keeper.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/keeper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/oper.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/opers.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/opers.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/opers.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/opers.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/balance/wallets.tpl" afterPath="$PROJECT_DIR$/tpl/ru/balance/wallets.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/calendar/admin/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/calendar/admin/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/calendar/admin/day.tpl" afterPath="$PROJECT_DIR$/tpl/ru/calendar/admin/day.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/calendar/admin/days.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/calendar/admin/days.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/calendar/admin/days.tpl" afterPath="$PROJECT_DIR$/tpl/ru/calendar/admin/days.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/captcha.tpl" afterPath="$PROJECT_DIR$/tpl/ru/captcha.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/captcha/default/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/captcha/default/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/captcha/recaptcha/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/captcha/recaptcha/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/captcha/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/captcha/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/confirm/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/confirm/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/confirm/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/confirm/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/counters.tpl" afterPath="$PROJECT_DIR$/tpl/ru/counters.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/cron/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/cron/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/custom/admin/page.tpl" afterPath="$PROJECT_DIR$/tpl/ru/custom/admin/page.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/custom/admin/pages.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/custom/admin/pages.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/custom/admin/pages.tpl" afterPath="$PROJECT_DIR$/tpl/ru/custom/admin/pages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/custom/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/custom/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_depo.admin.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_depo.admin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_depo.interval.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_depo.interval.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_depo.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_depo.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_depo.new.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_depo.new.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_depo.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/charge.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/charge.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/charge.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/charge.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/depo.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/depos.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/depos.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/depos.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/depos.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/plan.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/plan.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/plans.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/plans.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/plans.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/plans.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/rands.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/rands.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/admin/stat.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/admin/stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/block.stat.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/block.stat.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/calc.box.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/calc.box.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/calc.result.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/calc.result.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/calc.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/calc.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/lastin.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/lastin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/lastout.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/lastout.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/top.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/depo/topin.tpl" afterPath="$PROJECT_DIR$/tpl/ru/depo/topin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.begin.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.begin.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.begin.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.begin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.block.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.block.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.end.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.end.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.end.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.end.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.info.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.info.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.info.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.row.my.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.row.my.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/edit.tpl" afterPath="$PROJECT_DIR$/tpl/ru/edit.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/err.tpl" afterPath="$PROJECT_DIR$/tpl/ru/err.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/admin/faq.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/admin/faq.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/admin/faqs.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/admin/faqs.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/admin/faqs.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/admin/faqs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/block.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/faq/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/faq/index.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/footer.tpl" afterPath="$PROJECT_DIR$/tpl/ru/footer.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/header.tpl" afterPath="$PROJECT_DIR$/tpl/ru/header.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/index/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/info.messages.tpl" afterPath="$PROJECT_DIR$/tpl/ru/info.messages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/info.tpl" afterPath="$PROJECT_DIR$/tpl/ru/info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/line.bottom.tpl" afterPath="$PROJECT_DIR$/tpl/ru/line.bottom.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/line.main.tpl" afterPath="$PROJECT_DIR$/tpl/ru/line.main.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/line.top.tpl" afterPath="$PROJECT_DIR$/tpl/ru/line.top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/links.el.topmenu.tpl" afterPath="$PROJECT_DIR$/tpl/ru/links.el.topmenu.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/links.el.tpl" afterPath="$PROJECT_DIR$/tpl/ru/links.el.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/links.element.tpl" afterPath="$PROJECT_DIR$/tpl/ru/links.element.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/links.tpl" afterPath="$PROJECT_DIR$/tpl/ru/links.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/list.tpl" afterPath="$PROJECT_DIR$/tpl/ru/list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/menu.element.tpl" afterPath="$PROJECT_DIR$/tpl/ru/menu.element.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/menu.tpl" afterPath="$PROJECT_DIR$/tpl/ru/menu.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/admin/message.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/admin/message.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/admin/messages.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/admin/messages.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/admin/messages.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/admin/messages.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/outbox.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/outbox.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/outbox.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/outbox.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/show.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/show.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/message/support.tpl" afterPath="$PROJECT_DIR$/tpl/ru/message/support.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/edit.block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/edit.block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/edit.end.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/edit.end.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/edit.info.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/edit.info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/edit.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/edit.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/reg.begin.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/reg.begin.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/my_register/reg.tpl" afterPath="$PROJECT_DIR$/tpl/ru/my_register/reg.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/admin/news.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/admin/news.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/admin/newses.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/admin/newses.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/admin/newses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/admin/newses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/news/show.tpl" afterPath="$PROJECT_DIR$/tpl/ru/news/show.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/panel.bottom.tpl" afterPath="$PROJECT_DIR$/tpl/ru/panel.bottom.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/panel.left.tpl" afterPath="$PROJECT_DIR$/tpl/ru/panel.left.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/panel.right.tpl" afterPath="$PROJECT_DIR$/tpl/ru/panel.right.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/panel.top.tpl" afterPath="$PROJECT_DIR$/tpl/ru/panel.top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/pl.tpl" afterPath="$PROJECT_DIR$/tpl/ru/pl.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/refsys/_refs.tpl" afterPath="$PROJECT_DIR$/tpl/ru/refsys/_refs.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/refsys/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/refsys/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/refsys/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/refsys/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/review/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/review/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/review/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/review/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/review/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/review/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/review/block.tpl" afterPath="$PROJECT_DIR$/tpl/ru/review/block.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/review/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/review/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sms/_statuses.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sms/_statuses.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sms/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sms/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sms/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sms/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sms/admin/send.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sms/admin/send.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sms/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sms/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/sqa.tpl" afterPath="$PROJECT_DIR$/tpl/ru/sqa.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/system/admin/setup_mail.tpl" afterPath="$PROJECT_DIR$/tpl/ru/system/admin/setup_mail.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/system/admin/setup_main.tpl" afterPath="$PROJECT_DIR$/tpl/ru/system/admin/setup_main.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/system/admin/setup_sec.tpl" afterPath="$PROJECT_DIR$/tpl/ru/system/admin/setup_sec.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/system/admin/setup_ui.tpl" afterPath="$PROJECT_DIR$/tpl/ru/system/admin/setup_ui.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/system/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/system/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/_states.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/_states.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/admin/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/admin/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/admin/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/admin/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/admin/setup.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/admin/setup.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/admin/ticket.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/admin/ticket.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/index.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/index.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/tickets/ticket.tpl" afterPath="$PROJECT_DIR$/tpl/ru/tickets/ticket.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/udp/about.row.tpl" afterPath="$PROJECT_DIR$/tpl/ru/udp/about.row.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/udp/about.tpl" afterPath="$PROJECT_DIR$/tpl/ru/udp/about.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/udp/intro.tpl" afterPath="$PROJECT_DIR$/tpl/ru/udp/intro.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/udp/rules.tpl" afterPath="$PROJECT_DIR$/tpl/ru/udp/rules.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ru/widget/clock/index.tpl" afterPath="$PROJECT_DIR$/tpl/ru/widget/clock/index.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,53 +541,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tpl/ru/faq/index.tpl">
+      <file leaf-file-name="group_search.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/group_search.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/common.js">
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-              <folding>
-                <marker date="1520695690822" expanded="true" signature="1293:1520" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/media.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4301">
-              <caret line="253" column="5" lean-forward="false" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/faq/lib.php">
+      <file leaf-file-name="group_search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/cabinet/group_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+            <state relative-caret-position="272">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/faq/index.php">
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="748">
+              <caret line="53" column="72" lean-forward="false" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/stylish-portfolio.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="1200" column="24" lean-forward="false" selection-start-line="1200" selection-start-column="24" selection-end-line="1200" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="depo.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/depo/depo.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group_menu.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/group_menu.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -90,34 +618,12 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pass</find>
-      <find>prepareStat</find>
-      <find>opDecodeCurrParams</find>
-      <find>showInfo</find>
-      <find>setError</find>
-      <find>set</find>
-      <find>?add</find>
-      <find>КОНТА</find>
-      <find>curr1</find>
-      <find>$debugging</find>
-      <find>$debug_tpl</find>
-      <find>SMARTY_DIR</find>
-      <find>fa-sign-in</find>
-      <find>room</find>
-      <find>.room</find>
-      <find>pre</find>
-      <find>preloa</find>
-      <find>url</find>
-      <find>bott</find>
-      <find>item-butto</find>
-      <find>_menuPanel</find>
-      <find>mainMenu</find>
-      <find>inter</find>
       <find>save</find>
       <find>upda</find>
       <find>update</find>
@@ -125,6 +631,29 @@
       <find>ind</find>
       <find>top-wrap</find>
       <find>#list</find>
+      <find>vk</find>
+      <find>sendForm</find>
+      <find>sendedForm</find>
+      <find>del</find>
+      <find>Выберите сумму участия</find>
+      <find>Выберите</find>
+      <find>cabinet</find>
+      <find>aName</find>
+      <find>group_search</find>
+      <find>name_group</find>
+      <find>cashout</find>
+      <find>user</find>
+      <find>uID</find>
+      <find>ajax</find>
+      <find>deposit</find>
+      <find>form.new</find>
+      <find>$a</find>
+      <find>setting</find>
+      <find>$_GS['demo']</find>
+      <find>$_GS['lang']</find>
+      <find>count</find>
+      <find>res</find>
+      <find>group-</find>
     </findStrings>
     <dirStrings>
       <dir>D:\OpenServer\domains\2017grand-lottery2018.org\assets\lib\font-awesome\fonts</dir>
@@ -136,57 +665,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/account/register/register.php" />
-        <option value="$PROJECT_DIR$/assets/css/account.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/account/index.tpl" />
-        <option value="$PROJECT_DIR$/assets/css/cabinet.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/balance/bal.tpl" />
-        <option value="$PROJECT_DIR$/assets/css/form.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/balance/oper.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/auth.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/onstart.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/setup.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/rw.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/setup_main.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/setup 2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/media.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/balance/admin/setup.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/admin/list.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/admin/index.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/admin/upload.tpl" />
+        <option value="$PROJECT_DIR$/module/index/admin/upload.php" />
+        <option value="$PROJECT_DIR$/module/index/admin/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp37660/public_html/tpl/ru/depo/_depo.new.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/footer.tpl" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/smarty3/debug.tpl" />
-        <option value="$PROJECT_DIR$/smarty3/Smarty.class.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/footer.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/font-awesome.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/stylish-portfolio.css" />
-        <option value="$PROJECT_DIR$/tpl/ru/header.tpl" />
-        <option value="$PROJECT_DIR$/tpl/ru/cabinet/random_func.php" />
-        <option value="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" />
-        <option value="$PROJECT_DIR$/module/cabinet/index.php" />
-        <option value="$PROJECT_DIR$/module/admin/index.php" />
-        <option value="$PROJECT_DIR$/module/admin/onstart.php" />
-        <option value="$PROJECT_DIR$/module/depo/admin/rands.php" />
-        <option value="$PROJECT_DIR$/module/_config.php" />
-        <option value="$PROJECT_DIR$/module/depo/admin/rand_onload.php" />
-        <option value="$PROJECT_DIR$/tpl/ru/depo/admin/rands.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/_config.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/rand_onload.php" />
-        <option value="$PROJECT_DIR$/assets/js/sen-rand.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/random_func.php" />
-        <option value="$PROJECT_DIR$/lib/db.php" />
         <option value="$PROJECT_DIR$/module/cabinet/random_func.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp01598/public_html/module/cabinet/group_search.php" />
+        <option value="$PROJECT_DIR$/module/depo/lastin.php" />
+        <option value="$PROJECT_DIR$/module/depo/lastout.php" />
+        <option value="$PROJECT_DIR$/module/depo/admin/rand_onload.php" />
+        <option value="$PROJECT_DIR$/module/index/prev_index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp37069/public_html/module/cabinet/group_search.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp04413/public_html/assets/js/game-player.js" />
+        <option value="$PROJECT_DIR$/module/depo/lib.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/depo/_depo.new.tpl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp27086/public_html/tpl/ru/depo/depo.tpl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp31355/public_html/module/depo/depo.php" />
+        <option value="$PROJECT_DIR$/module/cabinet/admin/onload.php" />
+        <option value="$PROJECT_DIR$/module/cabinet/admin/index.php" />
+        <option value="$PROJECT_DIR$/module/cabinet/admin/add.php" />
+        <option value="$PROJECT_DIR$/module/cabinet/admin/setting.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/admin/setting_onload.tpl" />
+        <option value="$PROJECT_DIR$/module/cabinet/admin/setting_onload.php" />
+        <option value="$PROJECT_DIR$/assets/js/game-bg.js" />
+        <option value="$PROJECT_DIR$/module/depo/depo.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/prev_index.tpl" />
+        <option value="$PROJECT_DIR$/module/index/home.php" />
         <option value="$PROJECT_DIR$/tpl/ru/cabinet/index.tpl" />
-        <option value="$PROJECT_DIR$/assets/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/admin/setting.tpl" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tpl/ru/index/index.html" />
+        <option value="$PROJECT_DIR$/module/index/index.php" />
+        <option value="$PROJECT_DIR$/module/auth.php" />
         <option value="$PROJECT_DIR$/tpl/ru/index/index.tpl" />
-        <option value="$PROJECT_DIR$/module/faq/index.php" />
-        <option value="$PROJECT_DIR$/module/faq/lib.php" />
-        <option value="$PROJECT_DIR$/assets/css/media.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/admin/index.tpl" />
+        <option value="$PROJECT_DIR$/module/cabinet/group_search.php" />
+        <option value="$PROJECT_DIR$/assets/css/form.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/header.tpl" />
         <option value="$PROJECT_DIR$/assets/js/common.js" />
-        <option value="$PROJECT_DIR$/tpl/ru/faq/index.tpl" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp08892/public_html/tpl/ru/faq/index.tpl" />
+        <option value="$PROJECT_DIR$/module/_config.php" />
+        <option value="$PROJECT_DIR$/module/account/file_load.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/account/index.tpl" />
+        <option value="$PROJECT_DIR$/assets/js/game-player.js" />
+        <option value="$PROJECT_DIR$/module/cabinet/group_menu.php" />
+        <option value="$PROJECT_DIR$/tpl/ru/depo/depo.tpl" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/group_menu.tpl" />
+        <option value="$PROJECT_DIR$/assets/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/tpl/ru/cabinet/group_search.tpl" />
       </list>
     </option>
   </component>
@@ -209,11 +738,11 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php 5.6" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="192" />
-    <option name="width" value="1179" />
-    <option name="height" value="494" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5" />
+    <option name="y" value="-13" />
+    <option name="width" value="1366" />
+    <option name="height" value="416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,51 +760,108 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="faq" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="account" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="balance" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cabinet" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="depo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="2017grand-lottery2018.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017grand-lottery2018.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="account" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cabinet" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cabinet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="depo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="video" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test1.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1.ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="video" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -283,18 +869,24 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfony-blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArtFix.loc" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\2017grand-lottery2018.org\module\cabinet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\test1.ru\video\ru" />
+      <recent name="D:\OpenServer\domains\test1.ru\pre_page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,25 +934,45 @@
       <workItem from="1520248068009" duration="10334000" />
       <workItem from="1520626393985" duration="7389000" />
       <workItem from="1520679333391" duration="15529000" />
-      <workItem from="1520704457713" duration="28000" />
+      <workItem from="1520704457713" duration="9187000" />
+      <workItem from="1520942348265" duration="9009000" />
+      <workItem from="1520968019747" duration="3283000" />
+      <workItem from="1522058397086" duration="5902000" />
+      <workItem from="1522081511120" duration="5924000" />
+      <workItem from="1522164787088" duration="830000" />
+      <workItem from="1522337696330" duration="120000" />
+      <workItem from="1526678000452" duration="2280000" />
+      <workItem from="1526722693654" duration="21047000" />
+      <workItem from="1526764690431" duration="33486000" />
+      <workItem from="1526906591147" duration="19601000" />
+      <workItem from="1526980683512" duration="61248000" />
+      <workItem from="1527243865585" duration="617000" />
+      <workItem from="1527286061136" duration="1355000" />
+      <workItem from="1527337561944" duration="2476000" />
+      <workItem from="1527345815420" duration="18475000" />
+      <workItem from="1527419105662" duration="21115000" />
+      <workItem from="1527501275242" duration="3921000" />
+      <workItem from="1527525463513" duration="894000" />
+      <workItem from="1527619001291" duration="35682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127315000" />
+    <option name="totallyTimeSpent" value="383739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="192" width="1179" height="494" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3121238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2774524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,7 +980,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -380,235 +992,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/admin/depo.tpl">
+    <entry file="file://$PROJECT_DIR$/module/cabinet/admin/setting_onload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/admin/setup.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/admin/stat.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="160" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/onstart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/line.main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/admin/module.block.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/admin/line.module.tpl">
+    <entry file="file://$PROJECT_DIR$/tpl/ru/index/admin/upload.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/setup.php">
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/admin/setting.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="86" column="47" lean-forward="false" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/admin/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/admin/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/line.bottom.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/admin/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/depo/admin/rand_onload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.php" />
-    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/admin/rands.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/cabinet/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/rands.php" />
-    <entry file="file://$PROJECT_DIR$/module/depo/admin/rands.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.tpl" />
-    <entry file="file://$PROJECT_DIR$/module/balance/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-977">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/_config.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/rand_onload.php" />
-    <entry file="file://$PROJECT_DIR$/module/_config.php">
+    <entry file="file://$PROJECT_DIR$/module/cabinet/admin/setting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/calendar/admin/day.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1810">
-          <caret line="350" column="30" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/random_func.php" />
-    <entry file="file://$PROJECT_DIR$/module/balance/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="263" column="5" lean-forward="true" selection-start-line="263" selection-start-column="5" selection-end-line="263" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/cabinet/random_func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="156" column="33" lean-forward="false" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/account/loginza/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/.htaccess">
+    <entry file="file://$PROJECT_DIR$/module/custom/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="33" column="71" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/sen-rand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl_c/a5e9b19bc299f2a1e97c4be12b56a4e514d73b81.file._oper.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="88" column="28" lean-forward="false" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/dbinit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,34 +1036,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="2686">
+          <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2295">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3808">
-          <caret line="224" column="39" lean-forward="false" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/faq/onstart.php">
+    <entry file="file://$PROJECT_DIR$/module/dbinit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -651,62 +1055,322 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+    <entry file="file://$PROJECT_DIR$/module/system/onstart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="925" column="9" lean-forward="false" selection-start-line="925" selection-start-column="9" selection-end-line="925" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/faq/index.php">
+    <entry file="file://$PROJECT_DIR$/module/system/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/system/admin/setup_ui.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/system/admin/setup_sec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/system/admin/setup_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/udp/0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/files/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty3/plugins/function.html_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty3/sysplugins/smarty_internal_cacheresource_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty3/sysplugins/smarty_internal_compile_eval.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty3/sysplugins/smarty_internal_compile_for.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty3/sysplugins/smarty_internal_write_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp08557/public_html/tpl/ru/index/home.tpl" />
+    <entry file="file://$PROJECT_DIR$/pre_page/index.html" />
+    <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.html" />
+    <entry file="file://$PROJECT_DIR$/module/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/faq/lib.php">
+    <entry file="file://$PROJECT_DIR$/module/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="3213">
+          <caret line="189" column="33" lean-forward="false" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/stylish-portfolio.css">
+    <entry file="file://$PROJECT_DIR$/tpl/ru/index/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16235">
-          <caret line="1027" column="21" lean-forward="false" selection-start-line="1027" selection-start-column="21" selection-end-line="1027" selection-end-column="21" />
+        <state relative-caret-position="434">
+          <caret line="66" column="68" lean-forward="false" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/media.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysql/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4301">
-          <caret line="253" column="5" lean-forward="false" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+        <state relative-caret-position="203">
+          <caret line="342" column="9" lean-forward="false" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/account/admin/user2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="751" column="17" lean-forward="false" selection-start-line="751" selection-start-column="17" selection-end-line="751" selection-end-column="17" />
+          <folding>
+            <marker date="1520952188106" expanded="true" signature="26236:26318" ph="INSERT INTO Wallets... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/balance/wallets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/sen-rand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/admin/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="79" column="100" lean-forward="false" selection-start-line="79" selection-start-column="100" selection-end-line="79" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="236" column="1" lean-forward="false" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding>
-            <marker date="1520695690822" expanded="true" signature="1293:1520" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ru/faq/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp08892/public_html/tpl/ru/faq/index.tpl" />
+    <entry file="file://$PROJECT_DIR$/lib/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="143" column="18" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="18" />
+          <folding>
+            <marker date="1519603266816" expanded="true" signature="4835:4855" ph="SELECT ${$fi... ${$table}" />
+            <marker date="1519603266816" expanded="true" signature="5892:5919" ph="UPDATE ${$ta... " />
+            <marker date="1519603266816" expanded="true" signature="6068:6080" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/account/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cabinet/group_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/account/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="139" column="45" lean-forward="false" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/account/file_load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/depo/depo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/_depo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/game-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="58" column="43" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="53" column="72" lean-forward="false" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/stylish-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="1200" column="24" lean-forward="false" selection-start-line="1200" selection-start-column="24" selection-end-line="1200" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/depo/depo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/group_menu.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/cabinet/group_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/cabinet/group_search.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ru/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -32,7 +32,7 @@
 		'Sum'=>
 			[
 				'$',
-				'Выберите сумму участия :&nbsp;',
+				'Назначьте цену вопроса :&nbsp;',
 				[
 					'sum_empty'=>'укажите сумму',
 					'sum_wrong'=>'неверная сумма'
@@ -68,6 +68,7 @@
 }
 	
 <script type="text/javascript">
+
 	function updateCurr()
 	{
 		$('#ccurr').html('');

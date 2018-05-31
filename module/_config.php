@@ -1,18 +1,34 @@
 <?php
 
 $_rwlinks = array(
-	'index' => array('home'), // main home page
+    'index' => array('/index'), //prev home page
+
+    'index/home' => array('home'), // main home page
+
+    //game settings
+    'cabinet/admin/index' => array('game-setting','admin' => '{!ru!}Настройки игры/{!ru!}Настройки игры'),
+    'cabinet/admin/onload' => array('game-setting-onload'),
+    'cabinet/admin/add' => array('game-add-check'),
+    'cabinet/admin/setting' => array('game-setting-bg','admin' => '{!ru!}Настройки игры/{!ru!}Настройка фона игры'),
+    'cabinet/admin/setting_onload' => array('game-bg-onload'),
+
+    //cabinet
 	'cabinet' => array('cabinet'), // user home paged
 	'cabinet/random_func' => array('random'), // user home paged
+    'cabinet/group_menu' => array('group_menu'),
+    'cabinet/group_search' => array('group_search'),
 
     'message/newMail' => array('mailer'), // тех поддержка
 
 	'system' => array('interface'), // select interface
 	'ajax' => array('ajax'),
-    
-    'depo/admin/rands' => array('admin/rands', 'admin' => '{!ru!}Рандом/{!ru!}Настройки Рандома'), //Рандом
+
+    //рандом и главная страница
+    'depo/admin/rands' => array('admin/rands', 'admin' => '{!ru!}Рандом и Главная страница/{!ru!}Настройки Рандома'), //Рандом
     'depo/admin/rand_onload' => array('rand_onload'), //Рандом отправка
 
+    'index/admin/index' => array('admin/home', 'admin' => '{!ru!}Рандом и Главная страница/{!ru!}Настройки Главной'), //Рандом
+    'index/admin/upload' => array('admin/home/upload', 'admin' => '{!ru!}Рандом и Главная страница/{!ru!}Обновление контента'), //Рандом
 	// Admin panel
 	
 	'admin' => array('admin'),
@@ -40,6 +56,7 @@ $_rwlinks = array(
     // Account
 
     'account' => array('account', 'https' => 0),
+    'account/file_load' => array('file_load'),
     'account/register' => array('registration', 'https' => 0),
     'account/register/register' => array('register', 'https' => 0),
     'account/login' => array('login', 'https' => 0),

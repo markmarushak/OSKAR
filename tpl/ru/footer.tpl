@@ -13,7 +13,7 @@
 	-->
 	
 
-    <script src="assets/js/common.js?=12"></script>
+    <script src="assets/js/common.js?={$rand_css}"></script>
     <!-- Custom Theme JavaScript -->
 
 

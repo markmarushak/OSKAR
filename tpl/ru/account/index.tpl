@@ -122,7 +122,12 @@
 }
 </div>
 
-<ul class="account_bottom-lists">
+	<span class="avatar_add">
+		<a href="" class="modal-open" data-target="modal_add-avatar">добавить аватар</a>
+	</span>
+
+
+	<ul class="account_bottom-lists">
     {if !($_cfg.Sec_ForceReConfig and $user.aNeedReConfig)}
 		<br>
         {if $_cfg.Account_Loginza} <li><a href="{_link module='account/loginza'}" class="button-gray">Профили</a></li>{/if}
@@ -131,6 +136,49 @@
     {/if}
 	<li><a class="btn btn-danger" href="{_link module='cabinet'}">вернутся</a></li>
 </ul>
-{include file='footer.tpl'}
 
+	<aside id="modal_add-avatar" class="modal modal_add-avatar">
+		<section class=" animated fadeInDown">
+			<form method="posts" enctype="multipart/form-data">
+				<label for="">Выбериет фото</label>
+				<input  type="file" name="ava">
+				<input type="submit" value="загрузить">
+			</form>
+		</section>
+	</aside>
+{include file='footer.tpl'}
+	<script>
+		$(document).ready(function () {
+            $.ajax({
+                url: './file_load?uploadfiles',
+                type: 'POST',
+                data: data,
+                cache: false,
+                dataType: 'json',
+                processData: false, // Не обрабатываем файлы (Don't process the files)
+                contentType: false, // Так jQuery скажет серверу что это строковой запрос
+                success: function( respond, textStatus, jqXHR ){
+
+                    // Если все ОК
+
+                    if( typeof respond.error === 'undefined' ){
+                        // Файлы успешно загружены, делаем что нибудь здесь
+
+                        // выведем пути к загруженным файлам в блок '.ajax-respond'
+
+                        var files_path = respond.files;
+                        var html = '';
+                        $.each( files_path, function( key, val ){ html += val +'<br>'; } )
+                        $('.ajax-respond').html( html );
+                    }
+                    else{
+                        console.log('ОШИБКИ ОТВЕТА сервера: ' + respond.error );
+                    }
+                },
+                error: function( jqXHR, textStatus, errorThrown ){
+                    console.log('ОШИБКИ AJAX запроса: ' + textStatus );
+                }
+            });
+        });
+	</script>
 {/strip}

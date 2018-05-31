@@ -1,70 +1,107 @@
 {strip}
-{include file='header.tpl' title='Лотерея'}
+	<link rel="stylesheet" href="assets/lib/animate/animate.css">
+
 
 {if $el}
-	<div class="table-section depo-end white">
-		<div class="header-section">
-			<h2>играйте еще и выигрывайте больше!</h2>
-		</div>
-		<div class="vertical-middle vert-top">
-			<div class="header-box">
-				<h1 class="text-center uppercase">Вы выиграли !!!</h1>
-
-				<br>
-				<span>
-						Ваш выигрыш составляет :&nbsp;
-                    {_z(($el.dZ0 + $el.pPerc), $el.dcID, 1)}
-					</span>
-				<br>
-				{*<p>Вам будет начислено <br> в течение {$el.pNPer} дней по {_z($el.dZD, $el.dcID, 1)*(1/4)} USD</p>*}
-				<div class="boxxx">
-					будет выплачиватся каждый {$el.pPer} час(а)
-					<br>
-					{$el.pNPer} раз
+    {include file='header.tpl' title='Результат'}
+	<div class="result-page case-page white game-bg">
+		<div>
+			<div class="result-box">
+				<div class="section-1">
+					<div class="left animated bounceInLeft">победу ведет: {$user.aName}</div>
+					<div class="right animated bounceInRight ">выигрыш составил: {_z((($el.dZ0 + $el.pPerc)), $el.dcID, 1)}</div>
 				</div>
-				<p>рискни и будешь вознагражден!</p>
+				<div class="section-2 animated flipInX">
+					<header>
+						<h2>
+							Моя статистика
+						</h2>
+					</header>
+					<div class="stat">
+						<div class="left">
+							<i class="fas fa-trophy"></i>
+							<span>1</span>
+						</div>
+						<div class="right">
+							<i class="fas fa-trophy"></i>
+							<sapn>5</sapn>
+						</div>
+					</div>
+				</div>
+				<div class="section-3 text-center animated fadeInUp">
+					<p>ВЫИГРЫШ ВЫПЛАТИТСЯ ЗА {($el.pPer * $el.pNPer)} ЧАСА РАВНЫМИ ЧАСТЯМИ</p>
+					<p>КЭШ БЭК 100% ЧЕРЕЗ 72 ЧАСА!</p>
+				</div>
+				<div class="section-4">
+					<div class="btn-result animated fadeInUp">
+						<i class="fas fa-door-open"></i>
+						<a href="{_link module='cabinet/group_menu'}">вернутся в игровой аккаунт</a>
+					</div>
+				</div>
 			</div>
-
-
-
-            {include file='depo/_depo.tpl'}
-		</div>
-		<div class="footer-section depo">
-
-			<ul class="depo_btn gold">
-                {if _uid()}
-                    {include file='links.el.topmenu.tpl' module='/cabinet' text='Личный кабинет'}
-
-                {/if}
-			</ul>
 		</div>
 	</div>
 {else}
-	<div class="table-section">
+    {include file='header.tpl' title='Кейсы'}
+	<aside id="case-player" class=" modal animated fadeInLeft">
+		<div class="container">
+			<header>
+				<h2>
+				</h2>
+			</header>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="img-box">
+						<button form="game-new" name="new_btn" value="Создать" type="submit"><i class="fas fa-briefcase"></i></button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="img-box">
+						<button form="game-new" name="new_btn" value="Создать" type="submit"><i class="fas fa-briefcase"></i></button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="img-box">
+						<button form="game-new" name="new_btn" value="Создать" type="submit"><i class="fas fa-briefcase"></i></button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="img-box">
+						<button form="game-new" name="new_btn" value="Создать" type="submit"><i class="fas fa-briefcase"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<div class="table-section case-page game-bg" >
 	<div class="header-section">
 
 	</div>
 	<div class="vertical-middle">
 		<div class="header-box">
-			<h1 class="text-center uppercase">Принять участие</h1>
+			<h1 class="text-center uppercase">Выберите кейс с бонусом!</h1>
 			<br>
-			<span>
-				текущий балланс :&nbsp;
-                {if $curr1}
-                    {*{include file='links.element.tpl' module='balance' text='Баланс'}*}
-                    {_z($curr1.wBal, $curr1.cID, 2)}
-                {/if}
-			</span>
-
 		</div>
 
         {include file='depo/_depo.new.tpl'}
-
 
 	</div>
 	<div class="footer-section"></div>
 	</div>
 {/if}
+	<input class="get_game-bg" type="hidden" value="{$get_bg.bg}">
 
 {include file='footer.tpl'}
+	<script>
+        setTimeout(function () {
+            $('#case-player').show();
+        }, 100);
+        $('form').hide();
+        $('#new_Sum').val({$coin});
+        $('#new_Sum').attr('type', 'hidden');
+        $('form').attr('id', 'game-new');
+	</script>
+	<script src="assets/js/game-bg.js"></script>
+
 {/strip}
+

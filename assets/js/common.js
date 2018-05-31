@@ -1,5 +1,42 @@
 $(document).ready(function() {
 
+    function open_modal() {
+        $('a.modal-open').click(function (event) {
+            event.preventDefault();
+            var link = $(this).attr('data-target');
+            $('#'+link).show();
+
+        });
+    }
+    open_modal();
+    // group-menu
+    $('#group-menu .group-item').click(function (event) {
+        var name_group = $(this).attr('data-name');
+        var name_g = $(this).attr('data-group');
+        var modal = $('#change-amount_question');
+        var close = modal.find('input.cancel-amount_question');
+        if (modal.is(':hidden')){
+            modal.removeClass('fadeOutUp');
+            modal.addClass('fadeInDown');
+            modal.show(1);
+        }
+        modal.find('h3').text(name_group);
+        modal.find('input[name="name"]').val(name_g);
+        modal.find('input[name="name_ru"]').val(name_group);
+        close.click(function (event) {
+            event.preventDefault();
+            modal.removeClass('fadeInDown');
+            modal.addClass('fadeOutUp');
+            $('#change-amount_question .content .modal-group span, input[name="coin_as_question"]').removeClass();
+            setTimeout(function () {
+                modal.hide()
+            },1000);
+
+        });
+
+    });
+
+
     if (!$('form[name=register_frm1]').is(':visible')) {
         $('.bgimg-4').css({
             'background': '#909090',
@@ -107,6 +144,8 @@ $(document).ready(function() {
             $('#to-top').hide();
         }
     });
+
+
 
 
 });
