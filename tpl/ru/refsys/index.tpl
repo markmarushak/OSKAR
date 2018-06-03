@@ -1,6 +1,6 @@
 {strip}
 {include file='header.tpl' title='Баунти - система'}
-
+<body class="baunti-bg">
 
 	<div class="table-section baunti">
 		<div class="header-section">

@@ -1,50 +1,25 @@
 {strip}
+
     {include file='header.tpl'}
-    <style>
-        #video-bg {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            overflow: hidden;
-            z-index: 1;
-            background-size: cover;
-        }
-
-        #video-bg > video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-        }
-
-        @supports (object-fit: cover) {
-            #video-bg > video {
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-    </style>
+    <body class="prev_page_body">
     <section id="info">
         <div class="top">
             <div class="block">
                 <ul>
                     <li><i class="far fa-money-bill-alt"></i> Пополни игровой баланс <i class="far fa-registered"></i></li>
                     <li><i class="fas fa-th"></i> Выбери категорию</li>
-                    <li><i class="fas fa-clipboard-check"></i> Ответь на простой 2 + 2 = 4 вопрос</li>
+                    <li><i class="fas fa-clipboard-check"></i> Ответь на простой <span>(2 + 2 = 4)</span> вопрос</li>
                     <li><i class="fas fa-briefcase"></i> Открой кейс</li>
                 </ul>
             </div>
         </div>
         <div class="center">
-
+            <header><h1>Игровой портал 4U </h1></header>
+            <div class="block">
+                <span>в данных развлекательных играх могут учавствовать лица достигшие совершеннолетия</span>
+                <a href="{_link module='index/home'}">Уже можно</a>
+                <a class="close-window">Еще нет</a>
+            </div>
         </div>
         <div class="bottom">
             <ul>
@@ -52,19 +27,14 @@
                     <i class="fas fa-suitcase"></i> В каждом кейсе гарантированный приз
                 </li>
                 <li>
-                    <i class="fas fa-exclamation-circle"></i> Акция! от 7% до 2000%!!
+                    от <span>7%</span> до <span>2000%</span>
                 </li>
                 <li>
-                    <i class="fas fa-hand-holding-usd"></i> Кэш-Бэк 100%
+                    <i class="fas fa-hand-holding-usd"></i> Кэш-Бэк <span>100%</span> На счет + Вигрыш
                 </li>
-                <li>
-                    <i class="fas fa-trophy"></i> На счет + Вигрыш
-                </li>
+
             </ul>
         </div>
     </section>
-    <div id="video-bg">
-        <video src="{$video_path}bg.mp4" width="100%" height="auto" />
-    </div>
     {include file='footer.tpl'}
 {/strip}

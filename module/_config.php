@@ -1,9 +1,11 @@
 <?php
 
 $_rwlinks = array(
-    'index' => array('/index'), //prev home page
+    'index' => array('/'), //prev home page
 
     'index/home' => array('home'), // main home page
+
+
 
     //game settings
     'cabinet/admin/index' => array('game-setting','admin' => '{!ru!}Настройки игры/{!ru!}Настройки игры'),
@@ -11,6 +13,9 @@ $_rwlinks = array(
     'cabinet/admin/add' => array('game-add-check'),
     'cabinet/admin/setting' => array('game-setting-bg','admin' => '{!ru!}Настройки игры/{!ru!}Настройка фона игры'),
     'cabinet/admin/setting_onload' => array('game-bg-onload'),
+
+    //admin verefication
+    'cabinet/admin/verefication' => array('admin/verefication', 'admin' => '{!ru!}Аккаунты/{!ru!}Верификация'),
 
     //cabinet
 	'cabinet' => array('cabinet'), // user home paged

@@ -1,6 +1,7 @@
 {strip}
 {include file='header.tpl' title='Аккаунт'}
 	<link rel="stylesheet" href="/assets/css/account.css">
+	<body class="settings">
 	<div class="text-center">
 
 <h1>Личные параметры</h1>
@@ -125,6 +126,9 @@
 	<span class="avatar_add">
 		<a href="" class="modal-open" data-target="modal_add-avatar">добавить аватар</a>
 	</span>
+	<span class="avatar_add">
+		<a href="" class="modal-open" data-target="modal_pasport">Верефицировать аккаунт</a>
+	</span>
 
 
 	<ul class="account_bottom-lists">
@@ -137,47 +141,139 @@
 	<li><a class="btn btn-danger" href="{_link module='cabinet'}">вернутся</a></li>
 </ul>
 
-	<aside id="modal_add-avatar" class="modal modal_add-avatar">
+	<aside id="modal_add-avatar" class="modal add_load_file">
 		<section class=" animated fadeInDown">
-			<form method="posts" enctype="multipart/form-data">
-				<label for="">Выбериет фото</label>
-				<input  type="file" name="ava">
-				<input type="submit" value="загрузить">
-			</form>
+			<header class="text-center">
+				<h3>Аватарка</h3>
+			</header>
+			<div class="file_cont">
+				<label for="file_ava"><i class="fas fa-cloud-download-alt"></i> Выберите файл</label>
+				<input id="file_ava" type="file" multiple="multiple" accept=".txt,image/*">
+			</div>
+			<a href="#" class="upload_files button">Загрузить файлы</a>
+			<a href="#" class="close_modal" data-target="modal_add-avatar">закрыть</a>
+			<div class="ajax-reply"></div>
+		</section>
+	</aside>
+	<aside id="modal_pasport" class="modal add_load_file">
+		<section class=" animated fadeInDown">
+			<header class="text-center">
+				<h3>Верификация</h3>
+			</header>
+			<div class="file_cont">
+				<label for="file_pasport"><i class="fas fa-cloud-download-alt"></i> Выберите файл</label>
+				<input id="file_pasport" type="file" multiple="multiple" accept=".txt,image/*">
+			</div>
+			<a href="#" class="pasport_up_files button">Загрузить файлы</a>
+			<a href="#" class="close_modal" data-target="modal_pasport">закрыть</a>
+			<div class="ajax-reply"></div>
+
 		</section>
 	</aside>
 {include file='footer.tpl'}
 	<script>
 		$(document).ready(function () {
-            $.ajax({
-                url: './file_load?uploadfiles',
-                type: 'POST',
-                data: data,
-                cache: false,
-                dataType: 'json',
-                processData: false, // Не обрабатываем файлы (Don't process the files)
-                contentType: false, // Так jQuery скажет серверу что это строковой запрос
-                success: function( respond, textStatus, jqXHR ){
 
-                    // Если все ОК
+            var files;
 
-                    if( typeof respond.error === 'undefined' ){
-                        // Файлы успешно загружены, делаем что нибудь здесь
+            $('input[type=file]').on('change', function(){
+                files = this.files;
+            });
 
-                        // выведем пути к загруженным файлам в блок '.ajax-respond'
+            $('.close_modal').click(function (event) {
+				$('.ajax-reply').html('');
+            });
 
-                        var files_path = respond.files;
-                        var html = '';
-                        $.each( files_path, function( key, val ){ html += val +'<br>'; } )
-                        $('.ajax-respond').html( html );
+            $('a.upload_files').click(function( event ){
+                event.preventDefault();
+
+                event.stopPropagation();
+
+                if( typeof files === 'undefined' ) return;
+
+                var data = new FormData();
+
+                $.each( files, function( key, value ){
+                    data.append( key, value );
+                });
+
+                data.append( 'my_file_upload', 1 );
+
+                $.ajax({
+                    url         : '/file_load',
+                    type        : 'POST',
+                    data        : data,
+                    cache       : false,
+                    dataType    : 'json',
+                    processData : false,
+                    contentType : false,
+                    success     : function( respond, status, jqXHR ){
+
+                        if( typeof respond.error === 'undefined' ){
+                            var files_path = respond.files;
+                            var html = '';
+                            $.each( files_path, function( key, val ){
+                                html += val +'<br>';
+                            } );
+
+                            $('.ajax-reply').html( html );
+                        }
+                        else {
+                            console.log('ОШИБКА: ' + respond.error );
+                        }
+                    },
+                    error: function( jqXHR, status, errorThrown ){
+                        console.log( 'ОШИБКА AJAX запроса: ' + status, jqXHR );
                     }
-                    else{
-                        console.log('ОШИБКИ ОТВЕТА сервера: ' + respond.error );
+
+                });
+
+            });
+
+            $('a.pasport_up_files').click(function( event ){
+                event.preventDefault();
+
+                event.stopPropagation();
+
+                if( typeof files === 'undefined' ) return;
+
+                var data = new FormData();
+
+                $.each( files, function( key, value ){
+                    data.append( key, value );
+                });
+
+                data.append( 'pasport_file_upload', 1 );
+
+                $.ajax({
+                    url         : '/file_load',
+                    type        : 'POST',
+                    data        : data,
+                    cache       : false,
+                    dataType    : 'json',
+                    processData : false,
+                    contentType : false,
+                    success     : function( respond, status, jqXHR ){
+
+                        if( typeof respond.error === 'undefined' ){
+                            var files_path = respond.files;
+                            var html = '';
+                            $.each( files_path, function( key, val ){
+                                html += val +'<br>';
+                            } );
+
+                            $('.ajax-reply').html( html );
+                        }
+                        else {
+                            console.log('ОШИБКА: ' + respond.error );
+                        }
+                    },
+                    error: function( jqXHR, status, errorThrown ){
+                        console.log( 'ОШИБКА AJAX запроса: ' + status, jqXHR );
                     }
-                },
-                error: function( jqXHR, textStatus, errorThrown ){
-                    console.log('ОШИБКИ AJAX запроса: ' + textStatus );
-                }
+
+                });
+
             });
         });
 	</script>

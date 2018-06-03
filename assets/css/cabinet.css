@@ -123,7 +123,7 @@ table.table.cabinet-table td
     text-align: right;
     width: 50%;
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 0;
     list-style-type: none;
 }
@@ -177,3 +177,17 @@ table.table.cabinet-table td
     position:  relative;
 }
 
+.avatar {
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    right: -120px;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 0 13px 1px #DDE;
+}

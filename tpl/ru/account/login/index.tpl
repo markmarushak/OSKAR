@@ -1,6 +1,6 @@
 {strip}
 {include file='header.tpl' title='Вход'}
-	<div class="text-center logins table-section overflow-hidden">
+	<div class="text-center logins table-section overflow-hidden cosmo_log">
 		<div class="vertical-middle">
 
 <h1>Вход</h1>

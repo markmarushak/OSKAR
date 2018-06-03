@@ -78,6 +78,8 @@
         .bgimg-3 {
             background-image: url(../assets/img/city4.jpg);
             min-height: 400px;
+            background-attachment:fixed;
+
         }
 
         .bgimg-4 {
@@ -165,14 +167,15 @@
                                 <li class="ancor closes-menu"><a href="#contact">поддержка</a></li>
 
                                 {if _uid()}
-                                    {include file='links.el.topmenu.tpl' module='cabinet' text="личный кабинет"}
+                                    {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
                                     {if $curr1}
                                         {*{include file='links.element.tpl' module='balance' text='Баланс'}*}
                                         {_z($curr1.wBal, $curr1.cID, 2)}
                                     {/if}
                                     {include file='links.el.topmenu.tpl' module='account/login' params='out' text='Выход'}
                                 {else}
-                                    <li><a data-toggle="modal" data-target="#login">вход</a></li>
+                                    {*<li><a data-toggle="modal" data-target="#login">вход</a></li>*}
+                                    <li><a href="{_link module="account/login"}">вход</a></li>
                                 {/if}
 
                             </ul>
@@ -188,9 +191,9 @@
 
         <div class="vertical-middle main-text">
             <div class="item-text">
-                <h1><b class='header_logo_4u' style="font-size:56pt">4U</b> Забава</h1>
+                <h1>игровой портал <b class='header_logo_4u' style="font-size:56pt">4U</b> </h1>
 				<div><p>КЭШБЭК - 100%</p></div>
-				<div><h3>На Валюте <b class='header_logo_R'>R</b></h3></div>
+				{*<div><h3>На Валюте <b class='header_logo_R'>R</b></h3></div>*}
             </div>
 
 
@@ -201,20 +204,20 @@
             </div>
         </div>
     </seection>
-    <div class="section-1 home">
+    {*<div class="section-1 home">*}
 
-    </div>
+    {*</div>*}
 
     <section class="services " id="services">
         <div class="services-block">
             <div class="col-md-offset-0">
                 <p>
-                    УВОЖАЕМЫЕ ИГРОКИ!  ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span>. <br>
+                    ВНИМАНИЕ УВОЖАЕМЫЕ ИГРОКИ! ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
                     <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>
 
                     ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ, по курсу один к одному  <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
 
-                    ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО  В АВТОМАТИЧЕСКОМ РЕЖИМЕ . <br>
+                    ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО <br>
                     ЗАЧИСЛЕНИЕ И ВЫВОД СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ В ЭЛЕКТОННОЙ ВАЛЮТЕ.
                 </p>
             </div>
@@ -235,79 +238,82 @@
              <h2>ПРОГРАММА "БАУНТИ"</h2>
          </header>
      </div>   </section>  -->
-    <div style="position:relative;">
-        <div class="section-1" style="color:#ddd;background-color:#282E34">
-            <p>
-                Благодаря <b>Баунти</b> Вы можете вернуть 10% <span class="in_curr"><i class="far fa-registered"></i></span> от 1-ой игры по Вашей РЕФ-БЕК ссылке. В игре <span class="name_logo">4u</span><br>
-                <br>
-                Вам может показаться, что эти 10% погоды не сделают, факт – на <br>
-                дистанции очень даже сделают.
-				<br>
-                 Например, от 100 000<span class="in_curr"><i class="far fa-registered"></i></span> вклада вы получаете 10 000<span class="in_curr"><i class="far fa-registered"></i></span> возврата.<br>
-                Ваша личная <b>Баунти</b> (РЕФБЕК) ссылка доступна в личном кабинете.
-				<br>
-                 Начисление <span class="in_curr"><i class="far fa-registered"></i></span> производится в течение 1 часа. <br>
-                Реинвестирование/вывод моментальны. <br>
-
-                Устрой себе и близким ПРАЗДНИКИ c <span class="name_logo">4u</span>
-            </p>
-        </div>
-    </div>
-    <section class="bgcity">
-        <div class="bgimg-3">
-            <div class="caption">
-                <span class="border"> ОТ 7% ДО 300% ПРИБЫЛИ</span>
-            </div>
-        </div>
-
-    </section>
-    <!--<section class="secrvices table-section section section-color2" id="services">    -->
     <div style="width:100%">
         <div class="conditions">
             <div class="ver-mi">
                 <header>
-                    <h3>ПРАВИЛА ИГРЫ НА <span class="name_logo">4u</span></h3>
+                    <h3>ПРАВИЛА ИГР НА <span class="name_logo">4u</span></h3>
                 </header>
             </div>
             <div class="ver-mi middle">
                 <!--  <div class="col-md-10 col-md-offset-0"> -->
                 <div class="col-md-offset-0" style="text-transform: uppercase; text-size:1.2em; line-height: 1.5;">
-                    <p>      </br>
-                        От 7%-1 день до 300%-4 дня прибыли <br>
-                        Выигрыш зачисляется ежедневно равными долями <br>
-                        1, 2, 3, 4 дня - рандом система определяет выигрыш и срок выплаты.<br>
-                        (Выигрыш и срок выплаты - далее именуются План) <br>
-                        В конце вашего плана возвращается CashBack - <span class="in_curr">100% </span> - то есть, разыгрываемая сумма <br>
-                        Возвращается вам в полном объеме <br>
-                        Напоминаем, сам выигрыш начисляется ежедневно <br>
-                        Реинвестирование/вывод средств производится в любое удобное для вас время. <br>
-                        Минимальный розыгрыш - <b>100<span class="in_curr"><i class="far fa-registered"></i></span></b>, Максимальный розыгрыш - <b> 100 000<span class="in_curr"><i class="far fa-registered"></i></span></b> <br>
+                    <p>
+                        ЗАРЕГИСТРИРУЙТЕСЬ НА <span class="name_logo">4u</span> <br>
+                        ПОПОЛНИТЕ БАЛАНС ИГРОВОГО АККАУНТА <br>
+                        НАЗНАЧТЕ ЦЕНУ ВОПРОСА  ОТ 100<span class="in_curr"><i class="far fa-registered"></i></span> ДО 100 000<span class="in_curr"><i class="far fa-registered"></i></span> <br>
+                        ВЫБЕРИТЕ ТЕМУ ВОПРОСА <br>
+                        ОТВЕТТЕ ПРАВИЛЬНО НА ПРОСТОЙ ВОПРОС <b>(2+2=4)</b> ИЗ 4 ВАРИЙАНТОВ <br>
+                        ВЫБЕРИТЕ СВОЙ КЕЙС<br><br>
+                        <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
                         <br>
+                        В КАЖДОМ КЕЙСЕ НАХОДИТСЯ ОТ <span class="in_curr">7%</span> ДО <span class="in_curr">2000%</span> ОТ НАЗНАЧЕННОЙ СТОИМОСТИ ВАШЕГО ВОПРОСА <br>
+                        ТАК-ЖЕ В КЕЙСЕ ЗАШИФРОВАН СРОК ПОЛУЧЕНИЯ ВЫИГРЫША &bull; ОТ  <span class="in_curr">24</span> ДО <span class="in_curr">96</span> ЧАСОВ &bull; БУДЕТ ЗАЧИСЛЕН НА ИГРОВОЙ АККАУНТ КАЖДЫЕ <span class="in_curr">24</span> ЧАСА РАВНЫМИ ДОЛЯМИ
+                        <br>
+                        СИСТЕМА: CASH BACK - <span class="in_curr">100%</span> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ  ПРИ ПОЛУЧЕНИИ ВЫИГРЫША.
                     </p>
+
+                    {*<p>*}
+                        {*АКЦИЯ:  С 1 МАЯ ПО 31 АВГУСТА РАБОТАЕТ СИСТЕМА <br>*}
+                        {*<span class="in_curr">CASH BACK - 100% </span> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ  ПРИ ПОЛУЧЕНИИ ВЫИГРЫША. <br>*}
+                        {*ИГРА/ВЫВОД МОМЕНТАЛЬНО.*}
+                    {*</p>*}
                 </div>
 
             </div>
         </div>
     </div>
     <!-- </section>    -->
-
-    <section class="services " id="services">
-        <div class="services-block">
-            <div class="col-md-offset-0">
-                <p>
-                    УВОЖАЕМЫЕ ИГРОКИ!  ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span>. <br>
-                    <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>
-
-                    ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ, по курсу один к одному  <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
-
-                    ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО  В АВТОМАТИЧЕСКОМ РЕЖИМЕ . <br>
-                    ЗАЧИСЛЕНИЕ И ВЫВОД СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ В ЭЛЕКТОННОЙ ВАЛЮТЕ.
-                </p>
+    <div style="position:relative;">
+        <div class="section-1" style="color:#ddd;background-color:#282E34; line-height: 3;">
+            <p>
+                БЛАГОДАРЯ БАУНТИ ВЫ МОЖЕТЕ ВЕРНУТЬ 10% ОТ 1-ОЙ ИГРЫ  <br> ПО ВАШЕЙ РЕФ-БЕК ССЫЛКЕ
+                <br>
+                ВАША ЛИЧНАЯ БАУНТИ(РЕФ-БЕК) ССЫЛКА ДОСТУПНА В ИГРОВОМ АККАУНТЕ
+                <br>
+                НАЧИСЛЕНИЕ ПРОИЗВОДИТСЯ МГНОВЕННО!
+            </p>
+        </div>
+    </div>
+    <section class="bgcity">
+        <div class="bgimg-3">
+            <div class="caption">
+                <span class="border"> ОТ 7% ДО 2000% ПРИБЫЛИ</span>
             </div>
         </div>
+
     </section>
 
+    <!-- </section>    -->
+
+    {*<section class="services " id="services">*}
+        {*<div class="services-block">*}
+            {*<div class="col-md-offset-0">*}
+                {*<p>*}
+                    {*УВОЖАЕМЫЕ ИГРОКИ!  ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span>. <br>*}
+                    {*<b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>*}
+
+                    {*ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ, по курсу один к одному  <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>*}
+
+                    {*ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО  В АВТОМАТИЧЕСКОМ РЕЖИМЕ . <br>*}
+                    {*ЗАЧИСЛЕНИЕ И ВЫВОД СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ В ЭЛЕКТОННОЙ ВАЛЮТЕ.*}
+                {*</p>*}
+            {*</div>*}
+        {*</div>*}
+    {*</section>*}
+
     <!-- <section class="form-to table-section section" id="form-to"> -->
+    {if ! _uid()}
     <section class="bgcity" id="form-to">
         <div class="bgimg-4">
 
@@ -315,18 +321,17 @@
 
             <div class="form-wrap ver-mi overflow-hidden">
 
-                {if _uid()}
+                {*{if _uid()}*}
 
-                    <!--    -->
-                    <span class="room"><i class="fab fa-accusoft" aria-hidden="true"></i></span>
-                    <ul class="caption depo_btn gold">
+                    {*<!--    -->*}
+                    {*<span class="room"><i class="fab fa-accusoft" aria-hidden="true"></i></span>*}
+                    {*<ul class="caption depo_btn gold">*}
 
-                        {include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}
+                        {*{include file='links.el.topmenu.tpl' module='cabinet' text='игровой аккаунт'}*}
 
-                    </ul>
-                {else}
+                    {*</ul>*}
                     <form class="form-horizontal" role="form" method="post"
-                          action="{_link module='account/register/register'}" name="register_frm1">
+                          action="{_link module='account/register'}" name="register_frm1">
                         <div class="form-group col-md-10 col-md-push-1">
                         	<label class="col-sm-4 control-label text-right" for="register_frm1_uLogin">
                         		<span class="descr_req">Придумайте логин<span class="descr_star">*</span></span>
@@ -382,10 +387,10 @@
                             </div>
                         </div>
                     </form>
-                {/if}
             </div>
         </div>
     </section>
+    {/if}
     <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;max-height:300px"
              id="contact">
 

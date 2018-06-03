@@ -1,6 +1,6 @@
 {strip}
 {include file='header.tpl' title='Смена e-mail'}
-
+<body class="settings">
 <h1>Смена e-mail</h1>
 
 {if isset($smarty.get.done)}

@@ -5,10 +5,19 @@ $(document).ready(function() {
             event.preventDefault();
             var link = $(this).attr('data-target');
             $('#'+link).show();
-
         });
     }
     open_modal();
+
+    function close_modal() {
+        $('.close_modal').click(function (event) {
+            event.preventDefault();
+            var link = $(this).attr('data-target');
+            $('#'+link).hide();
+        });
+    }
+    close_modal();
+
     // group-menu
     $('#group-menu .group-item').click(function (event) {
         var name_group = $(this).attr('data-name');

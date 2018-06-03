@@ -9,7 +9,7 @@
 			<div class="result-box">
 				<div class="section-1">
 					<div class="left animated bounceInLeft">победу ведет: {$user.aName}</div>
-					<div class="right animated bounceInRight ">выигрыш составил: {_z((($el.dZ0 + $el.pPerc)), $el.dcID, 1)}</div>
+					<div class="right animated bounceInRight ">выигрыш составил: {_z((($el.pPerc*$el.dZ0)/100+$el.dZ0),1)}</div>
 				</div>
 				<div class="section-2 animated flipInX">
 					<header>
@@ -20,17 +20,17 @@
 					<div class="stat">
 						<div class="left">
 							<i class="fas fa-trophy"></i>
-							<span>1</span>
+							<span>{$stat.winner}</span>
 						</div>
 						<div class="right">
 							<i class="fas fa-trophy"></i>
-							<sapn>5</sapn>
+							<span>{$stat.lose}</span>
 						</div>
 					</div>
 				</div>
 				<div class="section-3 text-center animated fadeInUp">
 					<p>ВЫИГРЫШ ВЫПЛАТИТСЯ ЗА {($el.pPer * $el.pNPer)} ЧАСА РАВНЫМИ ЧАСТЯМИ</p>
-					<p>КЭШ БЭК 100% ЧЕРЕЗ 72 ЧАСА!</p>
+					<p>КЭШ БЭК 100% ЧЕРЕЗ {($el.pPer * $el.pNPer)} ЧАСА!</p>
 				</div>
 				<div class="section-4">
 					<div class="btn-result animated fadeInUp">

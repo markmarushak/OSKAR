@@ -1,14 +1,7 @@
 {strip}
 {include file='header.tpl' title='Кабинет'}
 
-{*<h1>Кабинет</h1>*}
 
-{*{include file='balance/_bal.tpl'}*}
-{*<br><br>*}
-{*{include file='balance/_stat.tpl'}*}
-{assign var=min value=$min.number}
-{assign var=max value=$max.number}
-{assign var=result value=$min+mt_rand()/mt_getrandmax()*($max-$min)}
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
         <div class="top-wrap" id="top-wrap">
@@ -19,6 +12,9 @@
                             <div class="name-is-cabinet">
                                 <span class="logo-cabinet"><h1>4U - </h1><h2> four you <i class="fab fa-gratipay"></i></h2></span>
                                 <ul>
+                                    <div class="avatar">
+                                        <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
+                                    </div>
                                     <li>
                                         <span>
                                             <i>Личный кабинет : </i>
@@ -48,7 +44,7 @@
                                 {*]}*}
                                 <li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы / Вывод / Пополнение</a></li>
                                 <li><a href="{_link module='refsys'}"><i class="fas fa-gift"></i>&nbsp; Баунти</a></li>
-                                <li><a href="{_link module='balance/wallets'}"><i class="fas fa-credit-card"></i>&nbsp;Платежные реквизиты</a></li>
+                                {*<li><a href="{_link module='balance/wallets'}"><i class="fas fa-credit-card"></i>&nbsp;Платежные реквизиты</a></li>*}
                                <!-- <li><a href="{_link module='udp/about'}">История</a></li> -->
                                 <li><a href="{_link module='account'}"><i class="fas fa-cog"></i>&nbsp; настройки</a></li>
                                 <li><a href="{_link module='index/home'}"><i class="fas fa-home"></i>&nbsp; на главную</a></li>

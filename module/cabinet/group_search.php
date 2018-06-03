@@ -30,7 +30,7 @@ if ($_POST['coin_as_question']) {
      $_SESSION['question'] = findQuestion($_SESSION['groups_main']);
 
 
-
+    setPage('avatar', $db->fetch1Row($db->select('Avatar', 'url_img','user_id=?',_uid())));
     setPage('get_bg',$db->fetch1Row($db->select('game_bg','bg','groups=?', $_SESSION['groups_main'])));
     setPage('group',$a);
     setPage('rate', $_SESSION['coin_as_money']);

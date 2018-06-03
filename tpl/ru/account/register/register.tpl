@@ -1,6 +1,6 @@
 {strip}
 {include file='header.tpl' title='Регистрация'}
-	<div class="table-section regist">
+	<div class="table-section regist cosmo_log">
 
 	<div class="text-center">
 <h1>Регистрация</h1>

@@ -9,11 +9,10 @@
         }
     </style>
     {include file='header.tpl' title=$title}
-
     <aside id="winner-player" class="modal animated fadeInDown">
         <section>
             <span>
-                Поздравяем {$user.uLogin} !!
+                Поздравляем {$user.uLogin} !!
             </span>
         </section>
     </aside>
@@ -44,24 +43,24 @@
                 </div>
                 <div class="game-balance">
                     <i class="fas fa-money-bill-alt"></i> <span id="game-balance">
-                        {if $balance_main}{$balance_main}m{else}{$curr1.wBal}{/if}</span>
+                        {if $balance_main}{$balance_main}m{else}{$curr1.wBal}{/if} <i class="far fa-registered"></i></span>
                 </div>
                 <div class="game-rate">
-                    ставка <span><b>{$rate}</b>$</span>
+                    ставка <span><b>{$rate}</b><i class="far fa-registered"></i></span>
                 </div>
             </div>
             <div class="right-panel">
                 <div class="avatar-player">
-                    <img src="assets/img/player/ava.jpg" alt="">
+                    <img src="{$avatar.url_img}" alt="">
                 </div>
                 <div class="cabinet-player">
-                    <a href="{_link module='cabinet'}">личный кабинет</a>
+                    <a href="{_link module='cabinet'}">игровой аккаунт</a>
                 </div>
             </div>
         </div>
         <div class="game-panel animated fadeInUp">
             <header class="question-board">
-                <sapn>{$group}</sapn>
+                <span>игра на тему: {$group}</span>
                 <hr>
                 <p>
                     {$question.main.question}

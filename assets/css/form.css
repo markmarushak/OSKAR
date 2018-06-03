@@ -125,6 +125,14 @@ ul.depo_btn {
 .text-center.logins.table-section.overflow-hidden {
     padding-top: 120px;
 }
+.cosmo_log {
+    background-color: #080a30;
+    background-image: url(https://rusability.ru/wp-content/uploads/2015/12/gif-prezentatsii.gif);
+    color:  #eee;
+    background-size:  cover;
+    background-position: -270px -180px;
+    background-repeat:  no-repeat;
+}
 .logins .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
     top: -10.5em;
     padding-bottom: 0;

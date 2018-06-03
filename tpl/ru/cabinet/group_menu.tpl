@@ -3,6 +3,41 @@
         <div class="back-cabinet">
             <a href="{_link module='cabinet'}"><i class="fas fa-door-closed"></i> вернутся в игровой аккаунт</a>
         </div>
+        <div class="ballance-player">
+           <span>money {$curr1.wBal} <i class="fas fa-registered"></i></span>
+        </div>
+        <aside id="warning" class="animated fadeInDown">
+            <section>
+                <header>
+                    <h3>
+                        ВНИМАНИЕ!
+                    </h3>
+                </header>
+                <div class="content">
+                    <span class="text-left">
+                        <h3>ВЫ ПОПАДАЕТЕ В ИГРОВУЮ ОБЛАСТЬ</h3>
+                        <p>
+                            ВЫБЕРИТЕ ТЕМУ В ИГРЕ И НАЗНАЧЬТЕ СТОИМОСТЬ
+                        </p>
+                        <p>
+                            ЕСЛИ НА БАЛАНСЕ МАЛО СРЕДСТВ; ВЕРНИТЕСЬ В ИГРОВОЙ АККАУНТ; ФИНАНСЫ|ПОПОЛНЕНИЕ|ВЫВОД
+                        </p>
+                        <p>
+                            СТОИМОСТЬ РОЗЫГРЫША НАЗНАЧАЕТ ИГРОК <br> <span class="gold-color">ОТ 100<i class="far fa-registered"></i> ДО 100 000<i class="far fa-registered"></i></span>
+                        </p>
+                        <p>
+                            ОТВЕТИВ ВЕРНО ВЫБЕРИТЕ КЕЙС С <i class="far fa-registered gold-color"></i> <span class="in_curr case gold-color"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
+                        </p>
+                        <p>
+                            ВЫ ПОЛУЧАЕТЕ <span class="gold-color"> ОТ 7% ДО 2000% </span> ОТ СТОИМОСТИ ВОПРОСА + КЭШ-БЭК 100% ПО ИСТЕЧЕНИЮ ЧАСОВ <i class="far fa-clock"></i> ВЫИГРЫША <span class="gold-color">ОТ 24 ДО 96 ЧАСОВ <i class="far fa-clock"></i></span>
+                        </p>
+                    </span>
+                    <div class="modal-submit">
+                        <input class="close_modal" data-target ="warning" type="submit" value="OK">
+                    </div>
+                </div>
+            </section>
+        </aside>
         <aside id="change-amount_question" class="modal animated fadeInDown">
             <section>
                 <header>

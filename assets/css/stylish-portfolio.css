@@ -1034,7 +1034,13 @@ h3.text-top_contact::after {
     margin-bottom: 10px;
 }
 
-
+.baunti-bg {
+    background-image: url(https://i.imgur.com/1fIbI.gif);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
 .cabinet-ballance {
     display: block;
     position: relative;
@@ -1192,6 +1198,7 @@ h3.text-top_contact::after {
     right: 0;
     top: 10px;
 }
+
 .back-cabinet a {
     padding: 10px;
     background: #fff;
@@ -1205,13 +1212,28 @@ h3.text-top_contact::after {
     text-decoration: none;
     box-shadow: 0 0 2px 1px #333;
 }
+
+.ballance-player {
+    position: absolute;
+    z-index: 12;
+    left: 0;
+    top: 9px;
+}
+.ballance-player span {
+    /* font-size: 1.6em; */
+    background: #fff;
+    padding: 12px 20px;
+    border-radius:  0 0 10px 0;
+    text-transform:  uppercase;
+}
+
 #group-menu {
     /* display: flex; */
     width: 100%;
-    background: url(http://nevseoboi.com.ua/uploads/posts/2010-03/1268928366_priroda-1920x1200-4.jpg);
+    background: url(https://i.giphy.com/media/jb4EWxdulKZBS/giphy.webp);
     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -1246,18 +1268,18 @@ h3.text-top_contact::after {
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    background: rgba(255, 215, 0, 0.5);
+    background: rgba(0, 150, 136, 0.32);
     align-items: center;
-    color: #333;
+    color: #eee;
     border: 2px solid rgba(238, 238, 238, 0.32);
-    -webkit-transition: all .5s ;
-    -moz-transition: all .5s ;
-    -ms-transition: all .5s ;
-    -o-transition: all .5s ;
-    transition: all .5s ;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .group-item:hover {
-    background: rgba(255, 215, 0, 0.7);
+    background: rgba(63, 81, 181, 0.68);
     color: #fff;
 }
 .group-block {
@@ -1273,6 +1295,34 @@ h3.text-top_contact::after {
     font-size:3em;
 }
 
+#warning .content h3 {
+    margin: 0;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+#warning .close_modal {
+    background: #2196F3;
+    border: none;
+    font-size: 1.3em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 12px 40px;
+    color: #fff;
+    font-family: RobotoLight;
+    letter-spacing: 5px;
+    outline: none;
+    transition: all .5s;
+}
+#warning .close_modal:hover {
+    background: #00BCD4;
+}
+#warning .modal-submit {
+    display: block;
+    padding:2em 0;
+}
+
 #change-amount_question {
     width: 400px;
     height: 400px;
@@ -1282,21 +1332,54 @@ h3.text-top_contact::after {
     margin-left: -200px;
     border-radius:  25px;
     position: absolute;
-    background: #333;
+    background: #111;
     z-index: 1;
+}
+#warning {
+    width: 100%;
+    height: 100%;
+    position:  absolute;
+    z-index:  12;
+}
+#warning::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
 }
 #change-amount_question section {
     height: 100%;
     top: -20px;
 }
-
-#change-amount_question header {
+#warning section {
+    width: 400px;
+    height: 450px;
+    top: 50%;
+    margin-top: -225px;
+    left: 50%;
+    margin-left: -200px;
+    border-radius:  25px;
+    position: absolute;
+    background: #111;
+    z-index: 1;
+}
+#change-amount_question header,
+#warning header
+{
     height: 20%;
     position: relative;
     color: #eee;
 }
-
-#change-amount_question section header h3{
+#warning header {
+    height: 16%;
+}
+#change-amount_question section header h3,
+#warning section header h3
+{
     height: auto;
     top: 20px;
     position:  relative;
@@ -1306,7 +1389,9 @@ h3.text-top_contact::after {
     padding-bottom:  20px;
 }
 
-#change-amount_question .content {
+#change-amount_question .content,
+#warning .content
+{
     padding: 10px;
     color: #eee;
     text-align: center;
@@ -1329,7 +1414,7 @@ h3.text-top_contact::after {
     height: 70px;
     width: 90%;
     margin: 4rem 0;
-    background: #333;
+    background: #111;
     border: none;
     border-bottom: 2px solid #eee;
     outline: none;
@@ -1534,6 +1619,9 @@ h3.text-top_contact::after {
 .personal-panel > *.left-panel > *.game-balance i {
     font-size: 2em;
 }
+.personal-panel > *.left-panel > *.game-balance span i {
+    font-size: 100%;
+}
 .personal-panel > *.left-panel > *.game-rate {
     color: #FF9800;
     font-size:  1.5em;
@@ -1578,6 +1666,12 @@ header.question-board {
     color:  #eee;
     font-size: 16px;
     padding-top:  10px;
+}
+header.question-board span {
+    text-transform: uppercase;
+}
+header.question-board hr {
+    margin: 5px 0;
 }
 .btn-panel {
     height: 70%;
@@ -1701,34 +1795,101 @@ aside#case-player {
     SRART PAGE IN WEBSITE
 
 */
-
+.prev_page_body::-webkit-scrollbar {
+    display: none;
+}
 section#info {
     display: flex;
     flex-direction: column;
     width:  100%;
     height:  100%;
-    background: url(../img/prev_page.jpg);
+    background: url(https://i.pinimg.com/originals/cc/9b/0e/cc9b0e2327dd2cbc13014bf45446e1f8.gif);
     background-size:  cover;
     background-position:  center;
     background-repeat:  no-repeat;
 }
+section#info::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
 section#info > * {
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.7);
     height: -webkit-fill-available;
     margin: 2px;
-    color: #b9ff07;
+    color: #68c7f2;
+    box-shadow: 0 0 4px 2px;
     border-radius: 20px;
     width: 33%;
     height:  33%;
+    position:  relative;
+    z-index:  12;
 }
 section#info > *:nth-child(2) {
     margin-top:0px;
-    background: none;
     margin-bottom:0px;
+    margin:  0 auto;
+    width: 47%;
+    height: 30%;
+    top: 6.5%;
+    position:  relative;
+    /* box-shadow: 0 0 4px 2px; */
+    background: rgba(0,0,0,.8);
+}
+section#info > *.center > header {
+    position: absolute;
+    top: -70px;
+    text-align:  center;
+    text-transform:  uppercase;
+    width:  100%;
+    text-shadow: 0 0 7px #111;
+}
+section#info > *.center .block {
+     width: 100%;
+     height: 100%;
+     margin:  0 auto;
+     padding: 15px;
+     font-size:  2em;
+     text-align:  center;
+     text-transform:  uppercase;
+}
+section#info > *.center .block span {
+    text-align: center;
+    width:  100%;
+    font-size: 1.8rem;
+    height: 60%;
+    display:  block;
+    line-height:  45px;
+}
+section#info > *.center .block > *:not(span) {
+    display: inline-block;
+    color: #eee;
+    margin:  0 10px;
+    background: #03A9F4;
+    padding: 13px 25px;
+    border-radius:  10px;
+    transition:  all .5s;
+    font-size: 2rem;
+}
+section#info > *.center .block > *.close-window:not(span){
+    background: #F44336;
+}
+section#info > *.center .block > *:not(span):hover {
+    text-decoration: none;
+    background: #4CAF50;
+    color:  #eee;
+}
+section#info > *:nth-child(1) {
+    width: 30%;
 }
 section#info > *:nth-child(3) {
     position: absolute;
-    height: 33%;
+    height: 23%;
     bottom:  0;
     right:  0;
 }
@@ -1739,15 +1900,34 @@ section#info > *.bottom ul{
 }
 section#info > *.top ul li,
 section#info > *.bottom ul li{
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 18px 0;
+    text-transform:  uppercase;
 }
 section#info > *.top ul li i,
 section#info > *.bottom ul li i {
     font-size:2.5rem;
+    color: #FFC107;
+}
+section#info > * ul li span {
+    color: gold;
+    font-weight:  bold;
 }
 
-#modal_add-avatar {
+
+/*
+
+    ADD_AVATAR SETTIGNS
+
+*/
+.settings {
+    background-image: url(https://i.imgur.com/XTARK91.gif);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.add_load_file {
     width:100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
@@ -1755,7 +1935,7 @@ section#info > *.bottom ul li i {
     top: 0;
     left: 0;
 }
-#modal_add-avatar > section {
+.add_load_file > section {
     position: absolute;
     background: #eee;
     width:  400px;
@@ -1766,23 +1946,54 @@ section#info > *.bottom ul li i {
     margin-top:  -150px;
     border-radius: 20px;
     padding:  20px;
+    text-align:  center;
+}
 
-}
-#modal_add-avatar > section label{
-    font-size: 2em;
-}
-#modal_add-avatar > section label,
-#modal_add-avatar > section input[type='file'] {
+.add_load_file > section label {
     display: block;
     text-align: center;
-    margin:0 auto;
-    padding: 2em 0;
+    margin: 30px auto;
+    padding: 0.6em 0;
+    font-size:  1.5em;
+    background:  #bbb;
+    border-radius:  10px;
+    width: 80%;
+    transition: all .5s;
+    cursor: pointer;
 }
-/*
+.add_load_file > section label:hover {
+    background: #9d9d9d;
+}
+.add_load_file > section input[type='file'] {
+    visibility: hidden;
+    display:  none;
+}
+.add_load_file > section a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #333;
+    color: #eee;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size:  1.5rem;
+    text-transform:  uppercase;
+    border-radius:  10px;
+    transition: all .5s;
+}
+.add_load_file > section .close_modal {
+    background: #FF0000;
+}
+.add_load_file > section a:hover {
+    background: #666;
+}
+.add_load_file > section .close_modal:hover {
+    background: #F44336;
+}
+    /*
 
-    RESULT PAGE GAME
+        RESULT PAGE GAME
 
-*/
+    */
 .result-page {
     text-align: center;
     margin:  0;
@@ -1887,5 +2098,15 @@ section#info > *.bottom ul li i {
     text-decoration: none;
     color:  #0f0;
 }
-
+.gold-color {
+    color: gold;
+}
+span.in_curr.case i{
+    padding: 0 2px;
+    animation-iteration-count: infinite
+}
+span.in_curr.case i:nth-child(1) {animation-delay: 0.5s;}
+span.in_curr.case i:nth-child(2) {animation-delay: .8s;}
+span.in_curr.case i:nth-child(3) {animation-delay: 1.2s;}
+span.in_curr.case i:nth-child(4) {animation-delay: 1.7s;}
 

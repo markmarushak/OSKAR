@@ -7,6 +7,15 @@
 		<base href="{$root_url}" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="{$img_path}admin.css">
+
+		<link href="assets/css/admin/stylish-portfolio.css" rel="stylesheet" type="text/css">
+
+		<link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+
+		<link href="assets/lib/fontawesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="assets/lib/animate/animate.css">
+
 		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 	<body><center>

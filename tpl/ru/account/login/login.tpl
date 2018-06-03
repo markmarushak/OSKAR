@@ -1,6 +1,6 @@
 {strip}
     {include file="header.tpl"}
-    <div class="text-center logins table-section overflow-hidden">
+    <div class="text-center logins table-section overflow-hidden cosmo_log">
     <div class="vertical-middle">
     {if $_cfg.Account_Loginza}
         {include file='account/loginza/box.small.tpl'}
