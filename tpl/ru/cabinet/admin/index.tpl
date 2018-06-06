@@ -48,6 +48,7 @@
             -moz-border-radius: 10px;
             border-radius: 10px;
             margin: 5px 4px;
+            color: #333;
         }
         
         #add_check select,
@@ -55,8 +56,14 @@
             height: 35px;
         }
 
+        select,
+        button,
+        input {
+            color: #333;
+        }
+
     </style>
-    <div id="chenge" class="modal">
+    <div id="chenge" class="modals">
         <section>
             <form id="add_check">
                 <table>

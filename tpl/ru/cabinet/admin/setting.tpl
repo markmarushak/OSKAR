@@ -57,6 +57,11 @@
         #add_check button {
             height: 35px;
         }
+        select,
+        button,
+        input {
+            color: #333;
+        }
 
     </style>
     <div class="content">

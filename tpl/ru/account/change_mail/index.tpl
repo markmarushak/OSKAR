@@ -1,6 +1,8 @@
 {strip}
 {include file='header.tpl' title='Смена e-mail'}
-<body class="settings">
+<div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
+	<a class="to_home" href="/home">На главную</a>
+	<div class="vertical-middle">
 <h1>Смена e-mail</h1>
 
 {if isset($smarty.get.done)}
@@ -32,7 +34,7 @@
 {else}
 
 	{$txt_login=valueIf($_cfg.Const_NoLogins, 'e-mail', 'Логин')}
-	{include file='edit.tpl' 
+	{include file='edit.my.tpl'
 		url='*'
 		fields=
 		[
@@ -72,6 +74,7 @@
 	}
 
 {/if}
-
+	</div>
+</div>
 {include file='footer.tpl'}
 {/strip}

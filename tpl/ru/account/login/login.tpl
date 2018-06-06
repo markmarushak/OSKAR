@@ -1,8 +1,12 @@
 {strip}
-    {include file="header.tpl"}
-    <div class="text-center logins table-section overflow-hidden cosmo_log">
-    <div class="vertical-middle">
-    {if $_cfg.Account_Loginza}
+    {include file="header.tpl" title="Авторизация"}
+    <a class="to_home" href="/home">На главную</a>
+
+    <div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
+        <div class="vertical-middle">
+        <h1>Вход</h1>
+
+        {if $_cfg.Account_Loginza}
         {include file='account/loginza/box.small.tpl'}
         <br>
         <h3>или</h3>
@@ -45,7 +49,6 @@
     captcha=$_cfg.Account_LoginCaptcha
     btn_text='Войти'
     }
-
     </div>
     </div>
 

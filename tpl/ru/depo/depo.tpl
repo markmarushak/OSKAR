@@ -8,7 +8,7 @@
 		<div>
 			<div class="result-box">
 				<div class="section-1">
-					<div class="left animated bounceInLeft">победу ведет: {$user.aName}</div>
+					<div class="left animated bounceInLeft">победу ведет: <br> {$user.aName}</div>
 					<div class="right animated bounceInRight ">выигрыш составил: {_z((($el.pPerc*$el.dZ0)/100+$el.dZ0),1)}</div>
 				</div>
 				<div class="section-2 animated flipInX">

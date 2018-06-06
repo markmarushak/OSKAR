@@ -1,5 +1,7 @@
 {strip}
 {include file='header.tpl' title='Вход'}
+	<a class="to_home" href="/home">На главную</a>
+
 	<div class="text-center logins table-section overflow-hidden cosmo_log">
 		<div class="vertical-middle">
 

@@ -228,7 +228,8 @@
         <div class="bgimg-2" id="baunti">
             <div class="caption">
                 <span class="border"
-                      style="background-color:transparent;font-size:25px;color: #f7f7f7;">БАУНТИ</span>
+                      style="font-size:25px;color: #f7f7f7;">ПРАВИЛА ПОРТАЛА <span class="name_logo">4u</span>
+                </span>
             </div>
         </div>
 

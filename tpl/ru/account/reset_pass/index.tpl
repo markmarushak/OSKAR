@@ -1,7 +1,9 @@
 {strip}
 {include file='header.tpl' title='Сброс пароля'}
-
-<h1>Сброс пароля</h1>
+<div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
+	<a class="to_home" href="/home">На главную</a>
+	<div class="vertical-middle">
+<h1 class="text-center">Сброс пароля</h1>
 
 {if isset($smarty.get.done)}
 
@@ -27,7 +29,7 @@
 {else}
 
 	{$txt_login=valueIf($_cfg.Const_NoLogins, 'e-mail', 'Логин')}
-	{include file='edit.tpl' 
+	{include file='edit.my.tpl'
 		url='*'
 		fields=
 		[
@@ -51,10 +53,10 @@
 				]
 		]
 		captcha=$_cfg.Account_ResetPassCaptcha
-		btn_text='Далее'
+		btn_text='Сбросить'
 	}
 
 {/if}
-
+</div>
 {include file='footer.tpl'}
 {/strip}
