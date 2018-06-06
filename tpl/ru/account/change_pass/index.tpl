@@ -1,6 +1,8 @@
 {strip}
 {include file='header.tpl' title='Смена пароля'}
-
+<a class="to_home" href="/account">В настройки</a>
+<div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
+	<div class="vertical-middle">
 <h1>Смена пароля</h1>
 
 {if $user.uPTS == 1}
@@ -19,7 +21,7 @@
 
 {/if}
 
-{include file='edit.tpl'
+{include file='edit.my.tpl'
 	url='*'
 	fields=
 	[
