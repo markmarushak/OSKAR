@@ -2,12 +2,29 @@ ul.account_bottom-lists {
     display: flow-root;
     position: relative;
     padding-left: 30px;
+    margin-top:20px;
 }
 ul.account_bottom-lists li {
     list-style-type: none;
     margin-bottom: 5px;
 }
 ul.account_bottom-lists li a{
-    font-size: 16px;
+    font-size: 13px;
     padding: 13px 20px;
 }
+
+.settings .item-button-submit * {
+    background: #2196F3;
+}
+.avatar_add {
+}
+
+/*ul.account_bottom-lists span.avatar_add a {*/
+    /*display: block;*/
+    /*font-size: 14px;*/
+    /*color: #eee;*/
+    /*text-decoration: none;*/
+    /*background: #2196F3;*/
+    /*padding: 20px 12px;*/
+    /*border-radius: 10px;*/
+/*}*/

@@ -196,7 +196,7 @@ body h1 {
 }
 
 #header.header {
-    background-image: url(../img/bg.jpg);
+    background-image: url(http://i.imgur.com/kziAoNv.gif);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1816,7 +1816,7 @@ section#info::after {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.4);
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 section#info > * {
     background: rgba(0, 0, 0, 0.7);
@@ -1889,7 +1889,7 @@ section#info > *:nth-child(1) {
 }
 section#info > *:nth-child(3) {
     position: absolute;
-    height: 23%;
+    height: 27%;
     bottom:  0;
     right:  0;
 }
@@ -1903,6 +1903,10 @@ section#info > *.bottom ul li{
     font-size: 1.6rem;
     margin: 18px 0;
     text-transform:  uppercase;
+}
+section#info > *.bottom ul li:nth-child(1) {
+    margin: 25px 0;
+
 }
 section#info > *.top ul li i,
 section#info > *.bottom ul li i {
@@ -1926,6 +1930,8 @@ section#info > * ul li span {
     background-size: cover;
     background-position: center;
     color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 .add_load_file {
     width:100%;

@@ -1,6 +1,5 @@
 <?php
 
-$_auth = 1;
 require_once('module/auth.php');
 
 $min =$db->fetch($db->select('Random', 'number', "name=?", 'min'));

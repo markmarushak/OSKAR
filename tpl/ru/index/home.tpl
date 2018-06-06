@@ -191,17 +191,17 @@
 
         <div class="vertical-middle main-text">
             <div class="item-text">
-                <h1>игровой портал <b class='header_logo_4u' style="font-size:56pt">4U</b> </h1>
-				<div><p>КЭШБЭК - 100%</p></div>
+                <h1 class="animated fadeInDown">игровой портал <b class='header_logo_4u' style="font-size:56pt">4U</b> </h1>
+				<div class="animated fadeInUp"><p>КЭШБЭК - 100%</p></div>
 				{*<div><h3>На Валюте <b class='header_logo_R'>R</b></h3></div>*}
             </div>
 
 
-            <div class="item-button-top to">
+            {*<div class="item-button-top to">*}
 
-                <a href="#form-to"> принять участие</a>
+                {*<a href="#form-to"> принять участие</a>*}
 
-            </div>
+            {*</div>*}
         </div>
     </seection>
     {*<div class="section-1 home">*}
@@ -212,13 +212,17 @@
         <div class="services-block">
             <div class="col-md-offset-0">
                 <p>
-                    ВНИМАНИЕ УВОЖАЕМЫЕ ИГРОКИ! ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
+                    ВНИМАНИЕ!<br>
+                    УВОЖАЕМЫЕ ИГРОКИ! ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
                     <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>
 
-                    ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ, по курсу один к одному  <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
+                    ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ,
+                    <br>
+                    ПО КУРСУ ОДИН  К ОДНОМУ <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
 
                     ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО <br>
-                    ЗАЧИСЛЕНИЕ И ВЫВОД СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ В ЭЛЕКТОННОЙ ВАЛЮТЕ.
+                    ОБМЕН СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ ЧЕРЕЗ <br>
+                    ЭЛЕКТРОННЫЕ ДЕНЬГИ И КРИПТОВАЛЮТЫ
                 </p>
             </div>
         </div>
@@ -250,11 +254,12 @@
                 <!--  <div class="col-md-10 col-md-offset-0"> -->
                 <div class="col-md-offset-0" style="text-transform: uppercase; text-size:1.2em; line-height: 1.5;">
                     <p>
-                        ЗАРЕГИСТРИРУЙТЕСЬ НА <span class="name_logo">4u</span> <br>
-                        ПОПОЛНИТЕ БАЛАНС ИГРОВОГО АККАУНТА <br>
+                        ЗАРЕГИСТРИРУЙТЕСЬ НА <span class="name_logo">4u</span> И ПОПОЛНИТЕ БАЛАНС ИГРОВОГО АККАУНТА
+                        <br>
+                        ВЫБЕРИТЕ 1 ИЗ 10 ИГРОВЫХ ТЕМ <a href="/group_menu">список тем</a>
+                        <br>
                         НАЗНАЧТЕ ЦЕНУ ВОПРОСА  ОТ 100<span class="in_curr"><i class="far fa-registered"></i></span> ДО 100 000<span class="in_curr"><i class="far fa-registered"></i></span> <br>
-                        ВЫБЕРИТЕ ТЕМУ ВОПРОСА <br>
-                        ОТВЕТТЕ ПРАВИЛЬНО НА ПРОСТОЙ ВОПРОС <b>(2+2=4)</b> ИЗ 4 ВАРИЙАНТОВ <br>
+                        ПОПАВ В ИГРУ ОТВЕТТЕ ПРАВИЛЬНО НА ПРОСТОЙ ВОПРОС ИЗ 4 ВАРИЙАНТОВ <br>
                         ВЫБЕРИТЕ СВОЙ КЕЙС<br><br>
                         <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
                         <br>
