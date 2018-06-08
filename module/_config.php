@@ -171,6 +171,7 @@ $_rwlinks = array(
     'udp/intro' => array('intro'),
     'udp/rules' => array('rules'),
     'udp/about' => array('about'),
+    'udp/supp' => array('supp'),
 
 
     // Captcha

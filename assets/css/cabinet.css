@@ -1,3 +1,8 @@
+span.in_curr {
+    font-size: 25px;
+    color: gold;
+}
+
 .cabinet {
     background-image: url(../img/personalCabinet.jpg);
     -webkit-background-size: cover;
@@ -182,12 +187,27 @@ table.table.cabinet-table td
     position: absolute;
     top: -30px;
     right: -120px;
+    width:  200px;
+    text-align:  center;
 }
 
 .avatar img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 20%;
     object-fit: cover;
     box-shadow: 0 0 13px 1px #DDE;
+    margin-bottom: 14px;
+}
+
+.avatar .nickname {
+    color: gold;
+    font-size: 1.5rem;
+    border-bottom:  1px solid;
+    margin-bottom: 3px;
+    padding-bottom:  10px;
+}
+.avatar .ballance > div {
+    background: gold;
+    color:  #333;
 }

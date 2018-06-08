@@ -14,19 +14,14 @@
                                 <ul>
                                     <div class="avatar">
                                         <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
+                                        <div class="nickname">
+                                            <b>{$user.aName}</b>
+                                        </div>
+                                        <div class="ballance">
+                                            <div>игровой баланс</div>
+                                            <b><span class="in_curr">{$curr1.wBal}  <i class="far fa-registered"></i></span></b>
+                                        </div>
                                     </div>
-                                    <li>
-                                        <span>
-                                            <i>Личный кабинет : </i>
-                                            {$user.aName}
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i>Игровой баланс : </i>
-                                            <b>{$curr1.wBal}</b>
-                                        </span>
-                                    </li>
                                 </ul>
                             </div>
                             <div class="button_nav_open">

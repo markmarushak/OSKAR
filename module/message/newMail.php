@@ -1,7 +1,6 @@
 <?php
-	if($_SERVER['REQUEST_METHOD'] == "POST")
+	if($_POST['subject'])
 	{
-
         $to  = "markk.9964@gmail.com" ;
 
         $subject = $_POST['subject'];
@@ -17,5 +16,4 @@
             echo "Отправка неудачна!";
         }
 	}
-	//administrator@2017grand-lottery2018.org
 ?>

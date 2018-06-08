@@ -248,6 +248,20 @@ body h1 {
     margin: 0;
     text-transform: uppercase;
 }
+@keyframes with_item {
+    from {width: 1%;}
+    to {width: 60%;}
+}
+.item-text hr {
+    display: inline-block;
+    animation: with_item;
+    animation-duration: 3s;
+    width: 60%;
+    border-color: #03A9F4;
+    box-shadow: 0 0 5px 1px #03A9F4;
+}
+
+
 .item-button-top {
      font-family: RobotoLight;
     position: relative;
@@ -296,8 +310,6 @@ body h1 {
     display: inline-block;
     width: 100%;
     height: auto;
-    background: #282E34;
-    color: #eee;
 }
 .services-block {
     display: block;

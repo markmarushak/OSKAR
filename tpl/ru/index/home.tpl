@@ -154,17 +154,10 @@
 
                             <ul class="horizontal-menu text-right memu-close-768">
 
-                                <div class="vk_group-logo">
-                                    <a href="https://vk.com/club5263034" id="soc1" target="_blank"></a>
-                                </div>
-
                                 <li><a href="{_link module="faq"}">faq</a></li>
 
-                                <li><a href="{_link module='udp/rules'}">ПРАВОВЫЕ ДОКУМЕНТЫ</a></li>
-
-
-                                <li class="ancor closes-menu"><a href="#baunti">баунти</a></li>
-                                <li class="ancor closes-menu"><a href="#contact">поддержка</a></li>
+                                <li class="closes-menu"><a href="/rules">правила игр</a></li>
+                                <li class="closes-menu"><a href="/supp">поддержка</a></li>
 
                                 {if _uid()}
                                     {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
@@ -176,6 +169,7 @@
                                 {else}
                                     {*<li><a data-toggle="modal" data-target="#login">вход</a></li>*}
                                     <li><a href="{_link module="account/login"}">вход</a></li>
+                                    <li><a href="{_link module="account/register"}">регистрация</a></li>
                                 {/if}
 
                             </ul>
@@ -192,337 +186,22 @@
         <div class="vertical-middle main-text">
             <div class="item-text">
                 <h1 class="animated fadeInDown">игровой портал <b class='header_logo_4u' style="font-size:56pt">4U</b> </h1>
+                <hr>
 				<div class="animated fadeInUp"><p>КЭШБЭК - 100%</p></div>
-				{*<div><h3>На Валюте <b class='header_logo_R'>R</b></h3></div>*}
             </div>
-
-
-            {*<div class="item-button-top to">*}
-
-                {*<a href="#form-to"> принять участие</a>*}
-
-            {*</div>*}
         </div>
     </seection>
-    {*<div class="section-1 home">*}
-
-    {*</div>*}
-
-    <section class="services " id="services">
-        <div class="services-block">
-            <div class="col-md-offset-0">
-                <p>
-                    ВНИМАНИЕ!<br>
-                    УВОЖАЕМЫЕ ИГРОКИ! ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
-                    <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>
-
-                    ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ,
-                    <br>
-                    ПО КУРСУ ОДИН  К ОДНОМУ <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
-
-                    ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО <br>
-                    ОБМЕН СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ ЧЕРЕЗ <br>
-                    ЭЛЕКТРОННЫЕ ДЕНЬГИ И КРИПТОВАЛЮТЫ
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="bgcity">
-        <div class="bgimg-2" id="baunti">
-            <div class="caption">
-                <span class="border"
-                      style="font-size:25px;color: #f7f7f7;">ПРАВИЛА ПОРТАЛА <span class="name_logo">4u</span>
-                </span>
-            </div>
-        </div>
-
-    </section>
-    <!--  <section class="baunti table-section section" id="baunti"><div class="header-section">
-         <header>
-             <h2>ПРОГРАММА "БАУНТИ"</h2>
-         </header>
-     </div>   </section>  -->
-    <div style="width:100%">
-        <div class="conditions">
-            <div class="ver-mi">
-                <header>
-                    <h3>ПРАВИЛА ИГР НА <span class="name_logo">4u</span></h3>
-                </header>
-            </div>
-            <div class="ver-mi middle">
-                <!--  <div class="col-md-10 col-md-offset-0"> -->
-                <div class="col-md-offset-0" style="text-transform: uppercase; text-size:1.2em; line-height: 1.5;">
-                    <p>
-                        ЗАРЕГИСТРИРУЙТЕСЬ НА <span class="name_logo">4u</span> И ПОПОЛНИТЕ БАЛАНС ИГРОВОГО АККАУНТА
-                        <br>
-                        ВЫБЕРИТЕ 1 ИЗ 10 ИГРОВЫХ ТЕМ <a href="/group_menu">список тем</a>
-                        <br>
-                        НАЗНАЧТЕ ЦЕНУ ВОПРОСА  ОТ 100<span class="in_curr"><i class="far fa-registered"></i></span> ДО 100 000<span class="in_curr"><i class="far fa-registered"></i></span> <br>
-                        ПОПАВ В ИГРУ ОТВЕТТЕ ПРАВИЛЬНО НА ПРОСТОЙ ВОПРОС ИЗ 4 ВАРИЙАНТОВ <br>
-                        ВЫБЕРИТЕ СВОЙ КЕЙС<br><br>
-                        <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
-                        <br>
-                        В КАЖДОМ КЕЙСЕ НАХОДИТСЯ ОТ <span class="in_curr">7%</span> ДО <span class="in_curr">2000%</span> ОТ НАЗНАЧЕННОЙ СТОИМОСТИ ВАШЕГО ВОПРОСА <br>
-                        ТАК-ЖЕ В КЕЙСЕ ЗАШИФРОВАН СРОК ПОЛУЧЕНИЯ ВЫИГРЫША &bull; ОТ  <span class="in_curr">24</span> ДО <span class="in_curr">96</span> ЧАСОВ &bull; БУДЕТ ЗАЧИСЛЕН НА ИГРОВОЙ АККАУНТ КАЖДЫЕ <span class="in_curr">24</span> ЧАСА РАВНЫМИ ДОЛЯМИ
-                        <br>
-                        СИСТЕМА: CASH BACK - <span class="in_curr">100%</span> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ  ПРИ ПОЛУЧЕНИИ ВЫИГРЫША.
-                    </p>
-
-                    {*<p>*}
-                        {*АКЦИЯ:  С 1 МАЯ ПО 31 АВГУСТА РАБОТАЕТ СИСТЕМА <br>*}
-                        {*<span class="in_curr">CASH BACK - 100% </span> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ  ПРИ ПОЛУЧЕНИИ ВЫИГРЫША. <br>*}
-                        {*ИГРА/ВЫВОД МОМЕНТАЛЬНО.*}
-                    {*</p>*}
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- </section>    -->
-    <div style="position:relative;">
-        <div class="section-1" style="color:#ddd;background-color:#282E34; line-height: 3;">
-            <p>
-                БЛАГОДАРЯ БАУНТИ ВЫ МОЖЕТЕ ВЕРНУТЬ 10% ОТ 1-ОЙ ИГРЫ  <br> ПО ВАШЕЙ РЕФ-БЕК ССЫЛКЕ
-                <br>
-                ВАША ЛИЧНАЯ БАУНТИ(РЕФ-БЕК) ССЫЛКА ДОСТУПНА В ИГРОВОМ АККАУНТЕ
-                <br>
-                НАЧИСЛЕНИЕ ПРОИЗВОДИТСЯ МГНОВЕННО!
-            </p>
-        </div>
-    </div>
-    <section class="bgcity">
-        <div class="bgimg-3">
-            <div class="caption">
-                <span class="border"> ОТ 7% ДО 2000% ПРИБЫЛИ</span>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- </section>    -->
-
-    {*<section class="services " id="services">*}
-        {*<div class="services-block">*}
-            {*<div class="col-md-offset-0">*}
-                {*<p>*}
-                    {*УВОЖАЕМЫЕ ИГРОКИ!  ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span>. <br>*}
-                    {*<b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ 1 РОССИЙСКИЙ РУБЛЬ ПО КУРСУ ЦБ РФ. <br>*}
-
-                    {*ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ, по курсу один к одному  <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>*}
-
-                    {*ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО  В АВТОМАТИЧЕСКОМ РЕЖИМЕ . <br>*}
-                    {*ЗАЧИСЛЕНИЕ И ВЫВОД СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ В ЭЛЕКТОННОЙ ВАЛЮТЕ.*}
-                {*</p>*}
-            {*</div>*}
-        {*</div>*}
-    {*</section>*}
-
-    <!-- <section class="form-to table-section section" id="form-to"> -->
-    {if ! _uid()}
-    <section class="bgcity" id="form-to">
-        <div class="bgimg-4">
-
-            <!--  <span class="border">принять участие</span>   -->
-
-            <div class="form-wrap ver-mi overflow-hidden">
-
-                {*{if _uid()}*}
-
-                    {*<!--    -->*}
-                    {*<span class="room"><i class="fab fa-accusoft" aria-hidden="true"></i></span>*}
-                    {*<ul class="caption depo_btn gold">*}
-
-                        {*{include file='links.el.topmenu.tpl' module='cabinet' text='игровой аккаунт'}*}
-
-                    {*</ul>*}
-                    <form class="form-horizontal" role="form" method="post"
-                          action="{_link module='account/register'}" name="register_frm1">
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_uLogin">
-                        		<span class="descr_req">Придумайте логин<span class="descr_star">*</span></span>
-                        	</label>
-                            <div class="col-sm-6"><input name="uLogin" id="register_frm1_uLogin" value="" size="20"
-                                                         type="text" class="form-control string_small"> <span
-                                        id="login_check" class="err"></span></div>
-                        </div>
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_uMail">
-                        		<span class="descr_req">e-mail<span class="descr_star">*</span></span>
-                        	</label>
-                            <div class="col-sm-6"><input name="uMail" id="register_frm1_uMail" value="" size="20"
-                                                         type="text" class="form-control string_small"> <span
-                                        id="mail_check" class="err"></span></div>
-                        </div>
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_uPass">
-                        		<span class="descr_req">Придумайте пароль<span class="descr_star">*</span></span>
-                        	</label>
-                            <div class="col-sm-6"><input name="uPass" id="register_frm1_uPass" value="" size="20"
-                                                         type="password" class="form-control password"></div>
-                        </div>
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_Pass2">
-                        		<span class="descr_req">Повторите пароль<span class="descr_star">*</span></span>
-                        	</label>
-                            <div class="col-sm-6"><input name="Pass2" id="register_frm1_Pass2" value="" size="20"
-                                                         type="password" class="form-control password"></div>
-                        </div>
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_uRef">
-                        		<span class="descr_req">Вас пригласил</span>
-                        	</label>
-                            <div class="col-sm-6"><input name="uRef" id="register_frm1_uRef" value="" size="20"
-                                                         type="text" class="form-control string_small"></div>
-                        </div>
-                        <div class="form-group col-md-10 col-md-push-1">
-                        	<label class="col-sm-4 control-label text-right" for="register_frm1_Agree">
-                        		<span class="descr_req">Регистрируясь игрок принимает: <a href="rules"
-                                                                                            target="_blank">правила, соглашение о задатке и политику конфиденциальности</a> <span
-                                            class="descr_star">*</span> </span></label>
-                            <div class="col-sm-6"><input name="Agree" id="register_frm1_Agree" value="1" type="checkbox"
-                                                         class="checkbox">
-                            {include file='widget/clock/index.tpl'}
-                            </div>
-                            <br></div>
-                        <div class="footer-section home-form">
-
-                            <div class=" col-md-10 col-md-offset-1 text-center item-button-submit">
-                                <button name="register_frm1_btn" value="ПРИНЯТЬ УЧАСТИЕ" type="submit">ПРИНЯТЬ УЧАСТИЕ
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-            </div>
-        </div>
-    </section>
-    {/if}
-    <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;max-height:300px"
-             id="contact">
-
-        <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boots">
-                    <div class="helper_head"><i class="fab fa-telegram-plane"></i></div>
-                    <h3>Поддержка</h3>
-                    <p>24/7 &bull; 365</p>
-                </div>
-                <div class="row contacts-wrap" style="margin-top: 35px;">
-
-                    <div class="col-md-12">
-                        <form action="mailer" method="post" class="mail-form">
-                            <div class="form-group double">
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="firstname" type="text" class="form-control" placeholder="Имя"
-                                           data-validation="required" required>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="email" type="text" class="form-control" placeholder="Почта"
-                                           data-validation="email" required>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <input name="subject" type="text" class="form-control" placeholder="Тема"
-                                       data-validation="required" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="body" class="form-control" rows="10" placeholder="Сообщение. . ."
-                                          data-validation="required" required></textarea>
-                            </div>
-
-                            <input type="submit" class="btn btn-green contact-button" value="Отправить">
-                        </form>
-                    </div>
-                </div>
-                <div class="row contacts">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="phone">
-                            <span>+7 (495) 177-26-54</span>
-                            <br>
-                            <b>Мы перезвоним Вам в ближайшее время</b>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="email">
-                            <span>administrator@2017grand-lottery2018.org</span><br>
-                            <b>Мы ответим Вам в ближайшее время</b>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
 
 
-        </div>
 
-    </section>
+
     <!-- Footer -->
     <footer style="background-color: #282E34;color: #fff;" class="footer to" id="footer">
 
         <div class="footer-text">
-            <p class="text-footer">
-                <span>Компания 4U базируется - FRANCE</span>
-                <br>
-                <span>4U подчиняется действующему законодательству - FRANCE</span>
-                <br>
-                <span class="span1">2017grand-lottery2018.org</span> - <span
-                        class="span2">все права защищены 2017-2018</span>
-                &copy;</p>
+            <p class="text-footer">&copy; портал 4U</p>
         </div>
         <a id="to-top" href="#header" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-    <!-- login -->
-    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content modal-login-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Авторизация</h4>
-                </div>
-                <div class="modal-body table-section text-center">
-                    {$txt_login=valueIf($_cfg.Const_NoLogins, 'e-mail', 'Логин')}
-                    {include file='edit.my.tpl'
-                    url="{_link module='account/login/login'}"
-                    form='login_frm1'
-                    fields=
-                    [
-                    'Login'=>
-                    [
-                    'T',
-                    "$txt_login!!",
-                    [
-                    'login_empty'=>"укажите $txt_login/Пароль",
-                    'login_not_found'=>"неверная пара $txt_login/Пароль",
-                    'not_active'=>'e-mail аккаунта не подтвержден',
-                    'banned'=>"доступ в аккаунт приостановлен до $ban_date",
-                    'blocked'=>'аккаунт заблокирован'
-                    ]
-                    ],
-                    'Pass'=>
-                    [
-                    '*',
-                    'Пароль!!',
-                    [
-                    ]
-                    ],
-                    'Remember'=>
-                    [
-                    'CC',
-                    'Запомнить',
-                    [
-                    ]
-                    ],
-                    'URL'=>
-                    $url
-                    ]
-                    btn_text='Войти'
-                    }
-                </div>
-
-            </div>
-        </div>
-    </div>
     {include file='footer.tpl'}
 {/strip}
