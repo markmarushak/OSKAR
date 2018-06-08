@@ -79,7 +79,6 @@
             background-image: url(../assets/img/city4.jpg);
             min-height: 400px;
             background-attachment:fixed;
-
         }
 
         .bgimg-4 {
@@ -99,7 +98,6 @@
         .descr_req {
             background-color: #111;
             color: #fff;
-
         }
 
         .caption span.border {
@@ -138,7 +136,7 @@
 
     </style>
     <!-- header -->
-    <seection class="header table-section white" id="header">
+    <section class="header table-section white" id="header">
 
         <div class="top-wrap" id="top-wrap">
             <div class="container ">
@@ -156,8 +154,9 @@
 
                                 <li><a href="{_link module="faq"}">faq</a></li>
 
-                                <li class="closes-menu"><a href="/rules">правила игр</a></li>
+                                <li class="closes-menu"><a href="/rules#one">правила игр</a></li>
                                 <li class="closes-menu"><a href="/supp">поддержка</a></li>
+                                <li class="ancor closes-menu"><a data-target="#baunti" data-toggle="modal" href="/rules#baunti">баунти</a></li>
 
                                 {if _uid()}
                                     {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
@@ -171,6 +170,9 @@
                                     <li><a href="{_link module="account/login"}">вход</a></li>
                                     <li><a href="{_link module="account/register"}">регистрация</a></li>
                                 {/if}
+                                <div class="avatar home">
+                                    <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
+                                </div>
 
                             </ul>
 
@@ -190,13 +192,30 @@
 				<div class="animated fadeInUp"><p>КЭШБЭК - 100%</p></div>
             </div>
         </div>
-    </seection>
+    </section>
 
 
-
+    <div id="baunti" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Баунти</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <p>РЕФ-БЭК 10% ОТ СТАВКИ ПО ВАШЕЙ БАУНТИ ССЫЛКЕ</p>
+                    <p>ССЫЛКА ДОСТУПНА В ИГРОВОМ АККАУНТЕ</p>
+                    <p>НАЧИСЛЕНИЕ ПРОИЗВОДИТСЯ МГНОВЕННО!</p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">ОК</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
 
     <!-- Footer -->
-    <footer style="background-color: #282E34;color: #fff;" class="footer to" id="footer">
+    <footer class="footer to" id="footer">
 
         <div class="footer-text">
             <p class="text-footer">&copy; портал 4U</p>

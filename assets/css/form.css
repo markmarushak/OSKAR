@@ -249,3 +249,37 @@ div#attantion-pay .box-pay {
     color: #ff9900;
     letter-spacing: 3px;
 }
+
+#baunti.modal .modal-content {
+    background: #333333;
+    color: gold;
+}
+#baunti.modal .modal-header,
+#baunti.modal .modal-footer{
+    text-align: center;
+}
+#baunti.modal .modal-header .modal-title{
+    font-size: 3.5rem;
+    text-transform:  uppercase;
+}
+#baunti.modal .modal-body {
+    font-size: 1.9rem;
+    line-height: 2;
+    color: gold;
+}
+#baunti.modal .modal-footer button {
+    padding:10px 20px;
+    background: #11c118;
+    width:  200px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color:  #eee;
+    outline:  none;
+    border: none;
+    transition:  all .5s;
+}
+#baunti.modal .modal-footer button:hover {
+    /* background: #0b6fbf; */
+    background: rgba(17, 193, 24, 0.3);
+    box-shadow: 0 0 2px 1px #11c118,inset 0 0 2px 1px #11c118;
+}

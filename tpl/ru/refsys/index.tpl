@@ -18,18 +18,19 @@
 		<div class="footer-section">
       <div class ="tttt" style="background-image: url(../assets/img/vozvrat.jpg); min-height:200px;  background-repeat: no-repeat; width:11%; margin:0 auto;" ></div>
 			<ul class="depo_btn">
-                {if _uid()}
-                    {include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}
-
-                {/if}
+				{include file='links.el.topmenu.tpl' module='cabinet' text='Личный кабинет'}
 			</ul>
 		</div>
 	</div>
 	
 <div class="text-center">
-{if _uid()}
-
-	{include file='edit.tpl'
+<table class="table">
+	<tr>
+		<th>Приглашенные</th>
+		<th></th>
+	</tr>
+</table>
+	{*{include file='edit.tpl'
 		fields=[
 			'RefLogin'=>
 				[
@@ -53,16 +54,10 @@
 					'skip'=>!$refs
 				]
 		]
-		btn_text=' '
-	}
+		btn_text='ok'
+	} *}
 
-	{if $_cfg.Account_RegMode == 3}
 	
-		<h2>Инвайты</h2>
-		
-	{/if}
-	
-{/if}
 </div>
 
 {include file='footer.tpl'}

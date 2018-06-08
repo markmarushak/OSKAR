@@ -141,7 +141,7 @@ body h1 {
 }
 .top-menu {
     position: relative;
-    top:6rem;
+    margin-top: 6rem;
     z-index:3;
 }
 @media screen and (max-width: 840px){
@@ -462,19 +462,14 @@ body h1 {
     //
     padding: 2rem 0;
     text-align: center;
-    background: #fff;
-    border: 1px solid #eed057;
 }
 .footer p{
     margin: 0;
     padding: 20px;
     text-align: center;
     font-size: 1.6rem;
-    background: linear-gradient(120deg,#e4ab23 1%,#faf78f 30%,#e4ab23 50%,#faf78f 70%,#e4ab23 100%);
-    color: #000;
     font-weight:  bold;
     line-height: 1.9;
-    border: 1px solid #333;
 }
 .footer p .span1 {
     text-decoration: none;
@@ -1833,9 +1828,9 @@ section#info::after {
 section#info > * {
     background: rgba(0, 0, 0, 0.7);
     height: -webkit-fill-available;
-    margin: 2px;
+    margin: 8px;
     color: #68c7f2;
-    box-shadow: 0 0 4px 2px;
+    box-shadow: 0 0 4px 2px, inset 0 0 4px 2px;
     border-radius: 20px;
     width: 33%;
     height:  33%;
@@ -1848,7 +1843,7 @@ section#info > *:nth-child(2) {
     margin:  0 auto;
     width: 47%;
     height: 30%;
-    top: 6.5%;
+    top: 3.5%;
     position:  relative;
     /* box-shadow: 0 0 4px 2px; */
     background: rgba(0,0,0,.8);
@@ -1882,7 +1877,7 @@ section#info > *.center .block > *:not(span) {
     display: inline-block;
     color: #eee;
     margin:  0 10px;
-    background: #03A9F4;
+    background: #1bd823;
     padding: 13px 25px;
     border-radius:  10px;
     transition:  all .5s;
@@ -1893,8 +1888,12 @@ section#info > *.center .block > *.close-window:not(span){
 }
 section#info > *.center .block > *:not(span):hover {
     text-decoration: none;
-    background: #4CAF50;
+    background: none;
     color:  #eee;
+    box-shadow: 0 0 1px 1px #1bd823, inset 0 0 1px 1px #1bd823;
+}
+section#info > *.center .block > *.close-window:not(span) {
+    box-shadow: 0 0 1px 1px #F44336,inset 0 0 1px 1px #F44336;
 }
 section#info > *:nth-child(1) {
     width: 30%;
