@@ -14,7 +14,7 @@
 						<ul class="horizontal-menu text-right memu-close-768">
 							<li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы / Вывод / Пополнение</a></li>
 							<li><a href="{_link module='account'}"><i class="fas fa-cog"></i>&nbsp; настройки</a></li>
-							<li><a href="{_link module='index/cabinet'}"><i class="fas fa-home"></i>&nbsp;кабинет</a></li>
+							<li><a href="{_link module='cabinet'}"><i class="fas fa-home"></i>&nbsp;кабинет</a></li>
 						</ul>
 					</nav>
 				</div>
