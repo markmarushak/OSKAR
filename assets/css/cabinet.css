@@ -133,10 +133,10 @@ table.table.cabinet-table td
     list-style-type: none;
 }
 .cabinet .top-wrap ul li a {
-    background: rgba(0,0,0,.5);
+    /* background: rgba(0,0,0,.5); */
 }
 .cabinet .top-wrap ul li a:hover {
-    border-bottom:1px solid #f3dd6a;
+    /* border-bottom:1px solid #f3dd6a; */
 }
 .cabinet .top-wrap ul li a i {
     color: #f3dd6a;

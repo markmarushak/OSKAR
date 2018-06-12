@@ -1,0 +1,38 @@
+.baunti-flex {
+    display: flex;
+    align-items:  center;
+    height: calc(100% - calc(95px + 69px));
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.5) 10%);
+}
+.baunti-flex > * {
+    display: inline-block;
+    width: 50%;
+    vertical-align:  top;
+}
+.baunti-flex > * > span {
+    font-size: 7rem;
+}
+.list-player table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+.list-player th {
+    text-align: center;
+}
+.list-player th,
+.list-player td {
+    background: #EEEEEE;
+    color: #333;
+    margin: 10px 0;
+    border-right: 1px solid #333;
+}
+.list-player th:first-child,
+.list-player td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.list-player th:last-child,
+.list-player td:last-child {
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+}

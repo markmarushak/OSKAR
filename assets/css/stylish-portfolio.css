@@ -250,15 +250,19 @@ body h1 {
 }
 @keyframes with_item {
     from {width: 1%;}
-    to {width: 60%;}
+    to {width: 50%;}
 }
 .item-text hr {
     display: inline-block;
     animation: with_item;
     animation-duration: 3s;
-    width: 60%;
-    border-color: #03A9F4;
-    box-shadow: 0 0 5px 1px #03A9F4;
+    width: 50%;
+    border-color: #030dbd;
+    border-width: 0;
+    box-shadow: 0 0 10px 1px #030dbd;
+    border-radius: 100%;
+    height:  2px;
+    background:  #030dbd;
 }
 
 

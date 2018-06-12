@@ -1,37 +1,87 @@
 {strip}
     {include file='header.tpl' title='Правила'}
     <style>
+        body {
+            background-image: url(http://oboi-na-stol.com/pub/original_images/oboi-na-stol.com-261338-abstrakciya-abstrakciya-fraktal.jpg);
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
         .br-ruls {
-            background: #282E34;
+            background: rgba(40, 46, 52, 0.8);
             color: #eee;
             border-radius: 20px;
             padding: 10px;
             margin: 10px 0;
+            box-shadow: 0 0 2px 1px #0507f5, inset 0 0 2px 1px #0507f5;
         }
         .sect {
             display: none;
         }
         .sect.default {
+            margin-top: 5%;
             display: block;
         }
+        .memu-close-768 {
+            background: #777;
+            padding: 5px;
+            border-radius: 11px;
+            color: #fff;
+        }
+        .avatar.home img {
+            width: 40px;
+            height: 40px;
+        }
+
     </style>
 
 
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="/home"><i class="fa fa-home" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#ruls">Правила игр</a>
-                        </li>
-                        <li>
-                            <a href="#ruls-2">Правила игр</a>
-                        </li>
-                    </ul>
+                <div class="top-wrap" id="top-wrap">
+                    <div class="container ">
+                        <div class="row">
+
+                            <div class="col-md-10 col-md-offset-1">
+                                <nav class="top-menu" id="top-menu">
+
+                                    <div class="button_nav_open">
+                                        <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                                    </div>
+
+
+                                    <ul class="horizontal-menu text-right memu-close-768">
+
+                                        <li><a href="/home"><i class="fas fa-home"></i></a></li>
+                                        <li><a class="tab default" href="#ruls">Првила игр</a></li>
+                                        <li><a class="tab" href="#ruls-2">о внутренней валюте</a></li>
+
+                                        {if _uid()}
+                                            {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
+                                            {if $curr1}
+                                                {*{include file='links.element.tpl' module='balance' text='Баланс'}*}
+                                                {_z($curr1.wBal, $curr1.cID, 2)}
+                                            {/if}
+                                            {include file='links.el.topmenu.tpl' module='account/login' params='out' text='Выход'}
+                                        {else}
+                                            {*<li><a data-toggle="modal" data-target="#login">вход</a></li>*}
+                                            <li><a href="{_link module="account/login"}">вход</a></li>
+                                            <li><a href="{_link module="account/register"}">регистрация</a></li>
+                                        {/if}
+                                        <div class="avatar home">
+                                            <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
+                                        </div>
+
+                                    </ul>
+
+                                </nav>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -102,13 +152,15 @@
     {include file='footer.tpl'}
     <script>
         $(document).ready(function () {
-            $('.nav a:not([href="/home"])').click(function (event) {
+            $('#top-menu a.tab').click(function (event) {
                 event.preventDefault();
-                var cler =  $('body .sect').removeClass('default');
+                var cler =  $('body .sect, #top-menu a.tab').removeClass('default');
+
                 if  (cler) {
                     var link = $(this).attr('href');
                     var block = $('body').find(link);
                     block.addClass('default');
+                    $(this).addClass('default');
                 }
             });
         });

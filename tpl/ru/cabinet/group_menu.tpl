@@ -6,8 +6,8 @@
         <div class="ballance-player">
            <span>money {$curr1.wBal} <i class="fas fa-registered"></i></span>
         </div>
-        <aside id="warning" class="animated fadeInDown">
-            <section>
+        <aside id="warning">
+            <section  class="animated fadeInDown">
                 <header>
                     <h3>
                         ВНИМАНИЕ!
@@ -45,7 +45,7 @@
                     </h3>
                 </header>
                 <div class="content">
-                    <form id="form-amount_question" name="form-amount_question" action="{_link module='cabinet/group_search'}" method="post" target="_blank">
+                    <form id="form-amount_question" name="form-amount_question" action="{_link module='cabinet/group_search'}" method="post">
                         <div class="modal-group">
                             <label for="">Назначьте стоимость вопроса <i class="far fa-registered"></i></label>
                             <span>

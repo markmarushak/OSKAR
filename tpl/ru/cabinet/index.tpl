@@ -28,15 +28,6 @@
                                 <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
                             </div>
                             <ul class="horizontal-menu text-right memu-close-768">
-
-                                {*{include file='menu.tpl'*}
-                                {*class='mainMenu'*}
-                                {*elements=[*}
-                                {*['balance', 'Финансы / Вывод / Пополнение', 'count'=>$count_opers],*}
-
-                                {*['refsys', 'Баунти', 'skip'=>!$_cfg.Ref_Word],*}
-                                {*['balance/wallets', 'Платежные реквизиты']*}
-                                {*]}*}
                                 <li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы / Вывод / Пополнение</a></li>
                                 <li><a href="{_link module='refsys'}"><i class="fas fa-gift"></i>&nbsp; Баунти</a></li>
                                 {*<li><a href="{_link module='balance/wallets'}"><i class="fas fa-credit-card"></i>&nbsp;Платежные реквизиты</a></li>*}
