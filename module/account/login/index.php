@@ -8,7 +8,7 @@ try
 	if (isset($_GET['out'])) 
 	{
 		if (!_uid())
-			goToURL(moduleToLink('index'));
+			goToURL(moduleToLink('index/home'));
 		opLoginOut(_GET('out'));
 		showInfo('LogOut');
 	}
