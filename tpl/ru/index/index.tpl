@@ -17,7 +17,7 @@
             <header><h1>Игровой портал 4U </h1></header>
             <div class="block">
                 <span>в данных развлекательных играх могут учавствовать лица достигшие совершеннолетия</span>
-                <a href="{_link module='index/home'}">Уже можно</a>
+                <a class="next_site" href="{_link module='index/home'}">Уже можно</a>
                 <a class="close-window">Еще нет</a>
             </div>
         </div>

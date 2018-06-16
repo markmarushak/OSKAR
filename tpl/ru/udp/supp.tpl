@@ -1,7 +1,7 @@
 {strip}
     {include file='header.tpl' title='Поддержка'}
     <a class="to_home" href="/home">На главную</a>
-    <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;max-height:300px"
+    <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;"
              id="contact">
 
         <div class="container">
@@ -11,7 +11,7 @@
                     <h3>Поддержка</h3>
                     <p>24/7 &bull; 365</p>
                 </div>
-                <div class="row contacts-wrap" style="margin-top: 35px;">
+                <div class="row contacts-wrap">
 
                     <div class="col-md-12">
                         <form action="mailer" method="post" class="mail-form">
@@ -31,7 +31,7 @@
                                        data-validation="required" required>
                             </div>
                             <div class="form-group">
-                                <textarea name="body" class="form-control" rows="10" placeholder="Сообщение. . ."
+                                <textarea name="body" class="form-control" rows="4" placeholder="Сообщение. . ."
                                           data-validation="required" required></textarea>
                             </div>
 

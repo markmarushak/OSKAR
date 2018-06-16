@@ -1,5 +1,7 @@
 {strip}
+	<link rel="stylesheet" href="assets/css/account.css">
 {include file='header.tpl' title='Вход'}
+	<body class="accounts">
 	<a class="to_home" href="/home">На главную</a>
 
 	<div class="text-center logins table-section overflow-hidden cosmo_log">

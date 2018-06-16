@@ -90,7 +90,7 @@
     <div class="container sect default" id="ruls">
         <div class="row">
             <div class="col-md-10 col-md-push-1">
-                <div class="br-ruls animated fadeInRight">
+                <div class="br-ruls animated fadeInLeft">
                     <div class="conditions">
                         <div class="ver-mi">
                             <header>
@@ -126,7 +126,7 @@
     <div class="container sect" id="ruls-2">
         <div class="row">
             <div class="col-md-10 col-md-push-1">
-                <section class="services br-ruls animated fadeInLeft" id="services">
+                <section class="services br-ruls animated fadeInRight" id="services">
                     <div class="services-block">
                         <div class="col-md-offset-0">
                             <h1>ВНИМАНИЕ!</h1>

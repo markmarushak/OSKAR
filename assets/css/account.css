@@ -19,6 +19,17 @@ ul.account_bottom-lists li a{
 .avatar_add {
 }
 
+.cosmo_log a {
+    color: #0030ff;
+    text-shadow: 0 0 7px;
+    transition: all .5s;
+}
+.cosmo_log a:hover {
+    text-decoration: none;
+    color: #00ff03;
+    text-shadow: 0 0 7px;
+}
+
 /*ul.account_bottom-lists span.avatar_add a {*/
     /*display: block;*/
     /*font-size: 14px;*/
