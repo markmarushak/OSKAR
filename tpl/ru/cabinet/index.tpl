@@ -7,7 +7,7 @@
         <div class="top-wrap" id="top-wrap">
             <div class="container ">
                 <div class="row">
-                    <div class="col-md-12 col-sm-10">
+                    <div class="col-md-12">
                         <nav class="top-menu" id="top-menu">
                             <div class="name-is-cabinet">
                                 <span class="logo-cabinet"><h1>4U - </h1><h2> four you <i class="fab fa-gratipay"></i></h2></span>

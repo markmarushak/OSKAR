@@ -5,7 +5,7 @@
             background-image: url(http://oboi-na-stol.com/pub/original_images/oboi-na-stol.com-261338-abstrakciya-abstrakciya-fraktal.jpg);
             background-size: cover;
             background-position: center;
-            overflow: hidden;
+            overflow-x: hidden;
         }
         .br-ruls {
             background: rgba(40, 46, 52, 0.8);
@@ -31,6 +31,18 @@
         .avatar.home img {
             width: 40px;
             height: 40px;
+        }
+
+        @media screen and (max-width: 768px){
+            .top-wrap {
+                margin: 2em 0;
+                display: block;
+                right: 0;
+                top: 20px;
+            }
+            .top-menu {
+                top: 0;
+            }
         }
 
     </style>

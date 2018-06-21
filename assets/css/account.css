@@ -23,6 +23,8 @@ ul.account_bottom-lists li a{
     color: #0030ff;
     text-shadow: 0 0 7px;
     transition: all .5s;
+    position:  relative;
+    z-index:  12;
 }
 .cosmo_log a:hover {
     text-decoration: none;

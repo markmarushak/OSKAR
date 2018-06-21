@@ -56,7 +56,9 @@
 								<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
 							</div>
 							<ul class="horizontal-menu text-right memu-close-768">
-                                {include file='links.el.topmenu.tpl' module='index' text='на главную'}
+                               <li>
+								   <a href="/home">на главную</a>
+							   </li>
 							</ul>
 						</nav>
 					</div>

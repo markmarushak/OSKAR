@@ -137,9 +137,13 @@ ul.depo_btn {
     /*! top: -10.5em; */
     padding-bottom: 0;
     z-index: 9999;
+    /* top: -10em; */
 }
 .regist {
     padding-top:100px;
+}
+.regist .footer-section {
+    bottom: 20%;
 }
 .regist .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
     /*! top:-10em; */

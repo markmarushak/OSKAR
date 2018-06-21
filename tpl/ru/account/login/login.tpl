@@ -49,6 +49,16 @@
     captcha=$_cfg.Account_LoginCaptcha
     btn_text='Войти'
     }
+
+            {if !$_cfg.Sys_LockSite}
+                <div class="chekc-footer">
+                    <br>
+                    <a href="{_link module='account/reset_pass'}">Забыл пароль</a><br>
+                    {if $_cfg.Account_RegMode >= 0}<a href="{_link module='account/register'}">Еще нет логина</a><br>{/if}
+                    <a href="{_link module='confirm'}">Подтвердить</a> или <a href="{_link module='account/change_mail'}">сменить</a> e-mail
+                    <br>
+                </div>
+            {/if}
     </div>
     </div>
 

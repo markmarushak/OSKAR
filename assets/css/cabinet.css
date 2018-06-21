@@ -69,7 +69,11 @@ table.table.table-hover>tbody>tr:hover {
 .cabinet .item-button-top {
     top: 0;
 }
-
+@media screen and (max-width: 425px){
+    .cabinet .item-button-top {
+        top: 5rem;
+    }
+}
 .oper-btn .m-gren,
 .item-button-top .m-gren {
     background: #29d230;
@@ -162,8 +166,20 @@ table.table.cabinet-table td
     border-radius: 4px;
     vertical-align: top;
 }
+@media screen and (max-width: 425px){
+    .cabinet-next form {
+        vertical-align: bottom;
+        margin-bottom: -5px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .cabinet-next form {
+        margin-right: 5px;
+    }
+}
 .cabinet-next form div > input {
-    margin: 0;
+    margin: 0 auto;
     border: none;
     border-bottom: 5px solid transparent;
     background: url(../img/wheel.png);
@@ -223,4 +239,17 @@ table.table.cabinet-table td
     border-radius: 50%;
     object-position:  51% 0;
     margin:  0;
+}
+
+@media screen and (max-width: 768px){
+    .avatar {
+        top: 180px;
+        left: -70px;
+    }
+}
+@media screen and (max-width: 425px){
+    .avatar {
+        top: 40px;
+        left: 30%;
+    }
 }

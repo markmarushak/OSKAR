@@ -161,6 +161,10 @@
     .logins .footer-section .col-md-10.col-md-offset-1.text-center.item-button-submit {
         top:0;
     }
+
+    .oper-btn .m-gren {
+        display: block;
+    }
 }
 
 
@@ -349,9 +353,7 @@
     .operations .header-box span {
         font-size:2rem;
     }
-    .oper-btn .m-gren {
-        display: block;
-    }
+
     .oper-fot-btn {
         top:0;}
         .oper-fot-btn li {
@@ -400,6 +402,8 @@
     }
     .oper .footer-section {
         padding-bottom: 2vh;
+        position: absolute;
+        bottom: 0;
     }
     ul.depo_btn.gold {
      padding-bottom: 10%;
