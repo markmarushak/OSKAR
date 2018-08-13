@@ -55,11 +55,11 @@ table.table.table-hover>thead>tr>th{
     font-size: 1.6rem;
 }
 table.table.table-hover>tbody>tr>td{
-    font-size: 1.6rem;
-    padding: 1.5em 0;
+    /* font-size: 1.6rem; */
+    /* padding: 1.5em 0; */
 }
 table.table.table-hover>tbody>tr:hover {
-    background: rgba(0,0,0,.5);
+    /* background: rgba(0,0,0,0.1); */
     transition: all 0.45s;
 }
 .item-button-top {

@@ -102,6 +102,7 @@
         $('form').attr('id', 'game-new');
 	</script>
 	<script src="assets/js/game-bg.js"></script>
+	<script src='assets/js/notBackLoad.js'></script>
 
 {/strip}
 

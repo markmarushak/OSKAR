@@ -20,11 +20,13 @@
             color: gold;
         }
 		.header_logo_4u {
-			font-size: 56pt;
-			background: rgba(0,0,0, 0.58);
-			color: #2196F3;
-			border-radius: 10px;
-			padding: 0 12px;
+            background: url(assets/img/logo_4u.png);
+            width: 100px;
+            height: 100px;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: inline-block;
+            vertical-align: -20px;
 		}
 		.header_logo_R {
 			font-size: 45px;
@@ -187,9 +189,58 @@
 
         <div class="vertical-middle main-text">
             <div class="item-text">
-                <h1 class="animated fadeInDown">игровой портал <b class='header_logo_4u' style="font-size:56pt">4U</b> </h1>
+                <h1 class="animated fadeInDown"><span>игровой портал </span><b class='header_logo_4u'></b> </h1>
                 <hr>
 				<div class="animated fadeInUp"><p>КЭШБЭК - 100%</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="section-1" id="home-section-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block text-right">
+                        <p>отзывчивая поддержка 24/7/365</p>
+                        <p>автоматические выплаты и онлайн чат</p>
+                        <p>вурификация игрового аккаунта</p>
+                        <p>трехфакторная защита от взлома</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Статистика Игр</h3>
+                    <table class="table table-hover text-center">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Нейм</th>
+                                <th scope="col">Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {foreach from=$game_stat item=i key=k}
+                                <tr>
+                                    <th scope="row">
+                                        {$i.dID}
+                                    </th>
+                                    <td>
+                                        {if $i.aName}{$i.aName}{else}{$i.uLogin}{/if}
+                                    </td>
+                                    <td>
+                                        {$i.dZD}
+                                    </td>
+                                </tr>
+                            {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <div class="block text-left">
+                        <p>В <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> от 7% до 2000% выигрышь</p>
+                        <p>+кэш-бэк 100%</p>
+                        <p>баунти - 10% моментально</p>
+                        <p>от 100R до 100 000R участие = выигрышь</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -213,6 +264,7 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div>
+
 
     <!-- Footer -->
     <footer class="footer to" id="footer">

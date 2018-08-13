@@ -160,7 +160,7 @@ form[name='add'] > .footer-section {
     /* padding: 5em 0; */
 }
 body h1 {
-    font-family:RobotoBold;
+    font-family: RobotoBold;
 }
 .header .logo span {
     background-image: url(../img/logo1.png);
@@ -340,9 +340,32 @@ body h1 {
 }
 
 /* End Header*/
+#home-section-1 .row{
+    display: flex;
+}
+#home-section-1 .col-md-4 {
+    align-self:center;
+}
+#home-section-1 .block {
+    text-transform: uppercase;
+    line-height:3;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+#home-section-1 .block.text-left > *::after {left:0;}
+#home-section-1 .block.text-right > *::after {right:0;}
 
-
-/* Services*/
+#home-section-1 .block > *:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width:80%;
+    border-bottom: 1px dashed #777;
+}
+#home-section-1 .block > *:nth-child(2)::after {
+    width: 100%;
+}
+    /* Services*/
 
 .services {
     display: inline-block;

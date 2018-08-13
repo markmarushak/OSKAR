@@ -2,7 +2,7 @@
     {include file='header.tpl' title='Правила'}
     <style>
         body {
-            background-image: url(http://oboi-na-stol.com/pub/original_images/oboi-na-stol.com-261338-abstrakciya-abstrakciya-fraktal.jpg);
+            background-image: url(assets/img/rules.jpg);
             background-size: cover;
             background-position: center;
             overflow-x: hidden;

@@ -9,20 +9,6 @@
         }
     </style>
     {include file='header.tpl' title=$title}
-    <aside id="winner-player" class="modal animated fadeInDown">
-        <section>
-            <span>
-                Поздравляем {$user.uLogin} !!
-            </span>
-        </section>
-    </aside>
-    <aside id="lost-player" class="modal animated fadeInDown">
-        <section>
-            <span>
-                Вы проиграли {$user.uLogin} !!
-            </span>
-        </section>
-    </aside>
 
     <section id="cart_question" class="game-bg">
         <div class="personal-panel animated fadeInDown">
@@ -52,9 +38,6 @@
             <div class="right-panel">
                 <div class="avatar-player">
                     <img src="{$avatar.url_img}" alt="">
-                </div>
-                <div class="cabinet-player">
-                    <a href="{_link module='cabinet'}">игровой аккаунт</a>
                 </div>
             </div>
         </div>
@@ -88,5 +71,6 @@
     {include file='footer.tpl'}
     <script src="assets/js/game-player.js?={$rand_css}"></script>
     <script src="assets/js/game-bg.js"></script>
+    <script src="assets/js/notBackLoad.js"></script>
 
 {/strip}

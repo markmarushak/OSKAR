@@ -40,41 +40,36 @@
 			}
 		}
 
-
+		#top-menu ul li a {
+			color: #333;
+		}
 	</style>
 	<!-- header -->
-	<header class="faq table-section white" id="faq">
-		<div class="top-wrap">
-			<div class="container ">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<nav class="top-menu" id="top-menu">
-							<div class="logo">
-								<span></span>
-							</div>
-							<div class="button_nav_open">
-								<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
-							</div>
-							<ul class="horizontal-menu text-right memu-close-768">
-                               <li>
-								   <a href="/home">на главную</a>
-							   </li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="container text-center">
+		<div class="col-md-12">
+			<div class="top-wrap">
 
-		<div class="vertical-middle main-text">
-			<div class="item-text">
-				<h1>Вопросы и ответы</h1>
-			</div>
-			<div class="faq-btn to">
-				<a href="#qwest"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				<nav class="top-menu" id="top-menu">
+					<div class="logo">
+						<span></span>
+					</div>
+					<div class="button_nav_open">
+						<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					</div>
+					<ul class="horizontal-menu text-right memu-close-768" style="padding: 0;">
+                       <li>
+						   <a href="/home">на главную</a>
+					   </li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-	</header>
+		<h2>
+			FAQ
+			<hr>
+			ВОПРОСЫ И ОТВЕТЫ
+		</h2>
+	</div>
 
 	<div class="container">
 		<div class="row">
