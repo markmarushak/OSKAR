@@ -112,12 +112,11 @@
     [
     'pin_wrong'=>'неверный код'
     ],
-    'skip'=>($_cfg.Sec_MinPIN == 0),
-    'size'=>8
+        'skip'=>($_cfg.Sec_MinPIN == 0),
+        'size'=>8
+        ]
     ]
-    ]
-    values=$user
-    hide_cancel=$user.aNeedReConfig
+    btn_text=' '
     }
 </div>
 
@@ -137,6 +136,7 @@
         <li><a href="{_link module='account/change_pass'}" class="btn btn-info">Сменить пароль</a></li>
     {/if}
     <li><a class="btn btn-success " href="{_link module='cabinet'}">вернутся</a></li>
+    <li><button class="btn btn-info" form="account_setting" name="account_frm_btn" value="Сохранить" type="submit">Сохранить</button></li>
 </ul>
 
 <aside id="modal_add-avatar" class="modal add_load_file">
@@ -164,6 +164,7 @@
         </div>
         <a href="#" class="pasport_up_files button">Загрузить файлы</a>
         <a href="#" class="close_modal" data-target="modal_pasport">закрыть</a>
+
         <div class="ajax-reply"></div>
 
     </section>
@@ -171,6 +172,7 @@
 {include file='footer.tpl'}
 <script>
     $(document).ready(function () {
+        $('form[name="account_frm"]').attr('id','account_setting');
 
         var files;
 

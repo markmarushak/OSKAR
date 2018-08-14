@@ -127,6 +127,29 @@
             width: 70%;
             margin: 0 auto;
         }
+        .home-bottom-center-blocks{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: row;
+        }
+        .home-bottom-center-blocks > * {
+            width: 50%;
+            text-transform: uppercase;
+            margin: 0 10px;
+        }
+        .home-bottom-center-blocks > * .chil {
+            display: inline-block;
+            width: auto;
+            box-shadow: 0 0 20px 0px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            height: 100%;
+            padding: 10px;
+            font-size: 1.4em;
+        }
 
     </style>
     <!-- header -->
@@ -183,7 +206,24 @@
             <div class="item-text">
                 <h1 class="animated fadeInDown"><span>игровой портал </span><b class='header_logo_4u'></b> </h1>
                 <hr>
-				<div class="animated fadeInUp"><p>КЭШБЭК - 100%</p></div>
+            </div>
+            <div class="home-bottom-center-blocks">
+                <div class="block text-right">
+                    <div class="chil">
+                        <p>ОТЗЫВЧИВАЯ ПОДДЕРЖКА 24*7*365</p>
+                        <p>АВТОМАТИЧЕСКИЕ ВЫПЛАТЫ И ОНЛАЙН ЧАТ</p>
+                        <p>ВЕРЕФИКАЦИЯ ИГРОВОГО АККАУНТА</p>
+                        <p>ТРЕХ ФАКТОРНАЯ ЗАЩИТА ОТ ВЗЛОМА</p>
+                    </div>
+                </div>
+                <div class="block text-left">
+                    <div class="chil">
+                        <p>В <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> от 7% до 2000% выигрыш</p>
+                        <p>+кэш-бэк 100%</p>
+                        <p>БАУНТИ 10% МОМЕНТАЛЬНО</p>
+                        <p>ОТ 100R ДО 100 000R УЧАСТИЕ = ВЫИГРЫШ</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -191,12 +231,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="block text-right">
-                        <p>отзывчивая поддержка 24/7/365</p>
-                        <p>автоматические выплаты и онлайн чат</p>
-                        <p>вурификация игрового аккаунта</p>
-                        <p>трехфакторная защита от взлома</p>
-                    </div>
+                    
                 </div>
                 <div class="col-md-4">
                     <h3>Статистика Игр</h3>
@@ -226,12 +261,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <div class="block text-left">
-                        <p>В <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> от 7% до 2000% выигрышь</p>
-                        <p>+кэш-бэк 100%</p>
-                        <p>баунти - 10% моментально</p>
-                        <p>от 100R до 100 000R участие = выигрышь</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

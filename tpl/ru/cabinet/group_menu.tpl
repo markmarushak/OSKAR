@@ -10,7 +10,7 @@
             <section  class="animated fadeInDown">
                 <header>
                     <h3>
-                        ВНИМАНИЕ!
+                        attention!!!
                     </h3>
                 </header>
                 <div class="content">

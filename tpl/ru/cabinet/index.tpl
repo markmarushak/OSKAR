@@ -10,7 +10,7 @@
                     <div class="col-md-12">
                         <nav class="top-menu" id="top-menu">
                             <div class="name-is-cabinet">
-                                <span class="logo-cabinet"><h1>4U - </h1><h2> four you <i class="fab fa-gratipay"></i></h2></span>
+                                <span class="logo-cabinet"><h1><b class='header_logo_4u'></b> - </h1><h2> four you <i class="fab fa-gratipay"></i></h2></span>
                                 <ul>
                                     <div class="avatar">
                                         <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">

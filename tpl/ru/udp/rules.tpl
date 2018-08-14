@@ -70,7 +70,7 @@
 
                                     <ul class="horizontal-menu text-right memu-close-768">
                                         <li><a href="/home"><i class="fas fa-home"></i></a></li>
-                                        <li><a class="tab default" href="#ruls">Првила игр <b class='header_logo_4u'></b> </a></li>
+                                        <li><a class="tab default" href="#ruls">Правила игр <b class='header_logo_4u'></b> </a></li>
                                         <li><a class="tab" href="#ruls-2">о внутренней валюте</a></li>
 
                                         {if _uid()}
@@ -142,7 +142,7 @@
     <div class="container sect" id="ruls-2">
         <div class="row">
             <div class="col-md-10 col-md-push-1">
-                <section class="services br-ruls animated fadeInRight" id="services">
+                <section class="services br-ruls animated fadeInLeft" id="services">
                     <div class="services-block">
                         <div class="col-md-offset-0">
                             <h1>ВНИМАНИЕ!</h1>

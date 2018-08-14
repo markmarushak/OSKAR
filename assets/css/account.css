@@ -8,7 +8,9 @@ ul.account_bottom-lists li {
     list-style-type: none;
     margin-bottom: 5px;
 }
-ul.account_bottom-lists li a{
+ul.account_bottom-lists li a,
+ul.account_bottom-lists li button
+{
     font-size: 13px;
     padding: 13px 20px;
 }

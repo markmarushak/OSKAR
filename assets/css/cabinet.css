@@ -67,7 +67,7 @@ table.table.table-hover>tbody>tr:hover {
  }
 
 .cabinet .item-button-top {
-    top: 0;
+    top: -60px;
 }
 @media screen and (max-width: 425px){
     .cabinet .item-button-top {
@@ -156,11 +156,12 @@ table.table.cabinet-table td
 .name-is-cabinet .logo-cabinet > *  {
     text-transform:  uppercase;
     display:  inline-block;
-    border-bottom:  1px solid;
     position:  relative;
     margin:  0;
 }
-
+.name-is-cabinet .logo-cabinet > h2 {
+    border-bottom: 1px solid;
+}
 .cabinet-next form {
     display: inline-block;
     border-radius: 4px;
@@ -182,7 +183,7 @@ table.table.cabinet-table td
     margin: 0 auto;
     border: none;
     border-bottom: 5px solid transparent;
-    background: url(../img/wheel.png);
+    background: url(../img/wheel3.png);
     background-size: contain;
     background-repeat:  no-repeat;
     background-position:  center;
@@ -192,9 +193,10 @@ table.table.cabinet-table td
     font-size:  20px;
     color: #333;
     background: linear-gradient(120deg,#e4ab23 1%,#faf78f 30%,#e4ab23 50%,#faf78f 70%,#e4ab23 100%);
-    padding:  10px 20px;
+    padding: 9px 20px;
     border-radius: 10px;
-    top: -5px;
+    top: -3px;
+    text-transform:  uppercase;
     position:  relative;
 }
 
