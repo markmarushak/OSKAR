@@ -10,6 +10,21 @@
     </style>
     {include file='header.tpl' title=$title}
 
+    <aside id="winner-player" class="modal animated fadeInDown">
+        <section>
+            <span>
+                Поздравляем {$user.uLogin} !!
+            </span>
+        </section>
+    </aside>
+    <aside id="lost-player" class="modal animated fadeInDown">
+        <section>
+            <span>
+                Вы проиграли {$user.uLogin} !!
+            </span>
+        </section>
+    </aside>
+
     <section id="cart_question" class="game-bg">
         <div class="personal-panel animated fadeInDown">
             <div class="left-panel">
@@ -32,7 +47,7 @@
                         {if $balance_main}{$balance_main}m{else}{$curr1.wBal}{/if} <i class="far fa-registered"></i></span>
                 </div>
                 <div class="game-rate">
-                    ставка <span><b>{$rate}</b><i class="far fa-registered"></i></span>
+                    ставка <span><b id="rate">{$rate}</b><i class="far fa-registered"></i></span>
                 </div>
             </div>
             <div class="right-panel">
@@ -43,14 +58,14 @@
         </div>
         <div class="game-panel animated fadeInUp">
             <header class="question-board">
-                <span>игра на тему: {$group}</span>
+                <span>игра на тему: <span id="group_q">{$group}</span></span>
                 <hr>
                 <p>
                     {$question.main.question}
                 </p>
             </header>
             <div class="btn-panel">
-                <form method="post" id="game-player">
+                <form id="game-player">
                     <input type="hidden" name="idPlayer" value="{$user.uID}">
                     <div class="btn-row">
                         {foreach from=$question.fake key=k item=i}

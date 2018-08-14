@@ -2,18 +2,23 @@ $(document).ready(function () {
     var count = 1;
     var game = $('#game-player').submit(function (event) {
         event.preventDefault();
-        var balance = parseInt($('.game-balance span').text());
-        var player_id = parseInt($('input[name]').val());
-        var answer = $('input:checked').val();
-        var winner = $('.winning span').text();
-        var lose = $('.defeat span').text();
-        var data =  ({
+        var balance = parseInt($('.game-balance span').text()),
+            player_id = parseInt($('input[name]').val()),
+            answer = $('input:checked').val(),
+            winner = $('.winning span').text(),
+            lose = $('.defeat span').text(),
+            question_g = $('#group_q').text(),
+            rate = $('#rate').text();
+
+                    var data =  ({
             'answer'   : answer,
             'balance'  : balance,
             'player_id': player_id,
             'winner'   : winner,
             'lose'     : lose,
-            'count'    : count
+            'count'    : count,
+            'question_g' : question_g,
+            'rate'     : rate
         });
         var send = $.ajax({
             type: 'POST',
@@ -24,7 +29,7 @@ $(document).ready(function () {
             if (result.result === 1) {
                 slideResultPlayer($('#winner-player'));
                 setTimeout(function () {
-                    $(location).attr('href','/deposit?add');
+                    $(location).attr('href','/deposit?add&question='+result.question_g+'&rate='+result.rate);
                 },3100);
                 $('#game-balance').html(result.balance);
                 $('#winning').html(result.winner);

@@ -78,6 +78,7 @@ if (!isset($_GET['add']))
 	stampArrayToStr($el, 'dCTS, dLTS, dNTS', 0);
 	setPage('el', $el, 3);
 	setPage('currs', $_currs);
+	
 }
 else
 {

@@ -44,11 +44,16 @@
                 top: 0;
             }
         }
+        .rules-menu .header_logo_4u {
+            width: 35px;
+            height: 30px;
+            vertical-align: -7px;
+        }
 
     </style>
 
 
-    <div class="container">
+    <div class="container rules-menu">
         <div class="row">
             <div class="col-md-12">
                 <div class="top-wrap" id="top-wrap">
@@ -64,9 +69,8 @@
 
 
                                     <ul class="horizontal-menu text-right memu-close-768">
-
                                         <li><a href="/home"><i class="fas fa-home"></i></a></li>
-                                        <li><a class="tab default" href="#ruls">Првила игр</a></li>
+                                        <li><a class="tab default" href="#ruls">Првила игр <b class='header_logo_4u'></b> </a></li>
                                         <li><a class="tab" href="#ruls-2">о внутренней валюте</a></li>
 
                                         {if _uid()}
@@ -106,7 +110,7 @@
                     <div class="conditions">
                         <div class="ver-mi">
                             <header>
-                                <h3>ПРАВИЛА ИГР НА <span class="name_logo">4u</span></h3>
+                                <h3>ПРАВИЛА ИГР НА <span class="name_logo"><b class='header_logo_4u'></b></span></h3>
                             </header>
                         </div>
                         <div class="ver-mi middle">

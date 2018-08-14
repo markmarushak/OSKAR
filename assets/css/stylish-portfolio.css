@@ -55,6 +55,15 @@ p,a {
 .no-uppercase {
     text-transform: none !important;
 }
+.header_logo_4u {
+    background: url(../img/logo_4u.png);
+    width: 110px;
+    height: 100px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: -20px;
+}
 .overflow-hidden {overflow: hidden;padding: 50px 0;}
 .table-section {
     display: table;
@@ -1918,7 +1927,7 @@ section#info > *:nth-child(2) {
 }
 section#info > *.center > header {
     position: absolute;
-    top: -70px;
+    top: -120px;
     text-align:  center;
     text-transform:  uppercase;
     width:  100%;
@@ -1945,7 +1954,7 @@ section#info > *.center .block > *:not(span) {
     display: inline-block;
     color: #eee;
     margin:  0 10px;
-    background: #1bd8231a;
+    background: #04cc0d;
     padding: 13px 25px;
     border-radius:  10px;
     transition:  all .5s;
@@ -1959,9 +1968,9 @@ section#info > *.center .block > *.close-window:not(span){
 }
 section#info > *.center .block > *:not(span):hover {
     text-decoration: none;
-    background: none;
+    /* background: none; */
     color:  #eee;
-    box-shadow: 0 0 3px 1px #00ff0b, inset 0 0 3px 1px #00ff0b;
+    box-shadow: 0 0 13px 1px #00ff0b, inset 0 0 3px 1px #00ff0b;
 }
 section#info > *.center .block > *.close-window:not(span) {
     box-shadow: 0 0 1px 1px #F44336,inset 0 0 1px 1px #F44336;
@@ -2233,22 +2242,22 @@ section#info > * ul li span {
     margin-bottom: 10px;
     padding: 0 20px;
 }
-.result-box .section-2 .stat > *{
+.result-box .stat > *{
     display: inline-block;
-    margin: 0 1.5em;
-    font-size: 2em;
+    margin: 0 1em;
+    font-size: 0.8em;
     background: #000;
     padding:5px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
-.result-box .section-2 .stat > *.left {
+.result-box .stat > *.left {
     color: #00FF00;}
-.result-box .section-2 .stat > *.right {
+.result-box .stat > *.right {
     color: #ff0000;}
-.result-box .section-2 .stat > * > * {
-    margin: 0 10px;
+.result-box .stat > * > * {
+    margin: 0 7px;
 }
 
 .result-box .section-3 {

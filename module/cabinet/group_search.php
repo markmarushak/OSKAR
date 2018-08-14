@@ -50,7 +50,8 @@ if ($_POST['coin_as_question']) {
             'rate'        => $_SESSION['coin_as_money'],
             'balance'     => (int)$data['balance'],
             'main_answer' => $_SESSION['question']['main']['answer'],
-            'count'       => $data['count']
+            'count'       => $data['count'],
+            'question_g'  => $data['question_g']
         ];
         $win_coin = $result['balance'] + $result['rate'];
         $lost_coin = $result['balance'] - $result['rate'];

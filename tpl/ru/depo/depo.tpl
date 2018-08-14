@@ -1,36 +1,41 @@
 {strip}
-	<link rel="stylesheet" href="assets/lib/animate/animate.css">
-
-
-{if $el}
     {include file='header.tpl' title='Результат'}
+	<link rel="stylesheet" href="assets/lib/animate/animate.css">
+	
+	
+{if $el}
 	<div class="result-page case-page white game-bg">
 		<div>
 			<div class="result-box">
 				<div class="section-1">
 					<div class="left animated bounceInLeft">победу ведет: <br> {$user.aName}</div>
-					<div class="right animated bounceInRight ">выигрыш составил: {_z((($el.pPerc*$el.dZ0)/100+$el.dZ0),1)}</div>
-				</div>
-				<div class="section-2 animated flipInX">
-					<header>
-						<h2>
-							Моя статистика
-						</h2>
-					</header>
-					<div class="stat">
-						<div class="left">
-							<i class="fas fa-trophy"></i>
-							<span>{$stat.winner}</span>
-						</div>
-						<div class="right">
-							<i class="fas fa-trophy"></i>
-							<span>{$stat.lose}</span>
+					<div class="right animated bounceInRight ">
+						<header>
+								Моя статистика
+						</header>
+						<div class="stat">
+							<div class="left">
+								<i class="fas fa-trophy"></i>
+								<span>{$stat.winner}</span>
+							</div>
+							<div class="right">
+								<i class="fas fa-trophy"></i>
+								<span>{$stat.lose}</span>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div class="section-2 animated flipInX">
+					выигрыш составил: <i class="fas fa-star"></i>{_z($el.pPerc,1)}% = {_z($el.pPerc,1)} <i class="fas fa-registered"></i> 
+					<br>
+					в <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i> </span> было {_z(( $el.pPer * $el.pNPer ),1)} часов выигрыша
+					<!-- {_z((($el.pPerc*$el.dZ0)/100+$el.dZ0),1)} -->
+					
+				</div>
 				<div class="section-3 text-center animated fadeInUp">
-					<p>ВЫИГРЫШ ВЫПЛАТИТСЯ ЗА {($el.pPer * $el.pNPer)} ЧАСА РАВНЫМИ ЧАСТЯМИ</p>
-					<p>КЭШ БЭК 100% ЧЕРЕЗ {($el.pPer * $el.pNPer)} ЧАСА!</p>
+					<p><span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> в выбраном кейсе было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z($el.pPerc,1)} <i class="fas fa-clock"></i></p>
+					<p>при вопросе за {$_POST.new}</p>
+
 				</div>
 				<div class="section-4">
 					<div class="btn-result animated fadeInUp">
@@ -84,6 +89,8 @@
 		</div>
 
         {include file='depo/_depo.new.tpl'}
+        <input form="game-new" type="hidden" name='question' value="{$question}">
+		<input form="game-new" type="hidden" name="rate" value="{$rate}">
 
 	</div>
 	<div class="footer-section"></div>

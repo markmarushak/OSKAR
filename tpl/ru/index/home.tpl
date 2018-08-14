@@ -19,15 +19,7 @@
             font-size: 25px;
             color: gold;
         }
-		.header_logo_4u {
-            background: url(assets/img/logo_4u.png);
-            width: 100px;
-            height: 100px;
-            -webkit-background-size: cover;
-            background-size: cover;
-            display: inline-block;
-            vertical-align: -20px;
-		}
+		
 		.header_logo_R {
 			font-size: 45px;
 			text-shadow: 0px 0px 0 rgb(232,232,232), 1px -1px 0 rgb(209,209,209), 2px -2px 0 rgb(185,185,185), 3px -3px 0 rgb(162,162,162), 4px -4px 0 rgb(139,139,139), 5px -5px 0 rgb(116,116,116), 6px -6px 0 rgb(93,93,93);

@@ -1,6 +1,39 @@
 {strip}
 {include file='header.tpl' title='FAQ'}
 	<style>
+		.wrap {
+			background: url(assets/img/faq.gif);
+			-webkit-background-size: cover;
+			background-size: cover;
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		.wrap::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #00000077;
+		}
+		.wrap > * {
+			position: relative;
+			color: #fff;
+			z-index: 1;
+		}
+		#list {
+			padding: 0;
+			list-style-type: none;
+		}
+		#list li > h3 {
+			display: inline-block;
+			border-bottom: 1px solid;
+			padding: 0 20px;
+			text-transform: uppercase;
+		}
 		.wrap_parent {
 			width: 100%;
 			height: 100%;
@@ -29,9 +62,28 @@
 			background: #eee;
 			padding: 20px;
 			overflow-y: scroll;
+			color: #333;
 		}
 		.wrap_parent.wrap_open {
 			display: block;
+		}
+		.list-faq {
+			padding: 0;
+			padding-left: 2em;
+		}
+		.list-faq li {
+			margin: 0;
+			padding: 0;
+		}
+		.list-faq a {
+			color: #fff;
+			transition: all .5s;
+			display: inline-block;
+			padding: 5px 10px;
+		}
+		.list-faq a:hover {
+			text-decoration: none;
+			background: #333;
 		}
 
 		@media screen and (max-width: 1024px) {
@@ -41,10 +93,12 @@
 		}
 
 		#top-menu ul li a {
-			color: #333;
+			color: #fff;
 		}
 	</style>
 	<!-- header -->
+	<div class="wrap">
+		
 	<div class="container text-center">
 		<div class="col-md-12">
 			<div class="top-wrap">
@@ -79,7 +133,7 @@
 						<li>
                             {assign var="groups" value=$k}
 							<h3>{$groups}</h3>
-							<ul>
+							<ul class="list-faq">
                                 {foreach from=$i item=ie}
 									<li>
 										<a href="#" data-toggle="modal" data-target="#answer">{$ie.fQuestion}</a>
@@ -110,6 +164,7 @@
 				</ul>
 			</div>
 		</div>
+	</div>
 	</div>
 
 {include file='footer.tpl'}
