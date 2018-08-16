@@ -21,6 +21,7 @@ if ($stat_game){
 
 if ($_POST['coin_as_question']) {
     $_SESSION['groups_main'] = $_POST['name'];
+    $_SESSION['group_main_ru'] = $_POST["name_ru"];
     $coin = $_POST['coin_as_question'];
     $_SESSION['coin_as_money'] = $coin;
     $a = $_POST["name_ru"];

@@ -98,7 +98,7 @@ $(document).ready(function() {
     //faq
 
     function openQuestion() {
-       $('ul#list li ul li > a').click(function (event) {
+       $('ul#list li ul li a').click(function (event) {
             event.preventDefault();
             $(this).next('.wrap_parent').toggleClass('wrap_open');
         });

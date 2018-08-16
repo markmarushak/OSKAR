@@ -95,6 +95,19 @@
 		#top-menu ul li a {
 			color: #fff;
 		}
+		.text-q {
+			overflow-y: scroll;
+			max-height: calc(100vh - 30%);
+		}
+		.text-q::-webkit-scrollbar {
+			width: 7px;
+		}
+		.text-q::-webkit-scrollbar-track {
+			background: #0000FF66;
+		}
+		.text-q::-webkit-scrollbar-thumb {
+			background: #000fff99;
+		}
 	</style>
 	<!-- header -->
 	<div class="wrap">
@@ -125,12 +138,12 @@
 		</h2>
 	</div>
 
-	<div class="container">
+	<div class="container text-q">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<ul id="list">
+				<ul id="list" class="row">
                     {foreach from=$grup key=k item=i}
-						<li>
+						<li class="col-md-6">
                             {assign var="groups" value=$k}
 							<h3>{$groups}</h3>
 							<ul class="list-faq">

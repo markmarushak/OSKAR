@@ -6,9 +6,7 @@ $(document).ready(function () {
             player_id = parseInt($('input[name]').val()),
             answer = $('input:checked').val(),
             winner = $('.winning span').text(),
-            lose = $('.defeat span').text(),
-            question_g = $('#group_q').text(),
-            rate = $('#rate').text();
+            lose = $('.defeat span').text();
 
                     var data =  ({
             'answer'   : answer,
@@ -16,9 +14,7 @@ $(document).ready(function () {
             'player_id': player_id,
             'winner'   : winner,
             'lose'     : lose,
-            'count'    : count,
-            'question_g' : question_g,
-            'rate'     : rate
+            'count'    : count
         });
         var send = $.ajax({
             type: 'POST',
@@ -29,7 +25,7 @@ $(document).ready(function () {
             if (result.result === 1) {
                 slideResultPlayer($('#winner-player'));
                 setTimeout(function () {
-                    $(location).attr('href','/deposit?add&question='+result.question_g+'&rate='+result.rate);
+                    $(location).attr('href','/deposit?add&question=');
                 },3100);
                 $('#game-balance').html(result.balance);
                 $('#winning').html(result.winner);
@@ -40,9 +36,9 @@ $(document).ready(function () {
             }
         });
     count++;
-    if(count === 3){
+    if(count === 4){
         setTimeout(function () {
-            $(location).attr('href','/cabinet');
+            $(location).attr('href','/group_menu');
 
         },4000)
     }

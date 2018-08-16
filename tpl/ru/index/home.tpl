@@ -150,7 +150,13 @@
             padding: 10px;
             font-size: 1.4em;
         }
+        .chil i {
+            color: gold;
+        }
 
+        .gold {
+            color: gold;
+        }
     </style>
     <!-- header -->
     <section class="header table-section white" id="header">
@@ -210,18 +216,18 @@
             <div class="home-bottom-center-blocks">
                 <div class="block text-right">
                     <div class="chil">
-                        <p>ОТЗЫВЧИВАЯ ПОДДЕРЖКА 24*7*365</p>
+                        <p>ОТЗЫВЧИВАЯ ПОДДЕРЖКА 24 <i class="fas fa-star"></i> 7 <i class="fas fa-star"></i> 365</p>
                         <p>АВТОМАТИЧЕСКИЕ ВЫПЛАТЫ И ОНЛАЙН ЧАТ</p>
-                        <p>ВЕРЕФИКАЦИЯ ИГРОВОГО АККАУНТА</p>
+                        <p>ВЕРИФИКАЦИЯ ИГРОВОГО АККАУНТА</p>
                         <p>ТРЕХ ФАКТОРНАЯ ЗАЩИТА ОТ ВЗЛОМА</p>
                     </div>
                 </div>
                 <div class="block text-left">
                     <div class="chil">
                         <p>В <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> от 7% до 2000% выигрыш</p>
-                        <p>+кэш-бэк 100%</p>
-                        <p>БАУНТИ 10% МОМЕНТАЛЬНО</p>
-                        <p>ОТ 100R ДО 100 000R УЧАСТИЕ = ВЫИГРЫШ</p>
+                        <p>+кэш-бэк <span class="gold">100%</span></p>
+                        <p>БАУНТИ <span class="gold">10%</span> МОМЕНТАЛЬНО</p>
+                        <p>ОТ <span class="gold">100<i class="fas fa-registered"></i></span> ДО <span class="gold">100 000<i class="fas fa-registered"></i></span> УЧАСТИЕ = ВЫИГРЫШ</p>
                     </div>
                 </div>
             </div>

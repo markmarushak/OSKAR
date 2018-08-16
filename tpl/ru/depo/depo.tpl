@@ -34,7 +34,10 @@
 				</div>
 				<div class="section-3 text-center animated fadeInUp">
 					<p><span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> в выбраном кейсе было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z($el.pPerc,1)} <i class="fas fa-clock"></i></p>
-					<p>при вопросе за {$_POST.new}</p>
+					<p>при вопросе за {$coin}<i class="fas fa-registered"></i> в игре на тему "{$group}"</p>
+					<p>выигрыш будет на вышем счете через {_z(( $el.pPer * $el.pNPer ),1)} часов.</p>
+					<p>начисление равными долями каждыее сутки.</p>
+					<p>+ КЭШ-БЭК 100% = {_z(($el.pPerc + $coin),1)}</p>
 
 				</div>
 				<div class="section-4">

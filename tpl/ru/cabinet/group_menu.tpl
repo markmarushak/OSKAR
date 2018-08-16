@@ -1,7 +1,7 @@
 {strip}
-    {include file='header.tpl' title='Меню категорий'}
+    {include file='header.tpl' title='Игровая область'}
         <div class="back-cabinet">
-            <a href="{_link module='cabinet'}"><i class="fas fa-door-closed"></i> вернутся в игровой аккаунт</a>
+            <a href="{_link module='cabinet'}"><i class="fas fa-door-closed"></i> вернуться в игровой аккаунт</a>
         </div>
         <div class="ballance-player">
            <span>money {$curr1.wBal} <i class="fas fa-registered"></i></span>
@@ -98,10 +98,10 @@
                 </div>
             </div>
             <div class="group-row">
-                <div data-group="literature" data-name="Литуратура" class="group-item">
+                <div data-group="literature" data-name="Литература" class="group-item">
                     <div class="group-block">
                         <i class="fas fa-book"></i>
-                        <span>Литуратура</span>
+                        <span>Литература</span>
                     </div>
                 </div>
                 <div data-group="great_inventions" data-name="Великие изобретения" class="group-item">
@@ -116,10 +116,10 @@
                         <span>Мир моды</span>
                     </div>
                 </div>
-                <div data-group="art" data-name="ИССКУСТВО И МУЗЫКА" class="group-item">
+                <div data-group="art" data-name="Искусство" class="group-item">
                     <div class="group-block">
                         <i class="far fa-star"></i>
-                        <span>ИССКУСТВО И МУЗЫКА</span>
+                        <span>Искусство</span>
                     </div>
                 </div>
                 <div data-group="nature" data-name="Природа" class="group-item">

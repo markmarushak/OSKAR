@@ -126,7 +126,7 @@
         <a href="" class="modal-open btn btn-info" data-target="modal_add-avatar">добавить аватар</a>
     </li>
     <li>
-        <a href="" class="modal-open btn btn-info" data-target="modal_pasport">Верефицировать аккаунт</a>
+        <a href="" class="modal-open btn btn-info" data-target="modal_pasport">ВЕРИФИЦИРОВАТЬ аккаунт</a>
     </li>
     {if !($_cfg.Sec_ForceReConfig and $user.aNeedReConfig)}
         {if $_cfg.Account_Loginza}
@@ -135,8 +135,8 @@
             <li><a href="{_link module='account/change_mail'}" class="btn btn-info">Сменить e-mail</a></li>{/if}
         <li><a href="{_link module='account/change_pass'}" class="btn btn-info">Сменить пароль</a></li>
     {/if}
-    <li><a class="btn btn-success " href="{_link module='cabinet'}">вернутся</a></li>
-    <li><button class="btn btn-info" form="account_setting" name="account_frm_btn" value="Сохранить" type="submit">Сохранить</button></li>
+    <li><a class="btn btn-success " href="{_link module='cabinet'}">вернуться</a></li>
+    <li><button class="btn btn-primary" form="account_setting" name="account_frm_btn" value="Сохранить" type="submit">Сохранить</button></li>
 </ul>
 
 <aside id="modal_add-avatar" class="modal add_load_file">
