@@ -1,8 +1,15 @@
 {strip}
     {include file='header.tpl' title='Правила'}
     <style>
-        body {
+        body, body.ruls {
             background-image: url(assets/img/rules.jpg);
+            background-size: cover;
+            background-position: center;
+            overflow-x: hidden;
+            transition: all 1s ease-in-out;
+        }
+        body.ruls-2 {
+            background-image: url(https://cdn0.vox-cdn.com/uploads/archives/4381550/static.30fce68fad73514bda60d6487140f71e.gif);
             background-size: cover;
             background-position: center;
             overflow-x: hidden;
@@ -70,8 +77,8 @@
 
                                     <ul class="horizontal-menu text-right memu-close-768">
                                         <li><a href="/home"><i class="fas fa-home"></i></a></li>
-                                        <li><a class="tab default" href="#ruls">Правила игр <b class='header_logo_4u'></b> </a></li>
-                                        <li><a class="tab" href="#ruls-2">о внутренней валюте</a></li>
+                                        <li><a class="tab default" href="ruls">Правила игр <b class='header_logo_4u'></b> </a></li>
+                                        <li><a class="tab" href="ruls-2">о внутренней валюте</a></li>
 
                                         {if _uid()}
                                             {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
@@ -170,11 +177,14 @@
         $(document).ready(function () {
             $('#top-menu a.tab').click(function (event) {
                 event.preventDefault();
+                
                 var cler =  $('body .sect, #top-menu a.tab').removeClass('default');
+                $('body').removeClass('ruls ruls-2');
 
                 if  (cler) {
                     var link = $(this).attr('href');
-                    var block = $('body').find(link);
+                    $('body').addClass(link);
+                    var block = $('body').find('#'+link);
                     block.addClass('default');
                     $(this).addClass('default');
                 }

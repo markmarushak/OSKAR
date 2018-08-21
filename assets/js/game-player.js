@@ -26,7 +26,7 @@ $(document).ready(function () {
                 slideResultPlayer($('#winner-player'));
                 setTimeout(function () {
                     $(location).attr('href','/deposit?add&question=');
-                },3100);
+                },6600);
                 $('#game-balance').html(result.balance);
                 $('#winning').html(result.winner);
             } else {
