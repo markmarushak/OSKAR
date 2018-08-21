@@ -548,6 +548,10 @@ body h1 {
     font-weight:  bold;
     line-height: 1.9;
 }
+.footer a.btn-user {
+    position: absolute;
+    right: 10px;
+}
 .footer p .span1 {
     text-decoration: none;
     text-transform: uppercase;
@@ -1987,7 +1991,7 @@ section#info > * {
     background: rgba(0, 0, 0, 0.7);
     height: -webkit-fill-available;
     margin: 8px;
-    color: #68c7f2;
+    color: #030dbd;
     box-shadow: 0 0 4px 2px, inset 0 0 4px 2px;
     border-radius: 20px;
     width: 33%;

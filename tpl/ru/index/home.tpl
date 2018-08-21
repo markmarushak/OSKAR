@@ -233,7 +233,7 @@
             </div>
         </div>
     </section>
-    <section class="section-1" id="home-section-1">
+    <!-- <section class="section-1" id="home-section-1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -271,7 +271,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <div id="baunti" class="modal fade" tabindex="-1" role="dialog">
@@ -298,7 +298,7 @@
     <footer class="footer to" id="footer">
 
         <div class="footer-text">
-            <p class="text-footer">&copy; портал 4U</p>
+            <p class="text-footer">&copy; портал 4U  <a class="btn btn-info btn-user" href="https://drive.google.com/file/d/1Q0Kq2xtLxn60GcX69PmTm9dFEJDWMo91/view?usp=sharing" target="_blank">пользовательское соглашение</a></p>
         </div>
         <a id="to-top" href="#header" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>

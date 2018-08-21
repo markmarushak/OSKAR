@@ -5,7 +5,7 @@ $_rwlinks = array(
 
     'index/home' => array('home'), // main home page
 
-
+    'udp/public' => array('public-offer'),
 
     //game settings
     'cabinet/admin/index' => array('game-setting','admin' => '{!ru!}Настройки игры/{!ru!}Настройки игры'),

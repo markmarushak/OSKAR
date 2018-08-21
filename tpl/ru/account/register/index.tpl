@@ -182,7 +182,7 @@
 			'Agree'=>
 				[
 					'CC',
-					"Я принимаю <a href=\"{_link module='udp/rules'}\" target=\"_blank\">публичную оферту</a> и соглашаюсь!! с условиями предоставления услуг",
+					"Я принимаю <a href=\"https://drive.google.com/file/d/1Q0Kq2xtLxn60GcX69PmTm9dFEJDWMo91/view?usp=sharing\" target=\"_blank\">публичную оферту</a> и соглашаюсь!! с условиями предоставления услуг",
 					[
 						'must_agree'=>'вы должны принять правила'
 					]

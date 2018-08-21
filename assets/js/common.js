@@ -123,7 +123,7 @@ $(document).ready(function() {
         var id = $(this).attr('href'), top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 2300);
     });
-    $("#top-menu .ancor, .to").on("click", function (event) {
+    $("#to-top").on("click", function (event) {
         event.preventDefault();
         var id = $(this).attr('href'), top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 2300);
