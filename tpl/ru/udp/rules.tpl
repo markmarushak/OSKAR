@@ -7,7 +7,7 @@
             background-position: center;
             overflow-x: hidden;
             transition: all 1s ease-in-out;
-        }
+        } 
         body.ruls-2 {
             background-image: url(https://cdn0.vox-cdn.com/uploads/archives/4381550/static.30fce68fad73514bda60d6487140f71e.gif);
             background-size: cover;

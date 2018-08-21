@@ -2,9 +2,17 @@
     {include file='header.tpl' title='Результат'}
 	<link rel="stylesheet" href="assets/lib/animate/animate.css">
 	
+	<style>
+		.result-page {
+			background: url(https://media.giphy.com/media/97NVVUPf9zsC4/giphy.gif);
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
 	
 {if $el}
-	<div class="result-page case-page white game-bg">
+	<div class="result-page case-page white">
 		<div>
 			<div class="result-box">
 				<div class="section-1">
@@ -33,7 +41,7 @@
 					
 				</div>
 				<div class="section-3 text-center animated fadeInUp">
-					<p><span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> в выбраном кейсе было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z($el.pPerc,1)} <i class="fas fa-clock"></i></p>
+					<p><span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> в выбраном <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i></span> было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z(( $el.pPer * $el.pNPer ),1)} <i class="fas fa-clock"></i></p>
 					<p>при вопросе за {$coin}<i class="fas fa-registered"></i> в игре на тему "{$group}"</p>
 					<p>выигрыш будет на вышем счете через {_z(( $el.pPer * $el.pNPer ),1)} часов.</p>
 					<p>начисление равными долями каждыее сутки.</p>
@@ -99,7 +107,6 @@
 	<div class="footer-section"></div>
 	</div>
 {/if}
-	<input class="get_game-bg" type="hidden" value="{$get_bg.bg}">
 
 {include file='footer.tpl'}
 	<script>

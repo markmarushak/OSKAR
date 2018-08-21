@@ -2269,14 +2269,14 @@ section#info > * ul li span {
     overflow:  hidden;
 }
 .result-page > div {
-    width: 600px;
+    width: 800px;
     height: 500px;
     /* background: rgba(0, 0, 0, 0.9); */
     position: absolute;
     left: 50%;
-    margin-left: -300px;
+    margin-left: -400px;
     top: 50%;
-    margin-top:  -250px;
+    margin-top: -330px;
     z-index: 1;
 }
 
@@ -2313,6 +2313,7 @@ section#info > * ul li span {
     background: rgba(0, 0, 0, 0.9);
     padding: 20px;
     border-radius:  10px;
+    font-size: 2em;
     box-shadow: 0 0 1px 1px #03a9f4;
 }
 .section-2 header {
@@ -2348,13 +2349,14 @@ section#info > * ul li span {
     margin:  20px 0;
     border-radius:  10px;
     box-shadow:  0 0 1px 1px;
+    font-size: 2em;
 }
 .result-box .section-4 > div {
     animation-duration: 2.5s;
     animation-delay: 3.7s;
     background: rgba(0, 0, 0, 0.7);
     display:  inline-block;
-    padding:  20px;
+    padding: 10px 30px;
     font-size:  2em;
     box-shadow: 0 0 5px 1px #0f0,inset 0 0 3px 1px #0f0;
     color:  #0f0;
