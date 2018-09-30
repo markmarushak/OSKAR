@@ -1,7 +1,7 @@
 {strip}
     {include file='header.tpl' title='Поддержка'}
     <a class="to_home" href="/home">На главную</a>
-    <section class="table-section section section-color2" style="background-color: #282E34;color: #fff;"
+    <section class="table-section section section-color2" style="background-color: #0088cc;color: #fff;"
              id="contact">
 
         <div class="container">

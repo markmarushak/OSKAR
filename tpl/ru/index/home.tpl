@@ -143,8 +143,8 @@
         .home-bottom-center-blocks > * .chil {
             display: inline-block;
             width: auto;
-            box-shadow: 0 0 20px 0px;
-            border: 1px solid #fff;
+            box-shadow: 0 0 20px 0px gold;
+            border: 1px solid gold;
             border-radius: 10px;
             height: 100%;
             padding: 10px;

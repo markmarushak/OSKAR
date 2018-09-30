@@ -2033,6 +2033,7 @@ section#info > *.center .block span {
     height: 60%;
     display:  block;
     line-height:  45px;
+    color: #232ef5;
 }
 section#info > *.center .block > *:not(span) {
     display: inline-block;
@@ -2078,6 +2079,7 @@ section#info > *.bottom ul li{
     font-size: 1.6rem;
     margin: 18px 0;
     text-transform:  uppercase;
+    color: #232ef5;
 }
 section#info > *.bottom ul li:nth-child(1) {
     margin: 25px 0;
