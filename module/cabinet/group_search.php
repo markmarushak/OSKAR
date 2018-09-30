@@ -85,7 +85,7 @@ if ($_POST['coin_as_question']) {
     }
 }
 
-function findQuestion ($group){
+function  findQuestion ($group){
     global $db;
     $findQuestion = $db->fetchRows($db->select('question_answer', 'id,groups ,question, answer', 'groups=?', $group, '', '', ''));
     $fakeAnswer = $db->fetchRows($db->select('question_answer', 'answer', '',''));
@@ -96,8 +96,11 @@ function findQuestion ($group){
             if ($findQuestion[0]['answer'] !== $fake['answer']) {
                 $main_fake[] = $fake;
                 $tmp++;
+                shuffle($fakeAnswer);
             }
+            shuffle($findQuestion);
         }
+
         $main_fake[] = ['answer' => $findQuestion[0]['answer']];
         shuffle($main_fake);
     return [

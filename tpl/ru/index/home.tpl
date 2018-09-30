@@ -158,6 +158,7 @@
             color: gold;
         }
     </style>
+
     <!-- header -->
     <section class="header table-section white" id="header">
 

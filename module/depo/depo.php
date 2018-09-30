@@ -12,6 +12,11 @@ setPage('coin',$_SESSION['coin_as_money']);
 setPage('group', $_SESSION['group_main_ru']);
 setPage('get_bg',$db->fetch1Row($db->select('game_bg','bg','groups=?', $_SESSION['groups_main'])));
 setPage('stat', $db->fetch1Row(($db->select('stat_game','winner,lose','user_id=?',_uid()))));
+setPage('get_bg',$db->fetch1Row($db->select('game_bg','bg','groups=?', $_SESSION['groups_main'])));
+
+$P = rand(1,24);
+$NP = rand(1,4);
+$db->update('Plans',['pPer'=>$P,'pNPer'=>$NP,],'','user_id=?',_uid());
 
 try 
 {

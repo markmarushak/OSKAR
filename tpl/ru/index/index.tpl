@@ -1,5 +1,4 @@
 {strip}
-
     {include file='header.tpl'}
     <body class="prev_page_body">
     <section id="info">

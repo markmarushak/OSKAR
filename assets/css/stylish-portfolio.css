@@ -1693,7 +1693,7 @@ h3.text-top_contact::after {
 }
 .avatar-player img {
     width: 150px;
-    height: auto;
+    min-height:  200px;
     border-radius:  10px;
     object-fit: cover;
     margin-top:  10px;

@@ -106,6 +106,8 @@
 	</div>
 	<div class="footer-section"></div>
 	</div>
+    <input class="get_game-bg" type="hidden" value="{$get_bg.bg}">
+	<input type="hidden" id="user_name" value="{$user.uLogin}">
 {/if}
 
 {include file='footer.tpl'}
@@ -117,9 +119,16 @@
         $('#new_Sum').val({$coin});
         $('#new_Sum').attr('type', 'hidden');
         $('form').attr('id', 'game-new');
+
+        $('#new_Plan > option').each(function () {
+            if(this.text === $('#user_name').val())
+                $(this).attr('selected','true');
+        });
+        alert($('#new_Plan option:selected').text());
 	</script>
-	<script src="assets/js/game-bg.js"></script>
 	<script src='assets/js/notBackLoad.js'></script>
+	<script src="assets/js/game-bg.js"></script>
+	
 
 {/strip}
 

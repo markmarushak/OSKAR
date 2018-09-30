@@ -141,7 +141,7 @@
                     </div>
                     <div class="col-md-4 text-align">
                         <div class="avatar-player">
-                            <img src="{$avatar.url_img}" alt="">
+                            <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
                             <div class="nick-name item">
                                 <span>{$user.uLogin}</span>
                             </div>
