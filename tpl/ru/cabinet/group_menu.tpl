@@ -4,24 +4,20 @@
             <a href="{_link module='cabinet'}"><i class="fas fa-door-closed"></i> вернуться в игровой аккаунт</a>
         </div>
         <div class="ballance-player">
-           <span>money {$curr1.wBal} <i class="fas fa-registered"></i></span>
+           <span><span class="door game"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-914.gif"></span> {$curr1.wBal} <i class="fas fa-registered"></i></span>
         </div>
         <aside id="warning">
             <section  class="animated fadeInDown">
                 <header>
                     <h3>
-                        attention!!!
+                        <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-2158.gif">attention<img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-2158.gif">
                     </h3>
                 </header>
+                <br>
                 <div class="content">
                     <span class="text-left">
                         <h3>ВЫ ПОПАДАЕТЕ В ИГРОВУЮ ОБЛАСТЬ</h3>
-                        <p>
-                            ВЫБЕРИТЕ ТЕМУ В ИГРЕ И НАЗНАЧЬТЕ СТОИМОСТЬ
-                        </p>
-                        <p>
-                            ЕСЛИ НА БАЛАНСЕ МАЛО СРЕДСТВ; ВЕРНИТЕСЬ В ИГРОВОЙ АККАУНТ; ФИНАНСЫ|ПОПОЛНЕНИЕ|ВЫВОД
-                        </p>
+                        
                         <p>
                             СТОИМОСТЬ РОЗЫГРЫША НАЗНАЧАЕТ ИГРОК <br> <span class="gold-color">ОТ 100<i class="far fa-registered"></i> ДО 100 000<i class="far fa-registered"></i></span>
                         </p>
@@ -29,7 +25,7 @@
                             ОТВЕТИВ ВЕРНО ВЫБЕРИТЕ КЕЙС С <i class="far fa-registered gold-color"></i> <span class="in_curr case gold-color"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
                         </p>
                         <p>
-                            ВЫ ПОЛУЧАЕТЕ <span class="gold-color"> ОТ 7% ДО 2000% </span> ОТ СТОИМОСТИ ВОПРОСА + КЭШ-БЭК 100% ПО ИСТЕЧЕНИЮ ЧАСОВ <i class="far fa-clock"></i> ВЫИГРЫША <span class="gold-color">ОТ 24 ДО 96 ЧАСОВ <i class="far fa-clock"></i></span>
+                            ВЫ ПОЛУЧАЕТЕ <span class="gold-color"> ОТ 7% ДО 2000% </span> ОТ СТОИМОСТИ ВОПРОСА<span class="gold-color"> + КЭШ-БЭК 100%</span> ПО ИСТЕЧЕНИЮ ЧАСОВ <i class="far fa-clock"></i> ВЫИГРЫША <span class="gold-color">ОТ 24 ДО 96 ЧАСОВ <i class="far fa-clock"></i></span>
                         </p>
                     </span>
                     <div class="modal-submit">

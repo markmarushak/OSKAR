@@ -56,10 +56,15 @@
             height: 30px;
             vertical-align: -7px;
         }
+        .top-menu li img {
+            width: 35px;
+            height: 30px;
+            vertical-align: -7px;
+        }
 
     </style>
 
-
+      
     <div class="container rules-menu">
         <div class="row">
             <div class="col-md-12">
@@ -78,14 +83,10 @@
                                     <ul class="horizontal-menu text-right memu-close-768">
                                         <li><a href="/home"><i class="fas fa-home"></i></a></li>
                                         <li><a class="tab default" href="ruls">Правила игр <b class='header_logo_4u'></b> </a></li>
-                                        <li><a class="tab" href="ruls-2">о внутренней валюте</a></li>
-
+                                        <li><a class="tab" href="ruls-2">о внутренней валюте<img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-441.gif"></li>
+                                        
                                         {if _uid()}
-                                            {include file='links.el.topmenu.tpl' module='cabinet' text="игровой аккаунт"}
-                                            {if $curr1}
-                                                {*{include file='links.element.tpl' module='balance' text='Баланс'}*}
-                                                {_z($curr1.wBal, $curr1.cID, 2)}
-                                            {/if}
+                                        <li><a href="{_link module='cabinet'}"><span class="door"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-968.gif"></span> игровой аккаунт</a></li>
                                             {include file='links.el.topmenu.tpl' module='account/login' params='out' text='Выход'}
                                         {else}
                                             {*<li><a data-toggle="modal" data-target="#login">вход</a></li>*}
@@ -124,7 +125,7 @@
                             <!--  <div class="col-md-10 col-md-offset-0"> -->
                             <div class="col-md-offset-0" style="text-transform: uppercase; text-size:1.2em; line-height: 1.5;">
                                 <p>
-                                    ЗАРЕГИСТРИРУЙТЕСЬ НА <span class="name_logo">4u</span> И ПОПОЛНИТЕ БАЛАНС ИГРОВОГО АККАУНТА
+                                    
                                     <br>
                                     ВЫБЕРИТЕ 1 ИЗ 10 ИГРОВЫХ ТЕМ <a href="/group_menu">список тем</a>
                                     <br>
@@ -134,7 +135,7 @@
                                     <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
                                     <br>
                                     В КАЖДОМ КЕЙСЕ НАХОДИТСЯ ОТ <span class="in_curr">7%</span> ДО <span class="in_curr">2000%</span> ОТ НАЗНАЧЕННОЙ СТОИМОСТИ ВАШЕГО ВОПРОСА <br>
-                                    ТАК-ЖЕ В КЕЙСЕ ЗАШИФРОВАН СРОК ПОЛУЧЕНИЯ ВЫИГРЫША &bull; ОТ  <span class="in_curr">24</span> ДО <span class="in_curr">96</span> ЧАСОВ &bull; БУДЕТ ЗАЧИСЛЕН НА ИГРОВОЙ АККАУНТ КАЖДЫЕ <span class="in_curr">24</span> ЧАСА РАВНЫМИ ДОЛЯМИ
+                                    ТАК-ЖЕ В КЕЙСЕ ЗАШИФРОВАН СРОК ПОЛУЧЕНИЯ ВЫИГРЫША &bull; ОТ  <span class="in_curr">24</span> ДО <span class="in_curr">96</span> ЧАСОВ &bull; БУДЕТ ЗАЧИСЛЕН <br> НА ИГРОВОЙ АККАУНТ КАЖДЫЕ <span class="in_curr">24</span> ЧАСА РАВНЫМИ ДОЛЯМИ
                                     <br>
                                     СИСТЕМА:<span class="in_curr"> CASH BACK - 100%</span> , ЭТО ВОЗВРАТ СУММЫ УЧАСТИЯ  ПРИ ПОЛУЧЕНИИ ВЫИГРЫША.
                                 </p>
@@ -152,15 +153,15 @@
                 <section class="services br-ruls animated fadeInLeft" id="services">
                     <div class="services-block">
                         <div class="col-md-offset-0">
-                            <h1>ВНИМАНИЕ!</h1>
+                            <h1>ATTENTION!</h1>
                             <p>
 
-                                УВОЖАЕМЫЕ ИГРОКИ! ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
-                                <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ <span class="in_curr">1  РУБЛЬ</span> ПО КУРСУ ЦБ РФ. <br>
+                                УВОЖАЕМЫЕ ИГРОКИ! <br> ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>
+                                <b><span class="in_curr">1<i class="far fa-registered"></i></span></b> ИМЕЕТ ЦЕННОСТЬ <span class="in_curr">1  РУБЛЬ</span> ПО КУРСУ <a href="цб.рф">ЦБ.РФ</a> <br>
 
                                 ПОКУПКА  ПРОДАЖА <span class="in_curr"><i class="far fa-registered"></i></span>  ПРОИСХОДИТ АВТОМАТИЧЕСКИ,
-                                <br>
-                                ПО КУРСУ ОДИН  К ОДНОМУ <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
+                                
+                                ПО КУРСУ<br>ОДИН  К ОДНОМУ <span class="in_curr">1<i class="far fa-registered"></i>  - 1 РУБЛЬ РФ.</span> <br>
 
                                 ДЛЯ ИГРОКА ДАНННАЯ ОПЕРАЦИЯ НИ ЗАМЕТНА, ПРОИСХОДИТ МГНОВЕННО <br>
                                 ОБМЕН СРЕДСТВ ИГРОКОВ ОСУЩЕСТВЛЯЕТСЯ ЧЕРЕЗ ЭЛЕКТРОННЫЕ ДЕНЬГИ И КРИПТОВАЛЮТЫ

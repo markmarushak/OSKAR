@@ -8,7 +8,8 @@
             text-transform: uppercase;
         }
     </style>
-
+    <div class='top-left-ab'><span class=""><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-815.gif"></span> </div>
+    
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
         <div class="top-wrap" id="top-wrap">
@@ -22,7 +23,7 @@
                                     <div class="avatar">
                                         <img src="{if $avatar.url_img}{$avatar.url_img}{else}assets/img/player_inco.png{/if}" alt="">
                                         <div class="nickname">
-                                            <b>{$user.aName}</b>
+                                            <b><span class="door"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-914.gif"></span>{$user.aName}</b>
                                         </div>
                                         <div class="ballance">
                                             <div>игровой баланс</div>
@@ -51,16 +52,17 @@
 
         <div class="vertical-middle main-text">
             <div class="item-button-top cabinet-next">
-
+                
                 {if $curr1.wBal > 1}
                     <form action="{_link module='cabinet/group_menu'}" method="post">
                         <input name="rand" type="hidden" value="{$result}">
                         <div>
+
                             <input id="game_onstar" type="submit" value=" " class="button-green">
                             <label for="game_onstar">Играть еще</label>
                         </div>
                     </form>
-                {else}
+                {else if false}
                     <div class="cashin">
                         <label for="cash_id"></label>
                         <a id="cash_id" href="{_link module='balance/oper'}?add=CASHIN" class="button-green">Пополнить</a>

@@ -135,8 +135,10 @@
             <li><a href="{_link module='account/change_mail'}" class="btn btn-info">Сменить e-mail</a></li>{/if}
         <li><a href="{_link module='account/change_pass'}" class="btn btn-info">Сменить пароль</a></li>
     {/if}
-    <li><a class="btn btn-success " href="{_link module='cabinet'}">вернуться</a></li>
-    <li><button class="btn btn-primary" form="account_setting" name="account_frm_btn" value="Сохранить" type="submit">Сохранить</button></li>
+    <li><a class="btn btn-success " href="{_link module='cabinet'}">вернуться <span class="settings-ico">
+        <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1496.gif">
+    </span></a></li>
+    <li><button class="btn btn-primary" form="account_setting" name="account_frm_btn" value="Сохранить" type="submit">Сохранить<span class="settings-ico"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1468.gif"></span></button></li>
 </ul>
 
 <aside id="modal_add-avatar" class="modal add_load_file">

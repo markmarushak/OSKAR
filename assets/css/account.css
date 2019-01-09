@@ -13,6 +13,7 @@ ul.account_bottom-lists li button
 {
     font-size: 13px;
     padding: 13px 20px;
+    position: relative;
 }
 
 .settings .item-button-submit * {

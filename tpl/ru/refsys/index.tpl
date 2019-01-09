@@ -14,14 +14,14 @@
 						<ul class="horizontal-menu text-right memu-close-768">
 							<li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы / Вывод / Пополнение</a></li>
 							<li><a href="{_link module='account'}"><i class="fas fa-cog"></i>&nbsp; настройки</a></li>
-							<li><a href="{_link module='cabinet'}"><i class="fas fa-home"></i>&nbsp;Игровой аккаунт</a></li>
+							<li><a href="{_link module='cabinet'}"><span class="door"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-968.gif"></span> игровой аккаунт</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</div>
-	<h1>Баунти</h1>
+	<h1>Баунти <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1167.gif"></h1>
 	<section class="baunti-flex">
 		<div class="list-player">
 			<span><i class="fas fa-clipboard-list"></i></span>
@@ -48,7 +48,7 @@
 		<div class="baunti-data">
 			<span><i class="fas fa-link"></i></span>
 			<header>
-				<h3>Реферальная ссылка</h3>
+				<h3>Реферальная ссылка </h3>
 			</header>
 			<br>
 			<p>С каждого приглашенного вы получите 10% от их Кэш-Бека</p>

@@ -132,6 +132,9 @@
 			</div>
 		</div>
 		<h2>
+			<span class="door">
+                                <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1843.gif">
+                            </span>
 			FAQ
 			<hr>
 			ВОПРОСЫ И ОТВЕТЫ

@@ -1,6 +1,14 @@
 {strip}
 {include file='header.tpl' title='Баланс'}
 
+<style>
+	
+	#operations {
+		background: url('http://www.blockchainsoftware.com.au/wp-content/uploads/2016/03/banner.gif');
+	}
+
+</style>
+
 {if isset($smarty.get.fail)}
 
 	<h2>Операция НЕ завершена!</h2>
@@ -11,11 +19,16 @@
 
 {else}
 	<div class="table-section operations" id="operations">
+		
 
 		<div class="header-section uppercase">
 			<div class="header-box">
-
+				
 				<h1>Баланс</h1>
+
+				<div class="good-text" style="width: 600px;margin: 0 auto; font-weight: 600; box-shadow: 0 0 10px 5px gold; background: #333;color: #fff;padding: 8px 15px; border-radius: 10px"><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1383.gif">
+			<span>ЕСЛИ НЕТ МОНЕТ, НО ХОЧЕТСЯ ПОИГРАТЬ  НА КРИПТОВАЛЮТУ. <br> ДЛЯ ВАШЕГО УДОБСТВА, РЕКОМЕНДУЕМЫЕ СПОСОБЫ <br> ПОКУПКИ КРИПТОВАЛЮТЫ И ОБМЕНА ФИАТА.</span>
+		</div>
 				<br>
 				<span>{include file='balance/_bal.tpl'}</span>
 

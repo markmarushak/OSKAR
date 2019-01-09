@@ -16,9 +16,10 @@
 		<div>
 			<div class="result-box">
 				<div class="section-1">
-					<div class="left animated bounceInLeft">победу ведет: <br> {$user.aName}</div>
+					<div class="left animated bounceInLeft"><span class="uppercase">победу ведет:</span> {$user.aName}</div>
+					<span><img src="http://animashki.kak2z.org/pic/13/zvezdia-140.gif"></span>
 					<div class="right animated bounceInRight ">
-						<header>
+						<header class="uppercase">
 								Моя статистика
 						</header>
 						<div class="stat">
@@ -33,19 +34,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="section-2 animated flipInX">
-					выигрыш составил: <i class="fas fa-star"></i>{_z($el.pPerc,1)}% = {_z($el.pPerc,1)} <i class="fas fa-registered"></i> 
-					<br>
-					в <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i> </span> было {_z(( $el.pPer * $el.pNPer ),1)} часов выигрыша
+				<div class="section-2 animated flipInX uppercase">
+					выигрыш составил: <i class="fas fa-star"></i>{_z($el.pPerc,1)}% = {_z($el.pPerc,1)} <i class="fas fa-registered"></i> + КЭШ-БЭК 100% = {_z(($el.pPerc + $coin),1)}					
 					<!-- {_z((($el.pPerc*$el.dZ0)/100+$el.dZ0),1)} -->
 					
 				</div>
-				<div class="section-3 text-center animated fadeInUp">
-					<p><span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> в выбраном <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i></span> было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z(( $el.pPer * $el.pNPer ),1)} <i class="fas fa-clock"></i></p>
-					<p>при вопросе за {$coin}<i class="fas fa-registered"></i> в игре на тему "{$group}"</p>
+				<div class="section-3 text-center animated fadeInUp uppercase">
+					<p>в выбраном <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i></span> было  {_z($el.pPerc,1)} <i class="fas fa-registered"></i>  <i class="fas fa-star"></i>{_z(( $el.pPer * $el.pNPer ),1)} <i class="fas fa-clock"></i></p>
+					<!-- <p>при вопросе за {$coin}<i class="fas fa-registered"></i> в игре на тему "{$group}"</p> -->
 					<p>выигрыш будет на вышем счете через {_z(( $el.pPer * $el.pNPer ),1)} часов.</p>
-					<p>начисление равными долями каждыее сутки.</p>
-					<p>+ КЭШ-БЭК 100% = {_z(($el.pPerc + $coin),1)}</p>
+					<p>начисление равными долями каждыее 24 часа</p>
+					
 
 				</div>
 				<div class="section-4">
@@ -95,6 +94,7 @@
 	</div>
 	<div class="vertical-middle">
 		<div class="header-box">
+			<img src="http://animashki.kak2z.org/pic/13/zvezdia-361.gif">
 			<h1 class="text-center uppercase">Выберите кейс с бонусом!</h1>
 			<br>
 		</div>
@@ -124,7 +124,6 @@
             if(this.text === $('#user_name').val())
                 $(this).attr('selected','true');
         });
-        alert($('#new_Plan option:selected').text());
 	</script>
 	<script src='assets/js/notBackLoad.js'></script>
 	<script src="assets/js/game-bg.js"></script>

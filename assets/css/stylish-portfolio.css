@@ -64,8 +64,8 @@ p,a {
 }
 .header_logo_4u {
     background: url(../img/logo_4u.png);
-    width: 110px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
     -webkit-background-size: cover;
     background-size: cover;
     display: inline-block;
@@ -91,12 +91,16 @@ p,a {
 
 .ver-mi {
    /* display: table-cell;   */
-   vertical-align: middle;     
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index:2;
+   vertical-align: middle;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   z-index:2;
+}
+
+.ver-mi h3 {
+    margin: 0;
 }
 
 
@@ -1977,6 +1981,7 @@ section#info {
     background-position:  center;
     background-repeat:  no-repeat;
 }
+
 section#info::after {
     content: '';
     display: block;
@@ -1987,7 +1992,11 @@ section#info::after {
     left: 0;
     /*background: rgba(0, 0, 0, 0.6);*/
 }
-section#info > * {
+
+section#info .top,
+section#info .center,
+section#info .bottom
+{
     background: rgba(0, 0, 0, 0.7);
     height: -webkit-fill-available;
     margin: 8px;
@@ -2000,7 +2009,7 @@ section#info > * {
     z-index:  12;
 }
 
-section#info > *:nth-child(2) {
+section#info .center {
     margin:  0 auto;
     width: 47%;
     height: 30%;
@@ -2009,7 +2018,7 @@ section#info > *:nth-child(2) {
     /* box-shadow: 0 0 4px 2px; */
     background: rgba(0,0,0,.8);
 }
-section#info > *.center > header {
+section#info .center > header {
     position: absolute;
     top: -120px;
     text-align:  center;
@@ -2017,7 +2026,7 @@ section#info > *.center > header {
     width:  100%;
     text-shadow: 0 0 7px #111;
 }
-section#info > *.center .block {
+section#info .center .block {
      width: 100%;
      height: 100%;
      margin:  0 auto;
@@ -2026,7 +2035,8 @@ section#info > *.center .block {
      text-align:  center;
      text-transform:  uppercase;
 }
-section#info > *.center .block span {
+
+section#info .center .block span {
     text-align: center;
     width:  100%;
     font-size: 1.8rem;
@@ -2035,7 +2045,8 @@ section#info > *.center .block span {
     line-height:  45px;
     color: #232ef5;
 }
-section#info > *.center .block > *:not(span) {
+
+section#info .center .block > *:not(span) {
     display: inline-block;
     color: #eee;
     margin:  0 10px;
@@ -2045,55 +2056,69 @@ section#info > *.center .block > *:not(span) {
     transition:  all .5s;
     font-size: 2rem;
 }
-section#info > *.center .block > *.next_site:not(span) {
+
+section#info .center .block > *.next_site:not(span) {
     box-shadow: 0 0 1px 1px #00ff0b, inset 0 0 1px 1px #00ff0b;
 }
-section#info > *.center .block > *.close-window:not(span){
+
+section#info .center .block > *.close-window:not(span){
     background: #F44336;
 }
-section#info > *.center .block > *:not(span):hover {
+
+section#info .center .block > *:not(span):hover {
     text-decoration: none;
     /* background: none; */
     color:  #eee;
     box-shadow: 0 0 13px 1px #00ff0b, inset 0 0 3px 1px #00ff0b;
 }
-section#info > *.center .block > *.close-window:not(span) {
+
+section#info .center .block > *.close-window:not(span) {
     box-shadow: 0 0 1px 1px #F44336,inset 0 0 1px 1px #F44336;
 }
-section#info > *:nth-child(1) {
-    width: 30%;
+
+section#info .top {
+    width: 33%;
 }
-section#info > *:nth-child(3) {
+
+section#info .bottom {
     position: absolute;
     height: 27%;
     bottom:  0;
     right:  0;
 }
-section#info > *.top ul,
-section#info > *.bottom ul{
+
+section#info .top ul,
+section#info .bottom ul{
     list-style-type: none;
     position: relative;
 }
-section#info > *.top ul li,
-section#info > *.bottom ul li{
+
+section#info .top ul li,
+section#info .bottom ul li{
     font-size: 1.6rem;
     margin: 18px 0;
     text-transform:  uppercase;
     color: #232ef5;
 }
-section#info > *.bottom ul li:nth-child(1) {
-    margin: 25px 0;
 
+section#info .bottom ul li:nth-child(1) {
+    margin: 25px 0;
 }
-section#info > *.top ul li i,
-section#info > *.bottom ul li i {
+
+section#info .top ul li i,
+section#info .bottom ul li i {
     font-size:2.5rem;
     color: #FFC107;
 }
-section#info > * ul li span {
+
+section#info .top ul li span,
+section#info .center ul li span,
+section#info .bottom ul li span {
     color: gold;
     font-weight:  bold;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .prev_page_body section#info > * {
@@ -2294,9 +2319,17 @@ section#info > * ul li span {
 
 .result-box .section-1 {
     padding: 20px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
 }
-.result-box .section-1 > * {
-    display: inline-block;
+.result-box .section-1 > div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius:  10px;
     width: 48%;
     font-size: 2em;
@@ -2383,3 +2416,50 @@ span.in_curr.case i:nth-child(2) {animation-delay: .8s;}
 span.in_curr.case i:nth-child(3) {animation-delay: 1.2s;}
 span.in_curr.case i:nth-child(4) {animation-delay: 1.7s;}
 
+span.door img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+span.door.game {
+    padding: 5px 10px;
+}
+span.door.game img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.top-left-ab {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 1000;
+}
+.top-left-ab.home {
+    left: 10%;
+}
+
+.bottom-left {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: auto;
+    left: 10%;
+    top: 50px;
+    position: relative;
+}
+
+.settings-ico {
+    position: absolute;
+    right: -30px;
+    top: -5px;
+}
+.settings-ico img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

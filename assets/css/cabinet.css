@@ -209,7 +209,7 @@ table.table.cabinet-table td
     text-align:  center;
 }
 
-.avatar img {
+.avatar > img {
     width: 100px;
     height: 100px;
     border-radius: 20%;

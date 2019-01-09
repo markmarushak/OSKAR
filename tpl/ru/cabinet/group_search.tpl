@@ -56,6 +56,7 @@
     <div id="attention" class="attention">
         <section class=" animated fadeInDown">
             <div class="block">
+                <span class=""><img src="http://animashki.kak2z.org/pic/13/zvezdia-318.gif"></span>
                 <h3>
                     ATTENTION!
                 </h3>
