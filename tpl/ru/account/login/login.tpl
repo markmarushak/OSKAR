@@ -4,7 +4,7 @@
 
     <div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
         <div class="vertical-middle">
-        <h1>Вход</h1>
+        <h1 class="sign__word">Вход</h1>
 
         {if $_cfg.Account_Loginza}
         {include file='account/loginza/box.small.tpl'}

@@ -131,7 +131,7 @@
 				</nav>
 			</div>
 		</div>
-		<h2>
+		<h2 class="sign__word">
 			<span class="door">
                                 <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1843.gif">
                             </span>

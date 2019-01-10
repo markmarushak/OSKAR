@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="center">
-            <header><h1>Игровой портал <b class='header_logo_4u'></b> </h1></header>
+            <header><h1 class="sign__word_game">Игровой портал <b class='header_logo_4u'></b> </h1></header>
             <div class="block">
                 <span>в данных развлекательных играх могут учавствовать лица достигшие совершеннолетия</span>
                 <a class="next_site" href="{_link module='index/home'}">Уже можно</a>

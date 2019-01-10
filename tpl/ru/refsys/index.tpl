@@ -1,5 +1,10 @@
 {strip}
 
+<style>
+
+
+</style>
+
 <link rel="stylesheet" href="assets/css/baunti.css">
 {include file='header.tpl' title='Баунти - система'}
 <body class="baunti-bg text-center">
@@ -21,7 +26,10 @@
 			</div>
 		</div>
 	</div>
-	<h1>Баунти <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1167.gif"></h1>
+	<!-- <img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-1167.gif"> -->
+	<div class="sign">
+		<h1 class="sign__word">Баунти </h1>
+	</div>
 	<section class="baunti-flex">
 		<div class="list-player">
 			<span><i class="fas fa-clipboard-list"></i></span>

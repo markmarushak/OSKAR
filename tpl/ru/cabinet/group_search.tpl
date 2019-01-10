@@ -119,13 +119,13 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-6 item">
-                                <h4>Ставка</h4>
+                                <h4 class="sign__word_game">Ставка</h4>
                                 <div class="game-rate">
                                     <span><b id="rate">{$rate}</b><i class="far fa-registered"></i></span>
                                 </div>
                             </div>
                             <div class="col-md-6 item item-last">
-                                <h4>Статистика</h4>
+                                <h4 class="sign__word_game">Статистика</h4>
                                 <div class="count-game">
                                     <div class="winning">
                                         <i class="fas fa-trophy"></i>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 item">
-                        <h4>Баланс</h4>
+                        <h4 class="sign__word_game">Баланс</h4>
                         <div class="game-balance">
                             <i class="fas fa-money-bill-alt"></i> <span id="game-balance">
                                 {if $balance_main}{$balance_main}m{else}{$curr1.wBal}{/if} <i class="far fa-registered"></i></span>

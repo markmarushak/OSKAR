@@ -4,9 +4,17 @@ AddDefaultCharset utf-8
 ## php_value error_reporting 7
 
 Options +FollowSymLinks
-RewriteEngine On
+#RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteEngine On
+# This will enable the Rewrite capabilities
+
+RewriteCond %{HTTPS} !=on
+# This checks to make sure the connection is not already HTTPS
+
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 RewriteRule !.(gif|jpg|png|ico|swf|txt|js|css|zip|htc|ttf)$ rw.php [L]

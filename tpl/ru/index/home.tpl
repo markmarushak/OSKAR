@@ -251,7 +251,7 @@ h3 {
 
     <div class="vertical-middle main-text">
         <div class="item-text">
-            <h1 class="animated fadeInDown"><span>игровой портал </span><b class='header_logo_4u'></b> </h1>
+            <h1 class="animated fadeInDown"><span class="sign__word">игровой портал </span><b class='header_logo_4u'></b> </h1>
             <hr>
         </div>
         <div class="home-bottom-center-blocks">

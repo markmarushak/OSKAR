@@ -7,7 +7,7 @@
 	<div class="text-center logins table-section overflow-hidden cosmo_log">
 		<div class="vertical-middle">
 
-<h1>Вход</h1>
+<h1 class="sign__word">Вход</h1>
 
 {if isset($smarty.get.ip_changed)}
 

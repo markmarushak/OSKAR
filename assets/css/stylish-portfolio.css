@@ -1301,14 +1301,14 @@ h3.text-top_contact::after {
 
 .back-cabinet a {
     padding: 10px;
-    background: blue;
+    background: #243268;
     border-radius:  0 0 0 10px;
-    color: #333;
+    color: #bbb;
     text-transform: uppercase;
     transition: all .5s;
 }
 .back-cabinet a:hover {
-    color: #333;
+    color: #eee;
     text-decoration: none;
     box-shadow: 0 0 2px 1px #333;
 }
@@ -1321,8 +1321,8 @@ h3.text-top_contact::after {
 }
 .ballance-player span {
     /* font-size: 1.6em; */
-    background: blue;
-    color: #fff;
+    background: #243268;
+    color: gold;
     padding: 12px 20px;
     border-radius:  0 0 10px 0;
     text-transform:  uppercase;
@@ -1369,10 +1369,11 @@ h3.text-top_contact::after {
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    background: rgba(0, 150, 136, 0.32);
+    /* background: rgba(0, 150, 136, 0.32); */
     align-items: center;
     color: #eee;
-    border: 2px solid rgba(238, 238, 238, 0.32);
+    border: 1px solid #ffd700;
+    box-shadow: 0 0 15px 0px gold;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -1400,6 +1401,8 @@ h3.text-top_contact::after {
     margin: 0;
     font-size: 19px;
     padding-bottom: 15px;
+    text-align: center;
+    color: gold;
 }
 
 #warning .close_modal {
@@ -1421,7 +1424,7 @@ h3.text-top_contact::after {
 }
 #warning .modal-submit {
     display: block;
-    padding:2em 0;
+    padding: 1em 0;
 }
 
 #change-amount_question {
@@ -1458,7 +1461,7 @@ h3.text-top_contact::after {
 }
 #warning section {
     width: 400px;
-    height: 450px;
+    /* height: 450px; */
     top: 50%;
     margin-top: -225px;
     left: 50%;
@@ -1501,6 +1504,10 @@ h3.text-top_contact::after {
     color: #eee;
     text-align: center;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #change-amount_question .content form {
@@ -2462,4 +2469,55 @@ span.door.game img{
     width: 50px;
     height: 50px;
     object-fit: contain;
+}
+
+
+
+/* Zagolovki vezde hehehe */
+
+    
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .sign__word {
+    font-size: 5.6rem;
+    text-align: center;
+    line-height: 1;
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate;
+  }
+
+  .sign__word_game {
+    text-align: center;
+    line-height: 1;
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate;
+  }
+
+
+/*-- Animation Keyframes --*/
+
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
+  }
 }

@@ -3,7 +3,7 @@
 <a class="to_home" href="/account">В настройки</a>
 <div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
 	<div class="vertical-middle">
-<h1>Смена пароля</h1>
+<h1 class="sign__word">Смена пароля</h1>
 
 {if $user.uPTS == 1}
 

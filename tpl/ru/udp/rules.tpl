@@ -118,7 +118,7 @@
                     <div class="conditions">
                         <div class="ver-mi">
                             <header>
-                                <h3>ПРАВИЛА ИГР НА <span class="name_logo"><b class='header_logo_4u'></b></span></h3>
+                                <h3 class="sign__word_game">ПРАВИЛА ИГР НА <span class="name_logo"><b class='header_logo_4u'></b></span></h3>
                             </header>
                         </div>
                         <div class="ver-mi middle">
@@ -153,7 +153,7 @@
                 <section class="services br-ruls animated fadeInLeft" id="services">
                     <div class="services-block">
                         <div class="col-md-offset-0">
-                            <h1>ATTENTION!</h1>
+                            <h1 class="sign__word_game">ATTENTION!</h1>
                             <p>
 
                                 УВОЖАЕМЫЕ ИГРОКИ! <br> ИГРА ПРОИСХОДИТ НА ВНУТРЕННЮЮ ВАЛЮТУ  <span class="in_curr"><i class="far fa-registered"></i></span> <br>

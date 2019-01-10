@@ -3,7 +3,7 @@
 	<div class="table-section regist cosmo_log">
 		<a class="to_home" href="/home">На главную</a>
 	<div class="text-center">
-<h1>Регистрация</h1>
+<h1 class="sign__word">Регистрация</h1>
 
 {if isset($smarty.get.done)}
 

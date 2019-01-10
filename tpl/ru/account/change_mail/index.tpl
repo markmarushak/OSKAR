@@ -3,7 +3,7 @@
 <div class="text-center logins table-section overflow-hidden cosmo_log reset-pass">
 	<a class="to_home" href="/home">На главную</a>
 	<div class="vertical-middle">
-<h1>Смена e-mail</h1>
+<h1 class="sign__word">Смена e-mail</h1>
 
 {if isset($smarty.get.done)}
 
