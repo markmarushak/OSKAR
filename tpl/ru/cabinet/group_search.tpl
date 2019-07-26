@@ -53,6 +53,7 @@
     </style>
     {include file='header.tpl' title=$title}
 
+
     <div id="attention" class="attention">
         <section class=" animated fadeInDown">
             <div class="block">

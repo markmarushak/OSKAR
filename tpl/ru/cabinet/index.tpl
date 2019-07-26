@@ -37,7 +37,7 @@
                             </div>
                             <ul class="horizontal-menu text-right memu-close-768 cabinet-menu">
                                 <!-- <h3 class="name-menu">игровое меню</h3> -->
-                                <li><a href="{_link module='balance'}"><i class="fab fa-btc"></i>&nbsp; Финансы &bull; Вывод &bull; Пополнение</a></li>
+                                <li><a href="{_link module='payment'}"><i class="fab fa-btc"></i>&nbsp; Финансы &bull; Вывод &bull; Пополнение</a></li>
                                 <li><a href="{_link module='refsys'}"><i class="fas fa-gift"></i>&nbsp; Баунти</a></li>
                                 {*<li><a href="{_link module='balance/wallets'}"><i class="fas fa-credit-card"></i>&nbsp;Платежные реквизиты</a></li>*}
                                <!-- <li><a href="{_link module='udp/about'}">История</a></li> -->

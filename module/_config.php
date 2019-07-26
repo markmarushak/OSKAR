@@ -7,6 +7,12 @@ $_rwlinks = array(
 
     'udp/public' => array('public-offer'),
 
+    // payment paykassa
+    'payment' => array('finances'),
+    'payment/pay' => array('pay'),
+    'payment/fail' => array('fail'),
+    'payment/success' => array('success'),
+
     //game settings
     'cabinet/admin/index' => array('game-setting','admin' => '{!ru!}Настройки игры/{!ru!}Настройки игры'),
     'cabinet/admin/onload' => array('game-setting-onload'),

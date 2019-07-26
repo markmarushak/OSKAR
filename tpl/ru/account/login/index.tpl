@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="assets/css/account.css">
 {include file='header.tpl' title='Вход'}
 	<body class="accounts">
-	<a class="to_home" href="/home">На главную</a>
+	<!-- <a class="to_home" href="/home">На главную</a> -->
 
 	<div class="text-center logins table-section overflow-hidden cosmo_log">
 		<div class="vertical-middle">
@@ -29,9 +29,7 @@
 
 {else}
 
-	{if $url}
-		Страница "<i>...{$url}</i>" требует авторизации<br><br>
-	{/if}
+
 	{if $_cfg.Sys_LockSite}
 		<p class="info">
 			В настоящее время на сайте идут технические работы.<br>

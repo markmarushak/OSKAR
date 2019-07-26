@@ -90,8 +90,11 @@ function  findQuestion ($group){
     $findQuestion = $db->fetchRows($db->select('question_answer', 'id,groups ,question, answer', 'groups=?', $group, '', '', ''));
     $fakeAnswer = $db->fetchRows($db->select('question_answer', 'answer', '',''));
         $tmp = 0;
-        shuffle($findQuestion);
+        
+        array_rand($findQuestion, 1);
+        array_rand($fakeAnswer, 10);
         shuffle($fakeAnswer);
+
         foreach ($fakeAnswer as $fake) if ($tmp < 3){
             if ($findQuestion[0]['answer'] !== $fake['answer']) {
                 $main_fake[] = $fake;
@@ -106,6 +109,5 @@ function  findQuestion ($group){
     return [
         'main' => $findQuestion[0],
         'fake' => $main_fake
-
     ];
 }
