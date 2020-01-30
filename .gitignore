@@ -4,3 +4,5 @@ logs
 /_config.php
 /module/_config/pass
 /.idea
+/*.lic
+/error_log
