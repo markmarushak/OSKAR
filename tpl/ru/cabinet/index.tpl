@@ -8,8 +8,7 @@
             text-transform: uppercase;
         }
     </style>
-    <div class='top-left-ab'><span class=""><img src="http://animashki.kak2z.org/pic/33/animashki-prazdniki-815.gif"></span> </div>
-    
+
     <!-- cabinet -->
     <header class="cabinet table-section white" id="cabinet">
         <div class="top-wrap" id="top-wrap">

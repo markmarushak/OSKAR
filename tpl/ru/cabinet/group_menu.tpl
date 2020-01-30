@@ -25,7 +25,7 @@
                             ОТВЕТИВ ВЕРНО ВЫБЕРИТЕ КЕЙС С <i class="far fa-registered gold-color"></i> <span class="in_curr case gold-color"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span>
                         </p>
                         <p>
-                            ВЫ ПОЛУЧАЕТЕ <span class="gold-color"> ОТ 7% ДО 2000% </span> ОТ СТОИМОСТИ ВОПРОСА<span class="gold-color"> + КЭШ-БЭК 100%</span> ПО ИСТЕЧЕНИЮ ЧАСОВ <i class="far fa-clock"></i> ВЫИГРЫША <span class="gold-color">ОТ 24 ДО 96 ЧАСОВ <i class="far fa-clock"></i></span>
+                            ВЫ ПОЛУЧАЕТЕ <span class="gold-color"> ОТ 7% ДО 2000% </span> ОТ СТОИМОСТИ ВОПРОСА<span class="gold-color"> + КЭШ-БЭК 10%</span> ПО ИСТЕЧЕНИЮ ЧАСОВ <i class="far fa-clock"></i> ВЫИГРЫША <span class="gold-color">ОТ 24 ДО 96 ЧАСОВ <i class="far fa-clock"></i></span>
                         </p>
                     </span>
                     <div class="modal-submit">

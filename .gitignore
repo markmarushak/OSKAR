@@ -1,3 +1,6 @@
 logs
 /
 /tpl_c
+/_config.php
+/module/_config/pass
+/.idea

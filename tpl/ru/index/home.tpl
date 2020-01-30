@@ -161,7 +161,7 @@ h3 {
 
 
 
-<div class='top-left-ab home'><img src="http://www.gifki.org/data/media/359/santa-klaus-i-ded-moroz-animatsionnaya-kartinka-0143.gif" border="0" alt="santa-klaus-i-ded-moroz-animatsionnaya-kartinka-0143" /> </div>
+{*<div class='top-left-ab home'><img src="http://www.gifki.org/data/media/359/santa-klaus-i-ded-moroz-animatsionnaya-kartinka-0143.gif" border="0" alt="santa-klaus-i-ded-moroz-animatsionnaya-kartinka-0143" /> </div>*}
 <!-- header -->
 <section class="header table-section white" id="header">
 
@@ -266,9 +266,9 @@ h3 {
             <div class="block text-left">
                 <div class="chil">
                     <p>В <span class="in_curr case"><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i><i class="fas fa-briefcase animated bounce"></i></span> от 7% до 2000% выигрыш</p>
-                    <p>+кэш-бэк <span class="gold">100%</span></p>
+                    {*<p>+кэш-бэк <span class="gold">10% МОМЕНТАЛЬНО</span></p>*}
                     <p>БАУНТИ <span class="gold">10%</span> МОМЕНТАЛЬНО</p>
-                    <p>ОТ <span class="gold">100<i class="fas fa-registered"></i></span> ДО <span class="gold">100 000<i class="fas fa-registered"></i></span> УЧАСТИЕ = ВЫИГРЫШ</p>
+                    <p>ОТ <span class="gold">10<i class="fas fa-registered"></i></span> ДО <span class="gold">100 000<i class="fas fa-registered"></i></span> УЧАСТИЕ = ВЫИГРЫШ</p>
                 </div>
             </div>
         </div>

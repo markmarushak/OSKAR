@@ -1,1 +1,1 @@
-<?php @fclose(@fopen('http://test1.ru/cron?auto', 'r'));
+<?php @fclose(@fopen('http://oskar.loc/cron?auto', 'r'));
